@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EUROPARTES BRASIL | Performance Engineering</title>
+    
+<link rel="icon" type="image/png" href="imagens_salvas/LOGO-PARA-ABA.jpg">
+    <link rel="shortcut icon" type="image/png" href="imagens_salvas/LOGO-PARA-ABA.png?v=3">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --bg-absoluto: #050A12;      
+            --azul-logo: #0D5EA8;        
+            --verde-logo: #5CCB5F;       
+            --dourado-premium: #D8B24A;  
+            --texto-claro: #FFFFFF; 
+            --texto-muted: #94a3b8;
+            --borda-tech: rgba(255, 255, 255, 0.08);
+            --fundo-card: rgba(255, 255, 255, 0.02);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--texto-claro);
+            background-color: var(--bg-absoluto);
+            overflow-x: hidden;
+            background-image: 
+                linear-gradient(rgba(13, 94, 168, 0.04) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(92, 203, 95, 0.02) 1px, transparent 1px);
+            background-size: 60px 60px;
+        }
+
+        /* LOADER */
+        #loader {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
+            background-color: var(--bg-absoluto); z-index: 9999; 
+            display: flex; align-items: center; justify-content: center;
+            transition: opacity 0.5s ease;
+        }
+        .trilha-container { position: relative; width: 200px; height: 4px; }
+        .trilha {
+            position: absolute; width: 50%; height: 100%; border-radius: 4px; 
+            filter: drop-shadow(0 0 10px currentColor);
+            animation: colidir 1.2s cubic-bezier(0.8, 0, 0.2, 1) forwards;
+        }
+        .trilha-azul { left: -100px; background: var(--azul-logo); color: var(--azul-logo); }
+        .trilha-verde { right: -100px; background: var(--verde-logo); color: var(--verde-logo); }
+        .explosao {
+            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            width: 0; height: 0; border-radius: 50%; background: #fff;
+            box-shadow: 0 0 40px 20px rgba(255,255,255,0.8);
+            animation: explodir 1s 1s ease-out forwards; opacity: 0;
+        }
+        @keyframes colidir { 0% { width: 0; opacity: 0; } 50% { width: 50px; opacity: 1; } 100% { left: 50%; right: 50%; width: 10px; transform: translateX(-50%); } }
+        @keyframes explodir { 0% { width: 0; height: 0; opacity: 1; } 100% { width: 150vw; height: 150vw; opacity: 0; } }
+
+        /* NAVBAR */
+        .navbar {
+            position: fixed; top: 0; left: 0; width: 100%; display: flex; justify-content: space-between; align-items: center;
+            padding: 0 5%; background: transparent; border-bottom: 1px solid transparent; z-index: 900; height: 90px; transition: all 0.4s ease;
+        }
+        .navbar.scrolled {
+            background: rgba(5, 10, 18, 0.85); backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);
+            border-bottom: 1px solid var(--borda-tech); height: 75px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        .logo-img { width: 220px; filter: brightness(0) invert(1); transition: 0.3s; }
+        .suporte-fone { color: #FFFFFF; font-weight: 700; font-size: 0.9rem; letter-spacing: 2px; }
+
+        /* HERO SLIDER */
+        .hero { height: 120vh; min-height: 850px; display: flex; flex-direction: column; justify-content: center; align-items: center; position: relative; overflow: hidden; border-bottom: 1px solid var(--borda-tech); }
+        .slider-container { position: absolute; inset: 0; z-index: 1; }
+        .slide { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0; transition: opacity 1.2s ease-in-out; }
+        .slide.active { opacity: 1; }
+        .hero-content { position: relative; z-index: 3; text-align: center; padding: 0 5%; margin-top: 80px; width: 100%; max-width: 1200px; }
+        .hero h1 { font-size: 3.8rem; font-weight: 900; margin-bottom: 30px; text-transform: uppercase; letter-spacing: -2px; line-height: 1.1; text-shadow: 0 10px 30px rgba(0,0,0,0.9); color: #FFFFFF; }
+        .hero h1 span { background: linear-gradient(90deg, var(--azul-logo), var(--verde-logo)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+
+        /* BLOCO FLUTUANTE */
+        .bloco-flutuante {
+            background: rgba(5, 10, 18, 0.8); backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);
+            border: 1px solid var(--borda-tech); border-radius: 6px; padding: 30px; max-width: 600px; margin: 0 auto 40px auto; text-align: left;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.6), inset 0 1px 1px rgba(255,255,255,0.1);
+        }
+        .info-pillar { display: none; animation: fadeInPillar 0.6s ease forwards; }
+        .info-pillar.active { display: block; }
+        @keyframes fadeInPillar { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .pillar-tag { font-size: 0.75rem; font-weight: 800; color: var(--dourado-premium); letter-spacing: 2px; margin-bottom: 12px; text-transform: uppercase; display: flex; align-items: center; gap: 8px; }
+        .bloco-flutuante h2 { font-size: 1.5rem; font-weight: 800; color: #FFFFFF; margin-bottom: 12px; text-transform: uppercase; }
+        .bloco-flutuante p { font-size: 0.95rem; color: #cbd5e1; line-height: 1.6; font-weight: 500; }
+        .slider-progress { display: flex; justify-content: center; gap: 10px; margin-top: 20px; }
+        .bar { width: 40px; height: 3px; background: rgba(255,255,255,0.1); border-radius: 2px; position: relative; overflow: hidden; }
+        .bar .fill { position: absolute; top:0; left:0; height: 100%; width: 0; background: var(--verde-logo); }
+        .bar.active .fill { animation: progressLoad 5s linear forwards; }
+        @keyframes progressLoad { from { width: 0; } to { width: 100%; } }
+
+        .btn-principal { background: linear-gradient(90deg, var(--azul-logo), var(--verde-logo)); color: #FFFFFF !important; border: none; padding: 18px 45px; border-radius: 50px; font-size: 1.05rem; font-weight: 900; text-transform: uppercase; letter-spacing: 2px; cursor: pointer; box-shadow: 0 0 25px rgba(92, 203, 95, 0.4); transition: all 0.4s ease; text-decoration: none; display: inline-block; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+        .btn-principal:hover { box-shadow: 0 0 40px rgba(92, 203, 95, 0.7); transform: translateY(-3px); }
+
+        /* CATÁLOGO E GRID */
+        .conteudo-principal { padding: 100px 5% 120px 5%; position: relative; z-index: 10; }
+        .busca-container { width: 100%; max-width: 700px; margin: 0 auto 60px auto; position: relative; }
+        .busca-container input { width: 100%; padding: 20px 30px 20px 60px; font-size: 1.1rem; background: rgba(255, 255, 255, 0.03); border: 1px solid var(--borda-tech); border-radius: 50px; color: white; font-family: 'Montserrat', sans-serif; outline: none; transition: 0.3s; }
+        .busca-container input:focus { border-color: var(--verde-logo); background: rgba(255, 255, 255, 0.05); }
+        .busca-container i { position: absolute; left: 25px; top: 50%; transform: translateY(-50%); font-size: 1.2rem; color: var(--texto-muted); }
+        .busca-container input:focus + i { color: var(--verde-logo); }
+        .grid-produtos { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 35px; max-width: 1400px; margin: 0 auto; align-items: stretch; }
+        .produto-card { background: var(--fundo-card); border-radius: 4px; padding: 25px; border: 1px solid var(--borda-tech); transition: all 0.4s ease; display: flex; flex-direction: column; justify-content: space-between; position: relative; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        .produto-card::before { content: ''; position: absolute; top: 0; left: -150%; width: 50%; height: 100%; background: linear-gradient(to right, transparent, rgba(255,255,255,0.05), transparent); transform: skewX(-25deg); transition: 0.7s ease; pointer-events: none; z-index: 2; }
+        .produto-card:hover::before { left: 200%; }
+        .produto-card:hover { transform: translateY(-8px); border-color: rgba(92, 203, 95, 0.4); box-shadow: 0 20px 40px rgba(0,0,0,0.8); }
+        .produto-img-box { width: 100%; height: 200px; background: #ffffff; border-radius: 2px; padding: 15px; margin-bottom: 20px; display: flex; align-items: center; justify-content: center; }
+        .produto-img { width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; transition: 0.4s; }
+        .produto-card:hover .produto-img { transform: scale(1.05); }
+        .produto-info { flex-grow: 1; display: flex; flex-direction: column; position: relative; z-index: 3; }
+        .produto-info h3 { font-size: 0.9rem; font-weight: 700; margin-bottom: 15px; color: #FFFFFF; line-height: 1.5; min-height: 4.5em; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; text-transform: uppercase; letter-spacing: 0.5px; }
+        .ref-tag { display: inline-block; background: rgba(255,255,255,0.05); color: var(--dourado-premium); font-size: 0.7rem; padding: 6px 12px; border-radius: 2px; font-weight: 800; margin-bottom: 15px; border: 1px solid rgba(216, 178, 74, 0.2); letter-spacing: 1px; align-self: flex-start; }
+        .preco-tag { color: var(--verde-logo); font-weight: 900; font-size: 1.4rem; margin-top: auto; }
+        .btn-cotar { background: rgba(13, 94, 168, 0.1); color: #FFFFFF !important; border: 1px solid var(--azul-logo); width: 100%; padding: 15px; border-radius: 2px; font-weight: 800; cursor: pointer; transition: all 0.3s ease; text-transform: uppercase; margin-top: 25px; font-size: 0.8rem; letter-spacing: 1px; position: relative; z-index: 3; }
+        .btn-cotar:hover { background: var(--azul-logo); box-shadow: 0 0 15px rgba(13, 94, 168, 0.4); }
+
+        /* CARRINHO */
+        .cart-float { position: fixed; bottom: 40px; right: 40px; width: 65px; height: 65px; background: var(--bg-absoluto); border: 2px solid var(--dourado-premium); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 20px; cursor: pointer; box-shadow: 0 10px 30px rgba(0,0,0,0.8); z-index: 1000; color: var(--dourado-premium); transition: 0.3s; }
+        .cart-float:hover { background: var(--dourado-premium); color: var(--bg-absoluto); transform: scale(1.1); }
+        #cart-count { position: absolute; top: -5px; right: -5px; background: var(--verde-logo); color: var(--bg-absoluto); width: 24px; height: 24px; border-radius: 50%; font-size: 11px; font-weight: 900; display: flex; align-items: center; justify-content: center; }
+        #cart-modal { position: fixed; top: 0; right: -450px; width: 400px; height: 100%; background: var(--bg-absoluto); border-left: 1px solid var(--borda-tech); z-index: 1001; transition: 0.4s ease; padding: 40px; display: flex; flex-direction: column; box-shadow: -20px 0 50px rgba(0,0,0,0.9); }
+        #cart-modal h2 { color: white; margin-bottom: 25px; font-weight: 800; text-transform: uppercase; font-size: 1.2rem; letter-spacing: 1px;}
+        .cart-item { border-bottom: 1px solid var(--borda-tech); padding: 15px 0; display: flex; justify-content: space-between; align-items: center; }
+        .cart-item-title { font-size: 0.8rem; color: var(--texto-muted); max-width: 240px; text-transform: uppercase; }
+        .btn-whatsapp { background: linear-gradient(90deg, #1ebd59, #25d366); color: var(--bg-absoluto); width: 100%; padding: 18px; border: none; border-radius: 2px; font-weight: 900; font-size: 1rem; cursor: pointer; margin-top: auto; text-transform: uppercase; letter-spacing: 1px; display: flex; justify-content: center; gap: 10px; }
+        .btn-fechar-modal { background: transparent; border: 1px solid var(--borda-tech); color: var(--texto-muted); padding: 15px; border-radius: 2px; margin-top: 15px; cursor: pointer; font-weight: bold; width: 100%; text-transform: uppercase; }
+        .btn-fechar-modal:hover { color: white; border-color: white; }
+
+        /* RODAPÉ */
+        footer { background-color: #000000; color: white; padding: 0; position: relative; overflow: hidden; }
+        .footer-faixa-diagonal { height: 6px; width: 100%; background: linear-gradient(90deg, var(--azul-logo) 50%, var(--verde-logo) 50%); transform: skewX(-45deg); position: relative; left: -10px; width: calc(100% + 20px); }
+        .footer-content { padding: 60px 5% 40px 5%; max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 40px;}
+        .footer-col h4 { color: var(--dourado-premium); font-size: 1rem; margin-bottom: 25px; text-transform: uppercase; letter-spacing: 2px; }
+        .footer-col p { color: var(--texto-muted); font-size: 0.9rem; line-height: 1.8; max-width: 300px; }
+    </style>
+</head>
+<body>
+
+    <div id="loader">
+        <div class="trilha-container">
+            <div class="trilha trilha-azul"></div>
+            <div class="trilha trilha-verde"></div>
+        </div>
+        <div class="explosao"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="imagens_salvas/LOGO.webp" alt="Europartes Brasil" class="logo-img" onerror="this.src='LOGO.webp'">
+        </div>
+        <div class="suporte-fone">
+            <i class="fa-brands fa-whatsapp" style="color: var(--verde-logo); margin-right: 8px;"></i> SUPORTE TÉCNICO
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="slider-container">
+            <div class="slide active" style="background-image: linear-gradient(rgba(5, 10, 18, 0.85), rgba(5, 10, 18, 0.85)), url('imagens_salvas/images.caixa.jpeg');"></div>
+            <div class="slide" style="background-image: linear-gradient(rgba(5, 10, 18, 0.85), rgba(5, 10, 18, 0.85)), url('imagens_salvas/comércio-entre-brasil-e-china.jpg');"></div>
+            <div class="slide" style="background-image: linear-gradient(rgba(5, 10, 18, 0.85), rgba(5, 10, 18, 0.85)), url('imagens_salvas/181-Estoque_-definicao-e-conceito.webp');"></div>
+            <div class="slide" style="background-image: linear-gradient(rgba(5, 10, 18, 0.85), rgba(5, 10, 18, 0.85)), url('imagens_salvas/images.caixa.jpeg');"></div>
+        </div>
+        
+        <div class="hero-content">
+            <h1>Peças de alta performance<br><span>para quem exige o máximo.</span></h1>
+            
+            <div class="bloco-flutuante">
+                <div class="info-pillar active">
+                    <div class="pillar-tag"><i class="fa-solid fa-gears"></i> PRODUÇÃO INDUSTRIAL</div>
+                    <h2>Infraestrutura e Precisão</h2>
+                    <p>Desenvolvimento e fabricação rigorosa sob padrões originais de engenharia. Linhas de montagem modernas prontas para assegurar durabilidade extrema.</p>
+                </div>
+                <div class="info-pillar">
+                    <div class="pillar-tag"><i class="fa-solid fa-ship"></i> IMPORTAÇÃO DIRETA</div>
+                    <h2>Conexão Global Eficiente</h2>
+                    <p>Mapeamento estratégico internacional e importação de matéria-prima de altíssimo padrão. Parcerias globais para entregar o melhor componente automotivo.</p>
+                </div>
+                <div class="info-pillar">
+                    <div class="pillar-tag"><i class="fa-solid fa-warehouse"></i> ESTOQUE INTELIGENTE</div>
+                    <h2>Disponibilidade Absoluta</h2>
+                    <p>Centro de distribuição amplo com controle automatizado e telemetria de ponta. Prontidão operacional para atendimento imediato e sem atrasos.</p>
+                </div>
+                <div class="info-pillar">
+                    <div class="pillar-tag"><i class="fa-solid fa-truck-fast"></i> ENVIOS NACIONAIS</div>
+                    <h2>Logística Avançada</h2>
+                    <p>Despacho cirúrgico, seguro e ágil para distribuidores e atacados em todo o território nacional. Embalagens reforçadas para blindagem total contra avarias.</p>
+                </div>
+                
+                <div class="slider-progress">
+                    <div class="bar active"><div class="fill"></div></div>
+                    <div class="bar"><div class="fill"></div></div>
+                    <div class="bar"><div class="fill"></div></div>
+                    <div class="bar"><div class="fill"></div></div>
+                </div>
+            </div>
+            
+            <a href="#catalogo" class="btn-principal">Acessar Catálogo</a>
+        </div>
+    </section>
+
+    <div class="conteudo-principal" id="catalogo">
+        <div class="busca-container">
+            <input type="text" id="campo-busca" placeholder="Pesquisar código, peça ou veículo...">
+            <i class="fa-solid fa-crosshairs"></i>
+        </div>
+        
+        <div class="grid-produtos" id="grid-produtos">
+            <p style="text-align: center; grid-column: 1/-1; color: var(--texto-muted); font-weight: 300;">Iniciando sistemas de mapeamento de peças...</p>
+        </div>
+    </div>
+
+    <div class="cart-float" onclick="toggleCart()">
+        <i class="fa-solid fa-microchip"></i>
+        <div id="cart-count">0</div>
+    </div>
+
+    <div id="cart-modal">
+        <h2>Lista de Especificações</h2>
+        <div id="cart-items" style="overflow-y: auto; flex-grow: 1; margin-bottom: 20px;"></div>
+        <button class="btn-whatsapp" onclick="enviarWhatsApp()">
+            <i class="fa-brands fa-whatsapp"></i> Transmitir Cotação
+        </button>
+        <button class="btn-fechar-modal" onclick="toggleCart()">Fechar Painel</button>
+    </div>
+
+    <footer>
+        <div class="footer-faixa-diagonal"></div>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4>Europartes Brasil</h4>
+                <p>Performance Engineering. Fabricação, importação e distribuição de componentes automotivos premium.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Engenharia</h4>
+                <p style="color: var(--texto-muted);"><i class="fa-solid fa-microchip" style="color: var(--dourado-premium); margin-right:10px;"></i> Tecnologia de Ponta</p>
+                <p style="color: var(--texto-muted);"><i class="fa-solid fa-gears" style="color: var(--dourado-premium); margin-right:10px;"></i> Precisão Absoluta</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            setTimeout(() => {
+                const loader = document.getElementById('loader');
+                if(loader) {
+                    loader.style.opacity = '0';
+                    setTimeout(() => { loader.style.display = 'none'; }, 500);
+                }
+            }, 2000); 
+        });
+
+        const slides = document.querySelectorAll('.slide');
+        const pillars = document.querySelectorAll('.info-pillar');
+        const bars = document.querySelectorAll('.bar');
+        let currentSlide = 0;
+
+        function alternarSlider() {
+            slides[currentSlide].classList.remove('active');
+            pillars[currentSlide].classList.remove('active');
+            bars[currentSlide].classList.remove('active');
+
+            currentSlide = (currentSlide + 1) % slides.length;
+
+            slides[currentSlide].classList.add('active');
+            pillars[currentSlide].classList.add('active');
+            bars[currentSlide].classList.add('active');
+        }
+        setInterval(alternarSlider, 5000);
+
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.navbar');
+            if (window.scrollY > 50) nav.classList.add('scrolled');
+            else nav.classList.remove('scrolled');
+        });
+
+        function toggleCart() {
+            const modal = document.getElementById('cart-modal');
+            modal.style.right = modal.style.right === '0px' ? '-450px' : '0px';
+        }
+
+        const gridProdutos = document.getElementById('grid-produtos');
+        const campoBusca = document.getElementById('campo-busca');
+        let todosProdutos = []; 
+
+        async function carregarCatalogo() {
+            try {
+                const response = await fetch('produtos.json');
+                if (!response.ok) throw new Error('Erro');
+                todosProdutos = await response.json();
+                renderizarProdutos(todosProdutos);
+
+                campoBusca.addEventListener('input', (e) => {
+                    const termoBusca = e.target.value.toLowerCase().trim();
+                    const filtrados = todosProdutos.filter(p => {
+                        const nome = (p.nome || p.descricao || "").toLowerCase();
+                        const cod = (p.codigo || p.codigo_erp || "").toLowerCase();
+                        return nome.includes(termoBusca) || cod.includes(termoBusca);
+                    });
+                    renderizarProdutos(filtrados);
+                });
+            } catch (error) {
+                gridProdutos.innerHTML = `<p style="color: #ef4444; text-align:center; grid-column: 1/-1;">Falha de telemetria. Banco de dados não encontrado.</p>`;
+            }
+        }
+
+        function renderizarProdutos(lista) {
+            gridProdutos.innerHTML = ""; 
+            if (lista.length === 0) {
+                gridProdutos.innerHTML = `<p style="text-align: center; grid-column: 1/-1; color: var(--texto-muted);">Nenhum componente encontrado com estas especificações.</p>`;
+                return;
+            }
+
+            lista.forEach(produto => {
+                const nomeReal = produto.nome || produto.descricao || "Sem dados";
+                const codigoReal = produto.codigo || produto.codigo_erp || "N/A";
+                let imgReal = produto.imagem || produto.caminho_imagem || "sem-foto.jpg";
+                
+                imgReal = imgReal.replace(/\\\\/g, '/').replace(/\\/g, '/');
+                if (!imgReal.includes('imagens_salvas/')) {
+                    imgReal = `imagens_salvas/${imgReal.split('/').pop()}`;
+                }
+
+                const precoValor = produto.preco ? parseFloat(produto.preco) : 0;
+                const precoExibicao = precoValor > 0 ? `R$ ${precoValor.toFixed(2).replace('.', ',')}` : "Sob Consulta";
+                const nomeEscapado = nomeReal.replace(/'/g, "\\'").replace(/"/g, "&quot;");
+
+                const card = `
+                    <div class="produto-card">
+                        <div class="produto-img-box">
+                            <img src="${imgReal}" alt="Peça" class="produto-img" onerror="this.src='imagens_salvas/sem-foto.jpg'">
+                        </div>
+                        <div class="produto-info">
+                            <h3>${nomeReal}</h3>
+                            <span class="ref-tag">ID: ${codigoReal}</span>
+                            <div class="preco-tag">${precoExibicao}</div>
+                        </div>
+                        <button class="btn-cotar" onclick="addToCart(event, '${nomeEscapado}')">Adicionar Cotação</button>
+                    </div>
+                `;
+                gridProdutos.innerHTML += card;
+            });
+        }
+
+        carregarCatalogo();
+
+        let cart = [];
+        
+        function addToCart(e, name) {
+            // Verifica se o produto já está no carrinho
+            const itemExistente = cart.find(item => item.name === name);
+            
+            if (itemExistente) {
+                // Se já existe, apenas soma 1 na quantidade
+                itemExistente.qtd += 1;
+            } else {
+                // Se não existe, adiciona com quantidade 1
+                cart.push({name: name, qtd: 1});
+            }
+            
+            updateCart();
+            
+            const btn = e.target;
+            const originalText = btn.innerHTML;
+            btn.innerHTML = "INCLUÍDO ✓";
+            btn.style.background = "var(--verde-logo)";
+            btn.style.color = "#050A12";
+            btn.style.borderColor = "var(--verde-logo)";
+            
+            setTimeout(() => {
+                btn.innerHTML = originalText;
+                btn.style.background = "rgba(13, 94, 168, 0.1)";
+                btn.style.color = "#FFFFFF";
+                btn.style.borderColor = "var(--azul-logo)";
+            }, 1000);
+        }
+
+        function updateCart() {
+            // Atualiza a bolinha com o total de itens (somando as quantidades)
+            const totalItems = cart.reduce((acc, item) => acc + item.qtd, 0);
+            document.getElementById('cart-count').innerText = totalItems;
+            
+            const container = document.getElementById('cart-items');
+            container.innerHTML = cart.map((item, index) => `
+                <div class="cart-item">
+                    <div class="cart-item-title">${item.name}</div>
+                    
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                        <input type="number" min="1" value="${item.qtd}" onchange="mudarQtd(${index}, this.value)" 
+                               style="width: 55px; background: rgba(255,255,255,0.05); color: white; border: 1px solid var(--borda-tech); border-radius: 4px; padding: 8px 5px; text-align: center; font-family: 'Montserrat', sans-serif; font-weight: 600; outline: none;">
+                        
+                        <i class="fa-solid fa-xmark" style="color: #ef4444; cursor: pointer; padding: 10px; font-size: 1.1rem;" onclick="removeItem(${index})"></i>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Função nova para atualizar a quantidade quando a pessoa digitar na caixinha
+        function mudarQtd(index, novaQtd) {
+            let qtd = parseInt(novaQtd);
+            if (isNaN(qtd) || qtd < 1) qtd = 1; // Trava para não colocar zero ou letras
+            cart[index].qtd = qtd;
+            updateCart();
+        }
+
+        function removeItem(index) { 
+            cart.splice(index, 1); 
+            updateCart(); 
+        }
+
+        function enviarWhatsApp() {
+            if(cart.length === 0) return alert("Nenhum componente selecionado.");
+            
+            // Aqui o romaneio é gerado puxando a quantidade "qtd" antes do nome
+            const romaneio = cart.map(i => `• ${i.qtd}x - ${i.name}`).join('\n');
+            
+            const msg = encodeURIComponent(`TRANSMISSÃO TÉCNICA - EUROPARTES\nSolicito viabilidade de estoque para:\n\n${romaneio}`);
+            window.open(`https://api.whatsapp.com/send?phone=5511999999999&text=${msg}`, '_blank');
+        }
+    </script>
+</body>
+</html>
