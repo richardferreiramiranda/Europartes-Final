@@ -722,12 +722,12 @@
     {
         "codigo_erp": "ERP-MB-08151933B",
         "descricao": "EMBLEMA COMPLETO MERCEDES C180 C200 C300 15/ BLACKPIANO ( PRODUTO PADRÃO ORIGINAL ENCAIXE) BASE + EMBLEMA",
-        "caminho_imagem": "imagens_salvas\\ERP-MB-08151933B.webp"
+        "caminho_imagem": "imagens_salvas\\ERP-MB-08151933B.jpeg"
     },
     {
         "codigo_erp": "ERP-MB-08151933F",
         "descricao": "EMBLEMA COMPLETO MERCEDES C180 C200 C300 15/ PRETO FOSCO ( PRODUTO PADRÃO ORIGINAL ENCAIXE) BASE + EMBLEMA",
-        "caminho_imagem": "imagens_salvas\\ERP-MB-08151933F.webp"
+        "caminho_imagem": "imagens_salvas\\ERP-MB-08151933F.jpeg"
     },
     {
         "codigo_erp": "ERP-MB-08151933",
@@ -742,12 +742,12 @@
     {
         "codigo_erp": "ERP-MB-08/151932F",
         "descricao": "EMBLEMA MERCEDES C180 C200 C300 GLA CLA 2015/2019 SOMENTE ESTRELA PRETO FOSCO ( PRODUTO PADRÃO ORIGINAL ENCAIXE)",
-        "caminho_imagem": "imagens_salvas\\ERP-MB-08151932F.webp"
+        "caminho_imagem": "imagens_salvas\\ERP-MB-08151932F.jpeg"
     },
     {
         "codigo_erp": "ERP-MB-08/151932B",
         "descricao": "EMBLEMA MERCEDES C180 C200 C300 GLA CLA 2015/2019 SOMENTE ESTRELA BLACKPIANO ( PRODUTO PADRÃO ORIGINAL ENCAIXE)",
-        "caminho_imagem": "imagens_salvas\\ERP-MB-08151932B.webp"
+        "caminho_imagem": "imagens_salvas\\ERP-MB-08151932B.jpeg"
     },
     {
         "codigo_erp": "ERP-FD-100093",
@@ -995,4 +995,5 @@
         "caminho_imagem": "imagens_salvas\\ERP-FD-K8/F0810.jpeg"
     }
 ]
+    
     
