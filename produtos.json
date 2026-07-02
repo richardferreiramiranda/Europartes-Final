@@ -177,7 +177,7 @@
     {
         "codigo_erp": "ERP-VW-AMK33120R",
         "descricao": "GUIA SUPORTE MILHA AMAROK 2018/ DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-VW-AMK33120R.jpg"
+        "caminho_imagem": "imagens_salvas\\ERP-VW-AMK33120R.jpeg.jpeg"
     },
     {
         "codigo_erp": "ERP-VW-AMK33120L",
@@ -963,6 +963,11 @@
         "codigo_erp": "ERP-32HDF0711CVCESQ",
         "descricao": "LENTE FAROL NEW CIVIC 2007/11 MODELO VALEO ESQUERDO",
         "caminho_imagem": "imagens_salvas\\ERP-32HDF0711CVCESQ.webp"
+    },
+    {
+        "codigo_erp": "ERP-CA420591",
+        "descricao": "Pisante traseira L200 triton 2007/2015",
+        "caminho_imagem": "imagens_salvas\\ERP-CA420591.webp"
     },
     {
         "codigo_erp": "ERP-CA420592",
