@@ -162,12 +162,12 @@
     {
         "codigo_erp": "ERP-FD-FS06/09L",
         "descricao": "GUIA PARACHOQUE DIANTEIRO FUSION 06/09 ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-FD-FS0609L.jpg"
+        "caminho_imagem": "imagens_salvas\\ERP-FD-FS0609L.jpeg"
     },
     {
         "codigo_erp": "ERP-FD-FS10/12R",
         "descricao": "GUIA PARACHOQUE DIANTEIRO FUSION 10/12 DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-FD-FS1012R.jpg"
+        "caminho_imagem": "imagens_salvas\\ERP-FD-FS1012R.jpeg"
     },
     {
         "codigo_erp": "ERP-FD-FS10/12L",
