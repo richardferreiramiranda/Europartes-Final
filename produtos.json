@@ -1,994 +1,1173 @@
 [
-    {
-        "codigo_erp": "ERP-1JE121207",
-        "descricao": "DEFLETOR RADIADOR VENTOINHA VW G6 G7 G8 POLO 07/ SAVEIRO ROBUST POLO TRACK GOLF 08/13 FOX CROSSFOX SPACEFOX C/ AR",
-        "caminho_imagem": "imagens_salvas\\ERP-1JE121207.jpg"
-    },
-    {
-        "codigo_erp": "ERP-C3-9834891477",
-        "descricao": "FRISO CROMADO PARACHOQUE C3 2008/2012 UNIDADE",
-        "caminho_imagem": "imagens_salvas\\ERP-C3-9834891477.jpeg"
-    },
-    {
-        "codigo_erp": "ERP-C4-CR0713",
-        "descricao": "FRISO CROMADO CAPO CITROEN C4 PALLAS HATCH SENDA VTR 07/13",
-        "caminho_imagem": "imagens_salvas\\ERP-C4-CR0713.jpg"
-    },
-    {
-        "codigo_erp": "ERP-FT-L13RC",
-        "descricao": "FRISO CROMADO PARACHOQUE TRASEIRO LINEA 2008 á 2018 DIREITO CROMADO",
-        "caminho_imagem": "imagens_salvas\\ERP-FT-L13RC.jpg"
-    },
-    {
-        "codigo_erp": "ERP-FT-L13LC",
-        "descricao": "FRISO CROMADO PARACHOQUE TRASEIRO LINEA 2008 á 2016 ESQUERDO CROMADO",
-        "caminho_imagem": "imagens_salvas\\ERP-FT-L13LC.jpg"
-    },
-    {
-        "codigo_erp": "ERP-308FT12/R",
-        "descricao": "FRISO MOLDURA TRASEIRA DO ESCAPAMENTO PEUGEOT 308 2012/2015 LADO DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-308FT12R.jpg"
-    },
-    {
-        "codigo_erp": "ERP-308FT12/L",
-        "descricao": "FRISO MOLDURA TRASEIRA DO ESCAPAMENTO PEUGEOT 308 2012/2015 LADO ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-308FT12L.jpg"
-    },
-    {
-        "codigo_erp": "ERP-PC-12124",
-        "descricao": "CALÇO SUSPENSÃO LINHA GM CORSA MONTANA 2003/2022 KIT 2 PÇS 3CM",
-        "caminho_imagem": "imagens_salvas\\ERP-PC-12124.jpg"
-    },
-    {
-        "codigo_erp": "ERP-PC-12125",
-        "descricao": "CALÇO SUSPENSÃO LINHA FIAT PALIO STRADA SIENA DOBLO 2004/ KIT 2 PÇS 3CM",
-        "caminho_imagem": "imagens_salvas\\ERP-PC-12125.jpg"
-    },
-    {
-        "codigo_erp": "ERP-388-hdc198",
-        "descricao": "CAPA RETROVISOR CIVIC 12/2016 SEM FURO PISCA ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-388-hdc198.png"
-    },
-    {
-        "codigo_erp": "ERP-388-hdc197",
-        "descricao": "CAPA RETROVISOR CIVIC 12/2016 SEM FURO PISCA DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-388-hdc197.jpg"
-    },
-    {
-        "codigo_erp": "ERP-12X2",
-        "descricao": "CAPA RETROVISOR CIVIC 12/2016  COM FURO PISCA ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-12X2.jpg"
-    },
-    {
-        "codigo_erp": "ERP-12X1",
-        "descricao": "CAPA RETROVISOR CIVIC 12/2016  COM FURO PISCA DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-12X1.jpg"
-    },
-    {
-        "codigo_erp": "ERP-19762",
-        "descricao": "PUXADOR INTERNO CAPO AMAROK 2010/2025 TODAS",
-        "caminho_imagem": "imagens_salvas\\ERP-19762.webp"
-    },
-    {
-        "codigo_erp": "ERP-7L0823633H",
-        "descricao": "PUXADOR SUPORTE CAPO AMAROK 2010/2025 TODAS",
-        "caminho_imagem": "imagens_salvas\\ERP-7L0823633H.webp"
-    },
-    {
-        "codigo_erp": "ERP-HY-3506184",
-        "descricao": "PUXADOR PINO BANCO TRASEIRO CRETA 2017/2021 UNIDADE",
-        "caminho_imagem": "imagens_salvas\\ERP-HY-3506184.jpg"
-    },
-    {
-        "codigo_erp": "EM BREVE",
-        "descricao": "PUXADOR PINO BANCO TRASEIRO GOLF 99/2014 DIREITO",
-        "caminho_imagem": "EM BREVE.png"
-    },
-    {
-        "codigo_erp": "EM BREVE",
-        "descricao": "PUXADOR PINO BANCO TRASEIRO GOLF 99/2014 ESQUERDO",
-        "caminho_imagem": "EM BREVE.png"
-    },
-    {
-        "codigo_erp": "ERP-6EA837114X",
-        "descricao": "KIT GATILHO PUXADOR PORTA P/4 PORTAS POLO TCROSS NIVUS VIRTUS",
-        "caminho_imagem": "imagens_salvas\\ERP-6EA837114X.jpg"
-    },
-    {
-        "codigo_erp": "ERP-6Q0885644DIR",
-        "descricao": "TRAVA PUXADOR BANCO TRASEIRO POLO 2003 ATÉ 2015 DIREITO PASSAGEIRO",
-        "caminho_imagem": "imagens_salvas\\ERP-6Q0885644DIR.jpg"
-    },
-    {
-        "codigo_erp": "ERP-6Q088564EESQ",
-        "descricao": "TRAVA PUXADOR BANCO TRASEIRO POLO 2003 ATÉ 2015 ESQUERDO PASSAGEIRO",
-        "caminho_imagem": "imagens_salvas\\ERP-6Q088564EESQ.jpg"
-    },
-    {
-        "codigo_erp": "ERP-TY-A10005D",
-        "descricao": "GRADE MILHA COROLLA 2005/2008 DIREITO ( TAPA BURACO)",
-        "caminho_imagem": "imagens_salvas\\ERP-TY-A10005D.jpg"
-    },
-    {
-        "codigo_erp": "ERP-TY-A10005E",
-        "descricao": "GRADE MILHA COROLLA 2005/2008 ESQUERDO ( TAPA BURACO)",
-        "caminho_imagem": "imagens_salvas\\ERP-TY-A10005E.jpg"
-    },
-    {
-        "codigo_erp": "ERP-H13R",
-        "descricao": "GUIA PARACHOQUE DIANTEIRO HR 2013/2024 DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-H13R.jpg"
-    },
-    {
-        "codigo_erp": "ERP-HR13L",
-        "descricao": "GUIA PARACHOQUE DIANTEIRO HR 2013/2024 ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-HR13L.jpg"
-    },
-    {
-        "codigo_erp": "ERP-51117279712",
-        "descricao": "GUIA PARACHOQUE DIANTEIRO BMW S3 2012 ATÉ 2019 ( TODOS OS MODELOS) DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-51117279712.jpg"
-    },
-    {
-        "codigo_erp": "ERP-51117279711",
-        "descricao": "GUIA PARACHOQUE DIANTEIRO BMW S3 2012 ATÉ 2019 ( TODOS OS MODELOS) ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-51117279711.jpg"
-    },
-    {
-        "codigo_erp": "ERP-FR10/12R",
-        "descricao": "GUIA PARACHOQUE DIANTEIRO RANGER 2010/2012 DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-FR1012R.jpg"
-    },
-    {
-        "codigo_erp": "ERP-FR10/12L",
-        "descricao": "GUIA PARACHOQUE DIANTEIRO RANGER 2010/2012 ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-FR1012L.jpg"
-    },
-    {
-        "codigo_erp": "ERP-RN-0814R",
-        "descricao": "GUIA DIANTEIRO SANDERO 2008/2014 DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-RN-0814R.jpg"
-    },
-    {
-        "codigo_erp": "ERP-RN-0814L",
-        "descricao": "GUIA DIANTEIRO SANDERO 2008/2014 ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-RN-0814L.jpg"
-    },
-    {
-        "codigo_erp": "ERP-FD-FS06/09R",
-        "descricao": "GUIA PARACHOQUE DIANTEIRO FUSION 06/09 DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-FD-FS0609R.jpg"
-    },
-    {
-        "codigo_erp": "ERP-FD-FS06/09L",
-        "descricao": "GUIA PARACHOQUE DIANTEIRO FUSION 06/09 ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-FD-FS0609L.jpeg"
-    },
-    {
-        "codigo_erp": "ERP-FD-FS10/12R",
-        "descricao": "GUIA PARACHOQUE DIANTEIRO FUSION 10/12 DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-FD-FS1012R.jpeg"
-    },
-    {
-        "codigo_erp": "ERP-FD-FS10/12L",
-        "descricao": "GUIA PARACHOQUE DIANTEIRO FUSION 10/12 ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-FD-FS1012L.jpg"
-    },
-    {
-        "codigo_erp": "ERP-VW-AMK33120R",
-        "descricao": "GUIA SUPORTE MILHA AMAROK 2018/ DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-VW-AMK33120R.jpeg.jpeg"
-    },
-    {
-        "codigo_erp": "ERP-VW-AMK33120L",
-        "descricao": "GUIA SUPORTE MILHA AMAROK 2018/ ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-VW-AMK33120L.jpeg"
-    },
-    {
-        "codigo_erp": "ERP-HD-09/14FC",
-        "descricao": "BUCHA REPARO CAIXA DIREÇÃO HONDA NEW FIT 2009/2014",
-        "caminho_imagem": "imagens_salvas\\ERP-HD-0914FC.jpg"
-    },
-    {
-        "codigo_erp": "ERP-HD-09/14EC",
-        "descricao": "BUCHA REPARO CAIXA DIREÇÃO HONDA CITY 2009/2014",
-        "caminho_imagem": "imagens_salvas\\ERP-HD-0914EC.jpg"
-    },
-    {
-        "codigo_erp": "ERP-VW14/18SF",
-        "descricao": "BUCHA REPARO CAIXA DIREÇÃO FOX SPACEFOX 2014/2017",
-        "caminho_imagem": "imagens_salvas\\ERP-VW1418SF.jpg"
-    },
-    {
-        "codigo_erp": "ERP-VW14/24PV",
-        "descricao": "BUCHA REPARO CAIXA DIREÇÃO POLO 2015/2019",
-        "caminho_imagem": "imagens_salvas\\ERP-VW1424PV.jpg"
-    },
-    {
-        "codigo_erp": "ERP-1211618",
-        "descricao": "PAR BUCHA BARRA ESTABILIZADORA TRASEIRA FUSION 2012/2018",
-        "caminho_imagem": "imagens_salvas\\ERP-1211618.jpg"
-    },
-    {
-        "codigo_erp": "ERP-1211612",
-        "descricao": "PAR BUCHA BARRA ESTABILIZADORA TRASEIRA FUSION 2010/2012",
-        "caminho_imagem": "imagens_salvas\\ERP-1211612.jpg"
-    },
-    {
-        "codigo_erp": "ERP-12116",
-        "descricao": "PAR BUCHA BARRA ESTABILIZADORA TRASEIRA FUSION 2006/2009",
-        "caminho_imagem": "imagens_salvas\\ERP-12116.jpg"
-    },
-    {
-        "codigo_erp": "ERP-MT-ASX10/19B",
-        "descricao": "PAR BUCHA BARRA ESTABILIZADORA TRASEIRA ASX 2010/2019",
-        "caminho_imagem": "imagens_salvas\\ERP-MT-ASX1019B.jpg"
-    },
-    {
-        "codigo_erp": "ERP-MT-LC10/19S",
-        "descricao": "PAR BUCHA BARRA ESTABILIZADORA TRASEIRA LANCER 2010/2019",
-        "caminho_imagem": "imagens_salvas\\ERP-MT-LC1019S.jpg"
-    },
-    {
-        "codigo_erp": "ERP-MT-OT0710S",
-        "descricao": "PAR BUCHA BARRA ESTABILIZADORA TRASEIRA OUTLANDER  2007/2010",
-        "caminho_imagem": "imagens_salvas\\ERP-MT-OT0710S.jpg"
-    },
-    {
-        "codigo_erp": "ERP-93249089",
-        "descricao": "BUCHA DO GUIA DO PARACHOQUE DIANTEIRO S10 BLAZER 93249089 O PAR",
-        "caminho_imagem": "imagens_salvas\\ERP-93249089.jpg"
-    },
-    {
-        "codigo_erp": "ERP-32876-4B000",
-        "descricao": "BUCHA BATENTE SENSOR PEDAL FREIO LINHA HYUNDAI UNIDADE",
-        "caminho_imagem": "imagens_salvas\\ERP-32876-4B000.png"
-    },
-    {
-        "codigo_erp": "ERP-13886",
-        "descricao": "PAR BUCHA PEDAL FREIO / EMBREAGEM TOYOTA HILUX COROLLA ETIOS",
-        "caminho_imagem": "imagens_salvas\\ERP-13886.jpg"
-    },
-    {
-        "codigo_erp": "ERP-PC14969",
-        "descricao": "PAR BATENTE BUCHA DO SENSOR PEDAL LUZ FREIO E EMBREAGEM LINHA NISSAN",
-        "caminho_imagem": "imagens_salvas\\ERP-PC14969.jpg"
-    },
-    {
-        "codigo_erp": "ERP-PC14968",
-        "descricao": "COXIM INFERIOR DO RADIADOR HYUNDAI HB20 2012/2025 253361s000  KIT O PAR",
-        "caminho_imagem": "imagens_salvas\\ERP-PC14968.jpg"
-    },
-    {
-        "codigo_erp": "ERP-PC14968-EL",
-        "descricao": "COXIM INFERIOR DO RADIADOR HYUNDAI ELANTRA 2011 A 2018 KIT O PAR",
-        "caminho_imagem": "imagens_salvas\\ERP-PC14968-EL.png"
-    },
-    {
-        "codigo_erp": "ERP-PC14968-VLS",
-        "descricao": "COXIM INFERIOR DO RADIADOR HYUNDAI VELOSTER KIT O PAR",
-        "caminho_imagem": "imagens_salvas\\ERP-PC14968-VLS.png"
-    },
-    {
-        "codigo_erp": "ERP-PC14971",
-        "descricao": "COXIM BATENTE CAPO ONIX PRISMA COBALT SPIN CRUZE TRACKER GM UNIDADE",
-        "caminho_imagem": "imagens_salvas\\ERP-PC14971.webp"
-    },
-    {
-        "codigo_erp": "ERP-PC14973",
-        "descricao": "COXIM BATENTE DO CAPO DO MOTOR HONDA FIT 2015/2025 CITY 2015/2025 O PAR",
-        "caminho_imagem": "imagens_salvas\\ERP-PC14973.jpg"
-    },
-    {
-        "codigo_erp": "ERP-PC14974",
-        "descricao": "COXIM BATENTE DO CAPO DO MOTOR HONDA NEW CIVIC 06/11 FIT CIVIC HRV CRV CITY ACCORD ATÉ 2014 TODOS OS MODELOS UNIDADE",
-        "caminho_imagem": "imagens_salvas\\ERP-PC14974.jpg"
-    },
-    {
-        "codigo_erp": "8M51F17K922",
-        "descricao": "TAMPA REBOQUE TRASEIRA FORD FOCUS SEDAN 2009 2010 2012 2013'",
-        "caminho_imagem": "imagens_salvas\\8M51F17K922.jpg"
-    },
-    {
-        "codigo_erp": "ERP-VW-38952019",
-        "descricao": "TAMPA REBOQUE DIANTEIRA AMAROK 2018/ GRANDE",
-        "caminho_imagem": "imagens_salvas\\ERP-VW-38952019.jpg"
-    },
-    {
-        "codigo_erp": "ERP-VW06028097",
-        "descricao": "TAMPA REBOQUE DIANTEIRA AMARO 2010/17 PEQUENA",
-        "caminho_imagem": "imagens_salvas\\ERP-VW06028097.jpg"
-    },
-    {
-        "codigo_erp": "5C6807287",
-        "descricao": "SUPORTE PLACA JETTA 2011/2023 ( PODE SER ADAPTADOR NA TIGUAN 2009/2017) PRODUTO PADRÃO ORIGINAL",
-        "caminho_imagem": "imagens_salvas\\5C6807287.jpg"
-    },
-    {
-        "codigo_erp": "5NN807287B",
-        "descricao": "SUPORTE PLACA TIGUAN 2018/2024",
-        "caminho_imagem": "imagens_salvas\\5NN807287B.jpg"
-    },
-    {
-        "codigo_erp": "6430A188",
-        "descricao": "SUPORTE PLACA LANCER 2010/2019",
-        "caminho_imagem": "imagens_salvas\\6430A188.jpg"
-    },
-    {
-        "codigo_erp": "ERP-F25009",
-        "descricao": "SUPORTE PLACA TRASEIRO F250 TODAS",
-        "caminho_imagem": "imagens_salvas\\ERP-F25009.webp"
-    },
-    {
-        "codigo_erp": "ERP-EUROFD250DT",
-        "descricao": "SUPORTE PLACA DIANTEIRO F250 2007",
-        "caminho_imagem": "imagens_salvas\\ERP-EUROFD250DT.png"
-    },
-    {
-        "codigo_erp": "ERP-HD-CRV0711<",
-        "descricao": "SUPORTE PLACA DIANTEIRO CRV 2007/2010",
-        "caminho_imagem": "imagens_salvas\\ERP-HD-CRV0711.jpg"
-    },
-    {
-        "codigo_erp": "ERP-HD-CRV12/",
-        "descricao": "SUPORTE PLACA DIANTEIRO CRV 2012/2016",
-        "caminho_imagem": "imagens_salvas\\ERP-HD-CRV12.jpg"
-    },
-    {
-        "codigo_erp": "ERP-22444",
-        "descricao": "SUPORTE PLACA 207 2007 Á 2013",
-        "caminho_imagem": "imagens_salvas\\ERP-22444.jpg"
-    },
-    {
-        "codigo_erp": "ERP-058037",
-        "descricao": "ARO MILHA CROMADO 307 2006/2013",
-        "caminho_imagem": "imagens_salvas\\ERP-058037.jpg"
-    },
-    {
-        "codigo_erp": "ERP-058038",
-        "descricao": "ARO MILHA CROMADO 307 2006/2013",
-        "caminho_imagem": "imagens_salvas\\ERP-058038.jpg"
-    },
-    {
-        "codigo_erp": "ERP-JEEP-53294320",
-        "descricao": "GRADE PARACHOQUE SENSOR APROXIMAÇÃO ACC COMPASS DIESEL 2017/2021  UNIDADE",
-        "caminho_imagem": "imagens_salvas\\ERP-JEEP-53294320.jpg"
-    },
-    {
-        "codigo_erp": "ERP-21HLX-OEM-R",
-        "descricao": "GRADE INFERIOR PARACHOQUE HILUX 2021/2024 DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-21HLX-OEM-R.jpg"
-    },
-    {
-        "codigo_erp": "ERP-21HLX-OEM-L",
-        "descricao": "GRADE INFERIOR PARACHOQUE HILUX 2021/2024 ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-21HLX-OEM-L.jpg"
-    },
-    {
-        "codigo_erp": "ERP-GRADE5",
-        "descricao": "GRADE MILHA AMAROK 2010/2016 PRETO SEM FRISO CROMADO DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-GRADE5.jpg"
-    },
-    {
-        "codigo_erp": "ERP-GRADE6",
-        "descricao": "GRADE MILHA AMAROK 2010/2016 PRETO SEM FRISO CROMADO ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-GRADE6.jpg"
-    },
-    {
-        "codigo_erp": "ERP-LXS-HD1617LD",
-        "descricao": "GRADE MILHA CIVIC 2015/2016 LXS LX LS DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-LXS-HD1617LD.jpg"
-    },
-    {
-        "codigo_erp": "ERP-LXS-15117L-HD",
-        "descricao": "GRADE MILHA CIVIC 2015/2016 LXS LX LS ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-LXS-15117L-HD.jpg"
-    },
-    {
-        "codigo_erp": "ERP-FD-R23/25CR",
-        "descricao": "GRADE MILHA RANGER ARO CROMADO 2023/2025 DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-FD-R2325CR.png"
-    },
-    {
-        "codigo_erp": "ERP-FD-R23/25CL",
-        "descricao": "GRADE MILHA RANGER ARO CROMADO 2023/2025 ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-FD-R2325CL.png"
-    },
-    {
-        "codigo_erp": "ERP-L200MT17R",
-        "descricao": "PISANTE PARACHOQUE TR L200 SPORT 17/21 LADO DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-L200MT17R.jpg"
-    },
-    {
-        "codigo_erp": "ERP-L200MT17L",
-        "descricao": "PISANTE PARACHOQUE TR L200 SPORT 17/21 LADO ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-L200MT17L.jpg"
-    },
-    {
-        "codigo_erp": "ERP-19760",
-        "descricao": "PISANTE TRASEIRO PCHQ F250 99/ 2019 TODAS CENTRAL",
-        "caminho_imagem": "imagens_salvas\\ERP-19760.jpg"
-    },
-    {
-        "codigo_erp": "ERP-6420A018",
-        "descricao": "PISANTE TRASEIRO CENTRAL L200 SPORT 2016 ATÉ 2021 UNIDADE",
-        "caminho_imagem": "imagens_salvas\\ERP-6420A018.webp"
-    },
-    {
-        "codigo_erp": "ERP-TY-05/15KX",
-        "descricao": "PISANTE TRASEIRO CENTRAL HILUX 2005/2015",
-        "caminho_imagem": "imagens_salvas\\ERP-TY-0515KX.jpg"
-    },
-    {
-        "codigo_erp": "ERP-76180-0K070",
-        "descricao": "SCOOP BOLHA GRADE CAPO HILUX 2012/2015",
-        "caminho_imagem": "imagens_salvas\\ERP-76180-0K070.jpg"
-    },
-    {
-        "codigo_erp": "ERP-19768",
-        "descricao": "PISANTE TRASEIRO PCHQ F250 99/ 2019 TODAS DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-19768.jpg"
-    },
-    {
-        "codigo_erp": "ERP-19759",
-        "descricao": "PISANTE TRASEIRO PCHQ F250 99/ 2019 TODAS ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-19759.jpg"
-    },
-    {
-        "codigo_erp": "ERP--TY-05/15UNR",
-        "descricao": "PISANTE TRASEIRO LATERAL HILUX 2005/2015 DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP--TY-0515UNR.jpg"
-    },
-    {
-        "codigo_erp": "ERP--TY-05/15UNL",
-        "descricao": "PISANTE TRASEIRO LATERAL HILUX 2005/2015 ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP--TY-0515UNL.jpg"
-    },
-    {
-        "codigo_erp": "ERP-MIT01R",
-        "descricao": "PONTEIRA PARACHOQUE TR L200 TRITON 07/16",
-        "caminho_imagem": "imagens_salvas\\ERP-MIT01R.webp"
-    },
-    {
-        "codigo_erp": "ERP-MIT01L",
-        "descricao": "PONTEIRA PARACHOQUE TR L200 TRITON 07/16",
-        "caminho_imagem": "imagens_salvas\\ERP-MIT01L.webp"
-    },
-    {
-        "codigo_erp": "ERP-TY9711PPTD",
-        "descricao": "PISANTE PARACHOQUE TR HILUX 2016/2024",
-        "caminho_imagem": "imagens_salvas\\ERP-TY9711PPTD.jpg"
-    },
-    {
-        "codigo_erp": "ERP-TY9711PPTE",
-        "descricao": "PISANTE PARACHOQUE TR HILUX 2016/2024",
-        "caminho_imagem": "imagens_salvas\\ERP-TY9711PPTE.jpg"
-    },
-    {
-        "codigo_erp": "ERP-12794R",
-        "descricao": "OLHO DE GATO/REFLETOR TRASEIRO HILUX 92/01 E 02/04 DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-12794R.jpg"
-    },
-    {
-        "codigo_erp": "ERP-12794L",
-        "descricao": "OLHO DE GATO/REFLETOR TRASEIRO HILUX 92/01 E 02/04 ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-12794L.jpg"
-    },
-    {
-        "codigo_erp": "ERP-GM00112CS10",
-        "descricao": "PISANTE PARACHOQUE TR S10 2001/2011",
-        "caminho_imagem": "imagens_salvas\\ERP-GM00112CS10.jpg"
-    },
-    {
-        "codigo_erp": "ERP-VW06050002",
-        "descricao": "PISANTE PARACHOQUE TR CENTRAL AMAROK TODAS",
-        "caminho_imagem": "imagens_salvas\\ERP-VW06050002.jpg"
-    },
-    {
-        "codigo_erp": "ERP-L200-07113R",
-        "descricao": "PARACHOQUE TRASEIRO L200 TRITON 07/17 DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-L200-07113R.jpg"
-    },
-    {
-        "codigo_erp": "ERP-MT-TRL200207",
-        "descricao": "PARACHOQUE TRASERIO L200 TRITON 07/17 ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-MT-TRL200207.jpg"
-    },
-    {
-        "codigo_erp": "ERP-VW057173",
-        "descricao": "SPOILER DIANTEIRO POLO 2007/2011",
-        "caminho_imagem": "imagens_salvas\\ERP-VW057173.webp"
-    },
-    {
-        "codigo_erp": "ERP-VW2237306",
-        "descricao": "SPOILER DIANTEIRO POLO 2003/2006",
-        "caminho_imagem": "imagens_salvas\\ERP-VW2237306.jpg"
-    },
-    {
-        "codigo_erp": "ERP-FD29155",
-        "descricao": "SPOILER P/CHOQUE DIANT KA 15/22 SDN/HATCH (SE/S)",
-        "caminho_imagem": "imagens_salvas\\ERP-FD29155.jpg"
-    },
-    {
-        "codigo_erp": "VW-OEM060306D",
-        "descricao": "BORRACHÃO DIANTEIRO POLO 2003/2006",
-        "caminho_imagem": "imagens_salvas\\VW-OEM060306D.jpg"
-    },
-    {
-        "codigo_erp": "ERP-FD1019054",
-        "descricao": "SPOILER TRASEIRO FIESTA MEXICANO HATCH 10/13",
-        "caminho_imagem": "imagens_salvas\\ERP-FD1019054.png"
-    },
-    {
-        "codigo_erp": "ERP-33099-1",
-        "descricao": "BATENTE FECHADURA TAMPA TR AMAROK TODOS",
-        "caminho_imagem": "imagens_salvas\\ERP-33099-1.jpg"
-    },
-    {
-        "codigo_erp": "ERP-33099-2",
-        "descricao": "BATENTE FECHADURA TAMPA TR AMAROK TODOS",
-        "caminho_imagem": "imagens_salvas\\ERP-33099-2.jpg"
-    },
-    {
-        "codigo_erp": "ERP-5C3Z16720EB",
-        "descricao": "EMBLEMA LATERAL PARALAMA E TAMPA TRASEIRA MODELO HAVY DUTY F250 5C3Z16720EB",
-        "caminho_imagem": "imagens_salvas\\ERP-5C3Z16720EB.jpg"
-    },
-    {
-        "codigo_erp": "ERP-KIT3S10",
-        "descricao": "EMBLEMA S10 HIGH CONTRY - TRAILBLAZER 21/ KIT 3 PÇS GM",
-        "caminho_imagem": "imagens_salvas\\ERP-KIT3S10.jpg"
-    },
-    {
-        "codigo_erp": "ERP-GM18/24OEM",
-        "descricao": "EMBLEMA GRADE S10 TRAILBLAZER 2018/2021",
-        "caminho_imagem": "imagens_salvas\\ERP-GM1824OEM.jpg"
-    },
-    {
-        "codigo_erp": "ERP-TY05CR936",
-        "descricao": "EMBLEMA HILUX GRADE DIANTEIRA 05/2015",
-        "caminho_imagem": "imagens_salvas\\ERP-TY05CR936.jpg"
-    },
-    {
-        "codigo_erp": "ERP-FC09/13HS",
-        "descricao": "EMBLEMA DO FRISO TRASEIRO FOCUS 2009/13 HATCH / SEDAN",
-        "caminho_imagem": "imagens_salvas\\ERP-FC0913HS.jpg"
-    },
-    {
-        "codigo_erp": "ERP-FD13K15T",
-        "descricao": "EMBLEMA TAMPA TRASEIRA ECOSPORT 2013/",
-        "caminho_imagem": "imagens_salvas\\ERP-FD13K15T.png"
-    },
-    {
-        "codigo_erp": "ERP-HRV-75715-3",
-        "descricao": "EMBLEMA TAMPA TRASEIRA HRV 2022 23 24 25 26 COMPLETO",
-        "caminho_imagem": "imagens_salvas\\ERP-HRV-75715-3.jpg"
-    },
-    {
-        "codigo_erp": "ERP-VW02",
-        "descricao": "EMBLEMA JETTA 2007/2010 PASSAT 07/10 TIGUAN 09/15 BORA 07/10",
-        "caminho_imagem": "imagens_salvas\\ERP-VW02.jpg"
-    },
-    {
-        "codigo_erp": "ERP-VW01",
-        "descricao": "EMBLEMA GRADE JETTA 2011/2015",
-        "caminho_imagem": "imagens_salvas\\ERP-VW01.jpeg"
-    },
-    {
-        "codigo_erp": "ERP-GM12022018",
-        "descricao": "EMBLEMA S10 2012/2022 CROMADO - CENTRO DOURADO",
-        "caminho_imagem": "imagens_salvas\\ERP-GM12022018.png"
-    },
-    {
-        "codigo_erp": "ERP-C30207C2",
-        "descricao": "EMBLEMA C3 2002/2007 ( KIT 2 GRAVATAS CROMADAS)",
-        "caminho_imagem": "imagens_salvas\\ERP-C30207C2.jpg"
-    },
-    {
-        "codigo_erp": "ERP-C30812C2",
-        "descricao": "EMBLEMA C3 2008/2012 ( KIT 2 GRAVATAS CROMADAS)",
-        "caminho_imagem": "imagens_salvas\\ERP-C30812C2.jpg"
-    },
-    {
-        "codigo_erp": "ERP-MT11101",
-        "descricao": "EMBLEMA DIANTEIRO ASX 2010/2015",
-        "caminho_imagem": "imagens_salvas\\ERP-MT11101.jpg"
-    },
-    {
-        "codigo_erp": "ERP-MT11100",
-        "descricao": "EMBLEMA DIANTEIRO LANCER 2010/2019",
-        "caminho_imagem": "imagens_salvas\\ERP-MT11100.jpg"
-    },
-    {
-        "codigo_erp": "ERP-208PG11/15",
-        "descricao": "EMBLEMA PEUGEOT 208 2012/2015 ( ESTE EMBLEMA É APLICADO NA GRADE CENTRAL ABAIXO DO FRISO CROMADO)",
-        "caminho_imagem": "imagens_salvas\\ERP-208PG1115.jpg"
-    },
-    {
-        "codigo_erp": "ERP-GM-1979903",
-        "descricao": "EMBLEMA GRADE SILVERADO DOURADO 97 ATÉ 2004",
-        "caminho_imagem": "imagens_salvas\\ERP-GM-1979903.jpg"
-    },
-    {
-        "codigo_erp": "ERP-EMBLE6",
-        "descricao": "EMBLEMA GRADE NEW CIVIC 2007",
-        "caminho_imagem": "imagens_salvas\\ERP-EMBLE6.jpg"
-    },
-    {
-        "codigo_erp": "ERP-EMBLE9",
-        "descricao": "EMBLEMA GRADE NEW FIT 09",
-        "caminho_imagem": "imagens_salvas\\ERP-EMBLE9.webp"
-    },
-    {
-        "codigo_erp": "ERP-HD-C11519CR",
-        "descricao": "EMBLEMA CITY 2015/2019",
-        "caminho_imagem": "imagens_salvas\\ERP-HD-C11519CR.jpg"
-    },
-    {
-        "codigo_erp": "ERP-MT-LW-14LE7",
-        "descricao": "EMBLEMA GRADE OUTLANDER 2014/2015",
-        "caminho_imagem": "imagens_salvas\\ERP-MT-LW-14LE7.jpg"
-    },
-    {
-        "codigo_erp": "ERP-20SRX3",
-        "descricao": "EMBLEMA GRADE HILUX 21/24 RESINADO COM SUPORTE ACC",
-        "caminho_imagem": "imagens_salvas\\ERP-20SRX3.jpg"
-    },
-    {
-        "codigo_erp": "ERP-L205003/06",
-        "descricao": "EMBLEMA GRADE DIANTERA L200 OUTDOOR 2003/06",
-        "caminho_imagem": "ERP-L20500306.webp"
-    },
-    {
-        "codigo_erp": "ERP-MT-SPTL20017",
-        "descricao": "EMBLEMA GRADE L200 TRITON SPORT 2017/2021",
-        "caminho_imagem": "imagens_salvas\\ERP-MT-SPTL20017.jpg"
-    },
-    {
-        "codigo_erp": "ERP-MIT-16377",
-        "descricao": "EMBLEMA GRADE OUTLANDER 2016/2024",
-        "caminho_imagem": "imagens_salvas\\ERP-MIT-16377.jpg"
-    },
-    {
-        "codigo_erp": "ERP-VW03",
-        "descricao": "EMBLEMA GRADE JETTA 2015/2018",
-        "caminho_imagem": "imagens_salvas\\ERP-VW03.jpg"
-    },
-    {
-        "codigo_erp": "ERP-PG2-005DF-207-0",
-        "descricao": "EMBLEMA PEUGEOT 207 HOGGAR / SCAPADE / MODELOS HATCH E SEDAN",
-        "caminho_imagem": "imagens_salvas\\ERP-PG2-005DF-207-0.jpg"
-    },
-    {
-        "codigo_erp": "ERP-GM-PLUS-20/",
-        "descricao": "EMBLEMA GRADE ONIX PLUS 2020/2025 UNIDADE",
-        "caminho_imagem": "imagens_salvas\\ERP-GM-PLUS-20.jpg"
-    },
-    {
-        "codigo_erp": "ERP-GM-PLUS-20/25",
-        "descricao": "EMBLEMA GRADE SPIN 2025",
-        "caminho_imagem": "ERP-GM-PLUS-2025.webp"
-    },
-    {
-        "codigo_erp": "ERP-HY-HB2024-24",
-        "descricao": "EMBLEMA GRADE HB20 24/25 UNIDADE",
-        "caminho_imagem": "ERP-HY-HB2024-24.webp"
-    },
-    {
-        "codigo_erp": "ERP-FD-TS08/25T",
-        "descricao": "EMBLEMA GRADE TRANSIT 2008/2025",
-        "caminho_imagem": "imagens_salvas\\ERP-FD-TS0825T.jpg"
-    },
-    {
-        "codigo_erp": "ERP-HY-HB2023X",
-        "descricao": "EMBLEMA GRADE HB20 2020/2023",
-        "caminho_imagem": "imagens_salvas\\ERP-HY-HB2023X.jpg"
-    },
-    {
-        "codigo_erp": "ERP-VW-N21/24",
-        "descricao": "EMBLEMA NIVUS SEM ACC 2021/2024",
-        "caminho_imagem": "imagens_salvas\\ERP-VW-N2124.jpg"
-    },
-    {
-        "codigo_erp": "ERP-VW-S23/25",
-        "descricao": "EMBLEMA SAVEIRO 2023/2025 ROBUST",
-        "caminho_imagem": "imagens_salvas\\ERP-VW-S2325.jpg"
-    },
-    {
-        "codigo_erp": "ERP-VW-TG1317",
-        "descricao": "EMBLEMA TIGUAN 2007/2012",
-        "caminho_imagem": "imagens_salvas\\ERP-VW-TG1317.jpg"
-    },
-    {
-        "codigo_erp": "ERP-CT-C32325",
-        "descricao": "EMBLEMA TAMPA TRASEIRA C3 2023/",
-        "caminho_imagem": "imagens_salvas\\ERP-CT-C32325.jpeg"
-    },
-    {
-        "codigo_erp": "ERP-PG1025-206/207",
-        "descricao": "EMBLEMA FRISO TAMPA TRASEIRA 206 207 HATCH CROMADO ESCRITO PEUGEOT / ACOMPANHA PRESILHAS",
-        "caminho_imagem": "imagens_salvas\\ERP-PG1025-206207.jpg"
-    },
-    {
-        "codigo_erp": "ERP-DF-FCS-005CR",
-        "descricao": "FRISO TAMPA TRASEIRA FORD FOCUS 09/13 HATCH CROMADO",
-        "caminho_imagem": "imagens_salvas\\ERP-DF-FCS-005CR.jpg"
-    },
-    {
-        "codigo_erp": "ERP-HD-FIT1523P",
-        "descricao": "FRISO TAMPA TRASEIRA HONDA FIT 2015/2022",
-        "caminho_imagem": "imagens_salvas\\ERP-HD-FIT1523P.jpeg"
-    },
-    {
-        "codigo_erp": "ERP-MB-08151933B",
-        "descricao": "EMBLEMA COMPLETO MERCEDES C180 C200 C300 15/ BLACKPIANO ( PRODUTO PADRÃO ORIGINAL ENCAIXE) BASE + EMBLEMA",
-        "caminho_imagem": "imagens_salvas\\ERP-MB-08151933B.jpeg"
-    },
-    {
-        "codigo_erp": "ERP-MB-08151933F",
-        "descricao": "EMBLEMA COMPLETO MERCEDES C180 C200 C300 15/ PRETO FOSCO ( PRODUTO PADRÃO ORIGINAL ENCAIXE) BASE + EMBLEMA",
-        "caminho_imagem": "imagens_salvas\\ERP-MB-08151933F.webp"
-    },
-    {
-        "codigo_erp": "ERP-MB-08151933",
-        "descricao": "EMBLEMA COMPLETO MERCEDES C180 C200 C300 GLA CLA 2015/2019 ( PRODUTO PADRÃO ORIGINAL ENCAIXE) BASE + EMBLEMA",
-        "caminho_imagem": "imagens_salvas\\ERP-MB-08151933.webp"
-    },
-    {
-        "codigo_erp": "ERP-MB-08/151932",
-        "descricao": "EMBLEMA MERCEDES C180 C200 C300 GLA CLA 2015/2019 SOMENTE ESTRELA CROMADA ( PRODUTO PADRÃO ORIGINAL ENCAIXE)",
-        "caminho_imagem": "imagens_salvas\\ERP-MB-08151932.webp"
-    },
-    {
-        "codigo_erp": "ERP-MB-08/151932F",
-        "descricao": "EMBLEMA MERCEDES C180 C200 C300 GLA CLA 2015/2019 SOMENTE ESTRELA PRETO FOSCO ( PRODUTO PADRÃO ORIGINAL ENCAIXE)",
-        "caminho_imagem": "imagens_salvas\\ERP-MB-08151932F.jpeg"
-    },
-    {
-        "codigo_erp": "ERP-MB-08/151932B",
-        "descricao": "EMBLEMA MERCEDES C180 C200 C300 GLA CLA 2015/2019 SOMENTE ESTRELA BLACKPIANO ( PRODUTO PADRÃO ORIGINAL ENCAIXE)",
-        "caminho_imagem": "imagens_salvas\\ERP-MB-08151932B.jpeg"
-    },
-    {
-        "codigo_erp": "ERP-FD-100093",
-        "descricao": "EMBLEMA GRADE F1000 93/97 UNIDADE",
-        "caminho_imagem": "imagens_salvas\\ERP-FD-100093.webp"
-    },
-    {
-        "codigo_erp": "ERP-F250-15014",
-        "descricao": "EMBLEMA GRADE F250 99/06 UNIDADE",
-        "caminho_imagem": "imagens_salvas\\ERP-F250-15014.webp"
-    },
-    {
-        "codigo_erp": "ERP-FD2500711",
-        "descricao": "EMBLEMA F250 2007/",
-        "caminho_imagem": "imagens_salvas\\ERP-FD2500711.webp"
-    },
-    {
-        "codigo_erp": "ERP-5L550042550AA",
-        "descricao": "EMBLEMA GRADE RANGER 2005/12 UNIDADE",
-        "caminho_imagem": "imagens_salvas\\ERP-5L550042550AA.webp"
-    },
-    {
-        "codigo_erp": "ERP-FD-33RN2022",
-        "descricao": "EMBLEMA RANGER 2013/2021",
-        "caminho_imagem": "imagens_salvas\\ERP-FD-33RN2022.webp"
-    },
-    {
-        "codigo_erp": "ERP-KPA1405002",
-        "descricao": "KIT PRESILHAS FRISO TRASEIRO 207 206 MODELO HATCH TODOS",
-        "caminho_imagem": "imagens_salvas\\ERP-KPA1405002.webp"
-    },
-    {
-        "codigo_erp": "ERP-HFC032010",
-        "descricao": "REPARO LIMITADOR PORTA HONDA FIT 2003 - 2008 KIT 4 PORTAS",
-        "caminho_imagem": "imagens_salvas\\ERP-HFC032010.webp"
-    },
-    {
-        "codigo_erp": "ERP-TC-032019",
-        "descricao": "REPARO LIMITADOR PORTA TOYOTA COROLLA 2003 ATÉ 2019 HILUX 2005 ATÉ 2015 LINHA PICKUP / SW4 KIT 4 PORTAS",
-        "caminho_imagem": "imagens_salvas\\ERP-TC-032019.webp"
-    },
-    {
-        "codigo_erp": "ERP-TCE-132010",
-        "descricao": "REPARO LIMITADOR PORTA TOYOTA ETIOS 2010 ATÉ 2024 TODOS OS MODELOS KIT 4 PORTAS",
-        "caminho_imagem": "imagens_salvas\\ERP-TCE-132010.webp"
-    },
-    {
-        "codigo_erp": "ERP-HD-0106",
-        "descricao": "REPARO LIMITADOR PORTA HONDA CIVIC 01/06 TODOS OS MODELOS KIT 4 PORTAS",
-        "caminho_imagem": "imagens_salvas\\ERP-HD-0106.webp"
-    },
-    {
-        "codigo_erp": "ERP-HD-0711NEW",
-        "descricao": "REPARO LIMITADOR PORTA HONDA NEW CIVIC 2007 ATÉ 2011 TODOS OS MODELOS KIT 4 PORTAS",
-        "caminho_imagem": "imagens_salvas\\ERP-HD-0711NEW.webp"
-    },
-    {
-        "codigo_erp": "ERP-HD-0913",
-        "descricao": "REPARO LIMITADOR PORTA HONDA CITY 2009/2013 HONDA NEW FIT 09/14 KIT 4 PORTAS",
-        "caminho_imagem": "imagens_salvas\\ERP-HD-0913.webp"
-    },
-    {
-        "codigo_erp": "ERP-HY-0919",
-        "descricao": "REPARO LIMITADOR PORTA HYUNDAI I30 09/12 HB20 TODOS 2010/2020 ELANTRA 09/15 IX35 08/19 KIT 4 PORTAS",
-        "caminho_imagem": "imagens_salvas\\ERP-HY-0919.webp"
-    },
-    {
-        "codigo_erp": "ERP-MIT-0719",
-        "descricao": "REPARO LIMITADOR PORTA MITSUBISHI TR4 2003/2015 L200 TRITON 07/17 PAJERO DAKAR 07/17 KIT 4 PORTAS",
-        "caminho_imagem": "imagens_salvas\\ERP-MIT-0719.webp"
-    },
-    {
-        "codigo_erp": "ERP-VW377103937",
-        "descricao": "TAMPA PARAFUSO MOTOR LINHA VW AUDI GOLF PARATI BORA JETTA AMAROK 1 PÇA UNIDADE",
-        "caminho_imagem": "imagens_salvas\\ERP-VW377103937"
-    },
-    {
-        "codigo_erp": "ERP-12594875",
-        "descricao": "KIT BUCHA CAPA MOTOR S10 2012/2014 / PODER SER COLOCADO TBM NO RESONADOR ONIX PRISMA SPIN",
-        "caminho_imagem": "imagens_salvas\\ERP-12594875.webp"
-    },
-    {
-        "codigo_erp": "ERP-REPAR6",
-        "descricao": "REPARO CILINDRO INTERNO RETROVISOR AMAROK TODAS 2010 - 2024 ( ESTE PRODUTO NÃO TEM LADO)",
-        "caminho_imagem": "imagens_salvas\\ERP-REPAR6.webp"
-    },
-    {
-        "codigo_erp": "ERP-HY-I30HLX",
-        "descricao": "BUCHA REPARO TRAMBULADOR I30 2009/ VELOSTER TODOS / HILUX 05/2015 / L200 TRITON 2007/2017",
-        "caminho_imagem": "imagens_salvas\\ERP-HY-I30HLX.webp"
-    },
-    {
-        "codigo_erp": "ERP-BUCHA1",
-        "descricao": "BUCHA REPARO TRAMBULADOR CABO SELETOR MARCHA MANUAL GOLF JETTA BORA AMAROK",
-        "caminho_imagem": "imagens_salvas\\ERP-BUCHA1.webp"
-    },
-    {
-        "codigo_erp": "ERP-VW2-1J0711266",
-        "descricao": "BUCHA REPARO TRAMBULADOR CABO SELETOR MARCHA AUTOMATICO GOLF JETTA BORA AMAROK",
-        "caminho_imagem": "imagens_salvas\\ERP-VW2-1J0711266.webp"
-    },
-    {
-        "codigo_erp": "ERP-DF-TY2-155",
-        "descricao": "DEFLEOTR INFERIOR PARACHOQUE COROLLA 2003/2008",
-        "caminho_imagem": "imagens_salvas\\ERP-DF-TY2-155.webp"
-    },
-    {
-        "codigo_erp": "ERP-51451-02220",
-        "descricao": "DEFLETOR INFERIOR PARACHOQUE COROLLA 2019/2024",
-        "caminho_imagem": "imagens_salvas\\ERP-51451-02220.webp"
-    },
-    {
-        "codigo_erp": "ERP-5144102370",
-        "descricao": "DEFLETOR INFERIOR PARACHOQUE COROLLA 2009/2014 DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-5144102370.webp"
-    },
-    {
-        "codigo_erp": "ERP-5144102380",
-        "descricao": "DEFLETOR INFERIOR PARACHOQUE COROLLA 2009/2014 ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-5144102380.webp"
-    },
-    {
-        "codigo_erp": "ERP-HONDA0612X",
-        "descricao": "DEFLETOR INFERIOR PARACHOQUE CIVIC 2012/ 2015",
-        "caminho_imagem": "imagens_salvas\\ERP-HONDA0612X.webp"
-    },
-    {
-        "codigo_erp": "ERP-HONDA0611X",
-        "descricao": "DEFLETOR INFERIOR PARACHOQUE CIVIC 2007/2011",
-        "caminho_imagem": "imagens_salvas\\ERP-HONDA0611X.webp"
-    },
-    {
-        "codigo_erp": "ERP-PC12123R",
-        "descricao": "PISCA RETROVISOR COROLLA 2015/2019 DIREITO UNIDADE",
-        "caminho_imagem": "imagens_salvas\\ERP-PC12123R.webp"
-    },
-    {
-        "codigo_erp": "ERP-PC12123L",
-        "descricao": "PISCA RETROVISOR COROLLA 2015/2019 ESQUERDO UNIDADE",
-        "caminho_imagem": "imagens_salvas\\ERP-PC12123R.webp"
-    },
-    {
-        "codigo_erp": "ERP-PC12122R",
-        "descricao": "PISCA RETROVISOR RANGER 2013/2021 DIREITO UNIDADE",
-        "caminho_imagem": "imagens_salvas\\ERP-PC12122R.webp"
-    },
-    {
-        "codigo_erp": "ERP-PC12122L",
-        "descricao": "PISCA RETROVISOR RANGER 2013/2021 ESQUERDO UNIDADE",
-        "caminho_imagem": "imagens_salvas\\ERP-PC12122L.webp"
-    },
-    {
-        "codigo_erp": "ERP-PC12123-LENSR",
-        "descricao": "LENTE PISCA RETROVISOR COROLLA 2015/2019 DIREITO UNIDADE",
-        "caminho_imagem": "imagens_salvas\\ERP-PC12123-LENSR.webp"
-    },
-    {
-        "codigo_erp": "ERP-PC12123-LENSL",
-        "descricao": "LENTE PISCA RETROVISOR COROLLA 2015/2019 ESQUERDO UNIDADE",
-        "caminho_imagem": "imagens_salvas\\ERP-PC12123-LENSL.webp"
-    },
-    {
-        "codigo_erp": "ERP-PC12122-LENSR",
-        "descricao": "LENTE PISCA RETROVISOR RANGER 2013/2021 DIREITO UNIDADE",
-        "caminho_imagem": "imagens_salvas\\ERP-PC12122-LENSR.webp"
-    },
-    {
-        "codigo_erp": "ERP-PC12122-LENSL",
-        "descricao": "LENTE PISCA RETROVISOR RANGER 2013/2021 ESQUERDO UNIDADE",
-        "caminho_imagem": "imagens_salvas\\ERP-PC12122-LENSL.webp"
-    },
-    {
-        "codigo_erp": "ERP-FT0519R",
-        "descricao": "LENTE PISCA SETA RETROVISOR STRADA IDEA ADV PALIO WEEK 2005/2015 ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-FT0519R.webp"
-    },
-    {
-        "codigo_erp": "ERP-FT0519L",
-        "descricao": "LENTE PISCA SETA RETROVISOR STRADA IDEA ADV PALIO WEEK 2005/2015 DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-FT0519L.webp"
-    },
-    {
-        "codigo_erp": "ERP-FT26365L",
-        "descricao": "LENTE PISCA SETA RETROVISOR FIAT STILO 08 A 12 ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-FT26365L.webp"
-    },
-    {
-        "codigo_erp": "ERP-FT26366R",
-        "descricao": "LENTE PISCA SETA RETROVISOR FIAT STILO 08 A 12 DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-FT26366R.webp"
-    },
-    {
-        "codigo_erp": "ERP-349796DIR",
-        "descricao": "LENTE DO PISCA RETROVISOR SANTA FÉ VERA CRUZ 2008/2012 DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-349796DIR.webp"
-    },
-    {
-        "codigo_erp": "ERP-349796ESQ",
-        "descricao": "LENTE DO PISCA RETROVISOR SANTA FÉ VERA CRUZ 2008/2012 ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-349796ESQ.webp"
-    },
-    {
-        "codigo_erp": "ERP-EMBLE9",
-        "descricao": "EMBLEMA GRADE NEW FIT 09",
-        "caminho_imagem": "imagens_salvas\\ERP-EMBLE9.webp"
-    },
-    {
-        "codigo_erp": "ERP-32HDF0711CVCDIR",
-        "descricao": "LENTE FAROL NEW CIVIC 2007/11 MODELO VALEO DIREITO",
-        "caminho_imagem": "imagens_salvas\\ERP-32HDF0711CVCDIR.webp"
-    },
-    {
-        "codigo_erp": "ERP-32HDF0711CVCESQ",
-        "descricao": "LENTE FAROL NEW CIVIC 2007/11 MODELO VALEO ESQUERDO",
-        "caminho_imagem": "imagens_salvas\\ERP-32HDF0711CVCESQ.webp"
-    },
-    {
-        "codigo_erp": "ERP-CA420592",
-        "descricao": "Pisante traseira L200 triton 2007/2015",
-        "caminho_imagem": "imagens_salvas\\ERP-CA420592.jpeg"
-    },
-     {
-        "codigo_erp": "ERP-CA420591",
-        "descricao": "Pisante traseira L200 triton 2007/2015",
-        "caminho_imagem": "imagens_salvas\\ERP-CA420591.jpeg"
-    },
-     {
-        "codigo_erp": "ERP-9L5517B968",
-        "descricao": "Grade inferior ranger 2009/2012 colmeia",
-        "caminho_imagem": "imagens_salvas\\ERP-9L5517B968.jpeg"
-    },
-     {
-        "codigo_erp": "ERP-FD-K15",
-        "descricao": "Grade inferior ranger 2009/2012 colmeia",
-        "caminho_imagem": "imagens_salvas\\ERP-FD-K15.jpeg"
-    },
-    {
-        "codigo_erp": "ERP-FD-K8F0810",
-        "descricao": "Grade inferior ranger 2009/2012 colmeia",
-        "caminho_imagem": "imagens_salvas\\ERP-FD-K8F0810.jpeg"
-    }
+  {
+    "codigo_erp": "ERP-1JE121207",
+    "descricao": "DEFLETOR RADIADOR VENTOINHA VW G6 G7 G8 POLO 07/ SAVEIRO ROBUST POLO TRACK GOLF 08/13 FOX CROSSFOX SPACEFOX C/ AR",
+    "caminho_imagem": "imagens_salvas\\ERP-1JE121207.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-5352310512-defletor-da-ventoinha-fox-gol-voyage-saveiro-2009-2021-car-_JM?searchVariation=183365329614#polycard_client=search-nordic&searchVariation=183365329614&search_layout=stack&position=5&type=item&tracking_id=6d50b924-9c0d-4532-8a7a-291cbb01bb8e"
+  },
+  {
+    "codigo_erp": "ERP-C3-9834891477",
+    "descricao": "FRISO CROMADO PARACHOQUE C3 2008/2012 UNIDADE",
+    "caminho_imagem": "imagens_salvas\\ERP-C3-9834891477.jpeg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/up/MLBU3165260296?pdp_filters=item_id:MLB3694875109&matt_tool=38524122#origin=share&sid=share&wid=MLB3694875109&action=whatsapp"
+  },
+  {
+    "codigo_erp": "ERP-C4-CR0713",
+    "descricao": "FRISO CROMADO CAPO CITROEN C4 PALLAS HATCH SENDA VTR 07/13",
+    "caminho_imagem": "imagens_salvas\\ERP-C4-CR0713.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2049109791-aplique-friso-cromado-capo-citroen-c4-pallas-hatch-sedan-vtr-_JM#polycard_client=search-nordic&position=8&search_layout=stack&type=item&tracking_id=02180311-550a-4ac1-9acd-e1b15b6e056e"
+  },
+  {
+    "codigo_erp": "ERP-FT-L13RC",
+    "descricao": "FRISO CROMADO PARACHOQUE TRASEIRO LINEA 2008 á 2018 DIREITO CROMADO",
+    "caminho_imagem": "imagens_salvas\\ERP-FT-L13RC.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3788412889-friso-parachoque-traseiro-fiat-linea-2008-2009-2010-a-2016-_JM?searchVariation=183828176315#polycard_client=search-nordic&searchVariation=183828176315&search_layout=stack&position=19&type=item&tracking_id=063c0b7e-d8cc-4a6f-9c72-dccfb4046f6f"
+  },
+  {
+    "codigo_erp": "ERP-FT-L13LC",
+    "descricao": "FRISO CROMADO PARACHOQUE TRASEIRO LINEA 2008 á 2016 ESQUERDO CROMADO",
+    "caminho_imagem": "imagens_salvas\\ERP-FT-L13LC.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3788412889-friso-parachoque-traseiro-fiat-linea-2008-2009-2010-a-2016-_JM?searchVariation=183828176315#polycard_client=search-nordic&searchVariation=183828176315&search_layout=stack&position=19&type=item&tracking_id=063c0b7e-d8cc-4a6f-9c72-dccfb4046f6f"
+  },
+  {
+    "codigo_erp": "ERP-308FT12/R",
+    "descricao": "FRISO MOLDURA TRASEIRA DO ESCAPAMENTO PEUGEOT 308 2012/2015 LADO DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP-308FT12R.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-5298543404-friso-moldura-cromada-escapamento-peugeot-308-2012-a-19-par-_JM?searchVariation=182988801838#polycard_client=search-nordic&searchVariation=182988801838&position=4&search_layout=stack&type=item&tracking_id=6838e5a5-9850-4110-990b-4996e6b11902"
+  },
+  {
+    "codigo_erp": "ERP-308FT12/L",
+    "descricao": "FRISO MOLDURA TRASEIRA DO ESCAPAMENTO PEUGEOT 308 2012/2015 LADO ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP-308FT12L.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-5063826104-aplique-moldura-escapamento-parachoque-traseiro-308-cromado-_JM?searchVariation=184902640783#polycard_client=search-nordic&searchVariation=184902640783&position=40&search_layout=stack&type=item&tracking_id=7c54ec28-821c-4b27-bf3f-6d1252d6784f"
+  },
+  {
+    "codigo_erp": "ERP-PC-12124",
+    "descricao": "CALÇO SUSPENSÃO LINHA GM CORSA MONTANA 2003/2022 KIT 2 PÇS 3CM",
+    "caminho_imagem": "imagens_salvas\\ERP-PC-12124.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-5321106782-calco-para-elevaco-mola-dianteira-corsa-montana-agile-03-22-_JM#polycard_client=search-nordic&position=6&search_layout=stack&type=item&tracking_id=6d7873ce-f62f-4ed5-b52b-4956d9df297f&wid=MLB5321106782&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-PC-12125",
+    "descricao": "CALÇO SUSPENSÃO LINHA FIAT PALIO STRADA SIENA DOBLO 2004/ KIT 2 PÇS 3CM",
+    "caminho_imagem": "imagens_salvas\\ERP-PC-12125.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/kit-calco-suspensao-palio-strada-siena-doblo-siena/up/MLBU3078541859"
+  },
+  {
+    "codigo_erp": "ERP-388-hdc198",
+    "descricao": "CAPA RETROVISOR CIVIC 12/2016 SEM FURO PISCA ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP-388-hdc198.png",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-5170830026-capa-retrovisor-civic-2012-13-14-15-2016-sem-furo-pisca-_JM?searchVariation=186003835297#is_advertising=true&searchVariation=186003835297&position=16&search_layout=stack&type=pad&tracking_id=0721a3c1-f24e-4fd5-ac10-e723d91920f1&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=16&ad_click_id=OWY2NDRiODQtNGMzOS00MGU0LTk4MzktMGMyYmUzN2NkOTA5"
+  },
+  {
+    "codigo_erp": "ERP-388-hdc197",
+    "descricao": "CAPA RETROVISOR CIVIC 12/2016 SEM FURO PISCA DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP-388-hdc197.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-5218263536-par-de-capa-espelho-retrovisor-civic-2012-13-14-15-16-sfuro-_JM#polycard_client=search-nordic&position=14&search_layout=stack&type=item&tracking_id=4baaf022-85d9-45c8-9d32-e4b7e2ad9841"
+  },
+  {
+    "codigo_erp": "ERP-12X2",
+    "descricao": "CAPA RETROVISOR CIVIC 12/2016  COM FURO PISCA ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP-12X2.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3590363565-capa-retrovisor-civic-2012-2013-2014-2015-2016-preto-_JM?searchVariation=179811572302#polycard_client=search-nordic&searchVariation=179811572302&position=8&search_layout=stack&type=item&tracking_id=780346a6-8b58-46e6-bd33-7983890f2675"
+  },
+  {
+    "codigo_erp": "ERP-12X1",
+    "descricao": "CAPA RETROVISOR CIVIC 12/2016  COM FURO PISCA DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP-12X1.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3829094728-par-de-capa-do-espelho-retrovisor-civic-2012-13-14-15-2016-_JM#is_advertising=true&position=2&search_layout=stack&type=pad&tracking_id=b903488a-0c56-4468-af8e-72f3b0e102e8&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=2&ad_click_id=MTlkMmJlYjUtNTI4ZC00OGU3LWEwYzMtYmE3ODgyOThlMzk5"
+  },
+  {
+    "codigo_erp": "ERP-19762",
+    "descricao": "PUXADOR INTERNO CAPO AMAROK 2010/2025 TODAS",
+    "caminho_imagem": "imagens_salvas\\ERP-19762.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2783142393-puxador-manopla-interno-abertura-capo-vw-amarok-touareg-_JM#is_advertising=true&position=2&search_layout=stack&type=pad&tracking_id=6fa14ef0-ec79-4d22-9a29-5729b70d0c01&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=2&ad_click_id=NjllMTM4NWItYTc0My00MzMxLTljYzctZmU3Nzk3ZGVmNjAx"
+  },
+  {
+    "codigo_erp": "ERP-7L0823633H",
+    "descricao": "PUXADOR SUPORTE CAPO AMAROK 2010/2025 TODAS",
+    "caminho_imagem": "imagens_salvas\\ERP-7L0823633H.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2782036869-suporte-puxador-interno-capo-vw-amarok-touareg-7l0823633h-_JM#is_advertising=true&position=1&search_layout=stack&type=pad&tracking_id=ceb8c415-f3de-4d81-a514-f6c611061b6f&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=ZjI3NzRkODAtMmMyMy00NzFhLThhOGItOTRkNjZmM2YwMmMz"
+  },
+  {
+    "codigo_erp": "ERP-HY-3506184",
+    "descricao": "PUXADOR PINO BANCO TRASEIRO CRETA 2017/2021 UNIDADE",
+    "caminho_imagem": "imagens_salvas\\ERP-HY-3506184.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/pino-do-rebatimento-banco-traseiro-hyundai-creta-original/up/MLBU3804065433#polycard_client=search-desktop&search_layout=grid&position=11&type=product&tracking_id=8d398648-2acb-4308-b26c-b79535e5835b&wid=MLB4484286239&sid=search"
+  },
+  {
+    "codigo_erp": "EM BREVE",
+    "descricao": "PUXADOR PINO BANCO TRASEIRO GOLF 99/2014 DIREITO",
+    "caminho_imagem": "EM BREVE.png"
+  },
+  {
+    "codigo_erp": "EM BREVE",
+    "descricao": "PUXADOR PINO BANCO TRASEIRO GOLF 99/2014 ESQUERDO",
+    "caminho_imagem": "EM BREVE.png"
+  },
+  {
+    "codigo_erp": "ERP-6EA837114X",
+    "descricao": "KIT GATILHO PUXADOR PORTA P/4 PORTAS POLO TCROSS NIVUS VIRTUS",
+    "caminho_imagem": "imagens_salvas\\ERP-6EA837114X.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3352515271-kit-gatilho-macaneta-interna-polo-virtus-t-cross-2018-19-20-_JM?searchVariation=178026286128#is_advertising=true&searchVariation=178026286128&backend_model=search-backend&position=2&search_layout=stack&type=pad&tracking_id=4bea9656-c380-4f14-9f14-65f77ff4b593&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=2&ad_click_id=NWI4YzczMWItMGVmNS00ZjgzLWE5MDktMjZhNTk4NWMyZmFl"
+  },
+  {
+    "codigo_erp": "ERP-6Q0885644DIR",
+    "descricao": "TRAVA PUXADOR BANCO TRASEIRO POLO 2003 ATÉ 2015 DIREITO PASSAGEIRO",
+    "caminho_imagem": "imagens_salvas\\ERP-6Q0885644DIR.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-4579376192-puxador-trava-banco-traseiro-polo-2003-a-2015-original-par-_JM#position=3&search_layout=stack&type=item&tracking_id=b7f1134b-de16-4712-90c9-4d14ff642e62"
+  },
+  {
+    "codigo_erp": "ERP-6Q088564EESQ",
+    "descricao": "TRAVA PUXADOR BANCO TRASEIRO POLO 2003 ATÉ 2015 ESQUERDO PASSAGEIRO",
+    "caminho_imagem": "imagens_salvas\\ERP-6Q088564EESQ.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-4579376192-puxador-trava-banco-traseiro-polo-2003-a-2015-original-par-_JM#position=3&search_layout=stack&type=item&tracking_id=b7f1134b-de16-4712-90c9-4d14ff642e62"
+  },
+  {
+    "codigo_erp": "ERP-TY-A10005D",
+    "descricao": "GRADE MILHA COROLLA 2005/2008 DIREITO ( TAPA BURACO)",
+    "caminho_imagem": "imagens_salvas\\ERP-TY-A10005D.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-1335796823-grade-moldura-milha-corolla-2005-2006-2007-2008-sem-furo-_JM#position=6&search_layout=stack&type=item&tracking_id=fc896fd8-c050-474d-865d-a6a5e0ed67c3"
+  },
+  {
+    "codigo_erp": "ERP-TY-A10005E",
+    "descricao": "GRADE MILHA COROLLA 2005/2008 ESQUERDO ( TAPA BURACO)",
+    "caminho_imagem": "imagens_salvas\\ERP-TY-A10005E.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-1335796823-grade-moldura-milha-corolla-2005-2006-2007-2008-sem-furo-_JM#position=6&search_layout=stack&type=item&tracking_id=fc896fd8-c050-474d-865d-a6a5e0ed67c3"
+  },
+  {
+    "codigo_erp": "ERP-H13R",
+    "descricao": "GUIA PARACHOQUE DIANTEIRO HR 2013/2024 DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP-H13R.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3894685153-par-guia-parachoque-hyundai-hr-2006-2007-2013-2020-novo-nfe-_JM#polycard_client=search-nordic&position=10&search_layout=stack&type=item&tracking_id=0d9ed7af-6c99-4ffb-ac7f-f8e064883a59&wid=MLB3894685153&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-HR13L",
+    "descricao": "GUIA PARACHOQUE DIANTEIRO HR 2013/2024 ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP-HR13L.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3894685153-par-guia-parachoque-hyundai-hr-2006-2007-2013-2020-novo-nfe-_JM#polycard_client=search-nordic&position=10&search_layout=stack&type=item&tracking_id=0d9ed7af-6c99-4ffb-ac7f-f8e064883a59&wid=MLB3894685153&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-51117279712",
+    "descricao": "GUIA PARACHOQUE DIANTEIRO BMW S3 2012 ATÉ 2019 ( TODOS OS MODELOS) DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP-51117279712.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-4374159422-suporte-guia-parachoque-dianteiro-bmw-320-328-f30-2012-a-18-_JM#position=4&search_layout=stack&type=item&tracking_id=c3753b30-5732-4fc4-9368-129fc8e4cf1b"
+  },
+  {
+    "codigo_erp": "ERP-51117279711",
+    "descricao": "GUIA PARACHOQUE DIANTEIRO BMW S3 2012 ATÉ 2019 ( TODOS OS MODELOS) ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP-51117279711.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-4374159422-suporte-guia-parachoque-dianteiro-bmw-320-328-f30-2012-a-18-_JM#position=4&search_layout=stack&type=item&tracking_id=c3753b30-5732-4fc4-9368-129fc8e4cf1b"
+  },
+  {
+    "codigo_erp": "ERP-FR10/12R",
+    "descricao": "GUIA PARACHOQUE DIANTEIRO RANGER 2010/2012 DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP-FR1012R.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3262326277-par-guia-parachoque-dianteiro-ranger-2009-2010-2011-2012-_JM#polycard_client=search-nordic&position=29&search_layout=stack&type=item&tracking_id=828f71bc-baa6-41fc-837b-23e26b14a299&wid=MLB3262326277&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-FR10/12L",
+    "descricao": "GUIA PARACHOQUE DIANTEIRO RANGER 2010/2012 ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP-FR1012L.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3262326277-par-guia-parachoque-dianteiro-ranger-2009-2010-2011-2012-_JM#polycard_client=search-nordic&position=29&search_layout=stack&type=item&tracking_id=828f71bc-baa6-41fc-837b-23e26b14a299&wid=MLB3262326277&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-RN-0814R",
+    "descricao": "GUIA DIANTEIRO SANDERO 2008/2014 DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP-RN-0814R.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2022833639-guia-parachoque-dianteiro-sandero-2007-2008-2009-10-a-2014-_JM?searchVariation=173655947626#is_advertising=true&searchVariation=173655947626&backend_model=search-backend&position=2&search_layout=stack&type=pad&tracking_id=9f4940d5-8c4d-494c-877e-8a129b525ea3&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=2&ad_click_id=ZTEzOGZkOWQtOGY2OS00NmRlLWI3MGUtOTNhNzVlMTRmNjdm"
+  },
+  {
+    "codigo_erp": "ERP-RN-0814L",
+    "descricao": "GUIA DIANTEIRO SANDERO 2008/2014 ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP-RN-0814L.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2022833639-guia-parachoque-dianteiro-sandero-2007-2008-2009-10-a-2014-_JM?searchVariation=173655947626#is_advertising=true&searchVariation=173655947626&backend_model=search-backend&position=2&search_layout=stack&type=pad&tracking_id=9f4940d5-8c4d-494c-877e-8a129b525ea3&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=2&ad_click_id=ZTEzOGZkOWQtOGY2OS00NmRlLWI3MGUtOTNhNzVlMTRmNjdm"
+  },
+  {
+    "codigo_erp": "ERP-FD-FS06/09R",
+    "descricao": "GUIA PARACHOQUE DIANTEIRO FUSION 06/09 DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP-FD-FS0609R.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/par-guia-suporte-parachoque-ford-fusion-2006-07-08-2009/up/MLBU1093829738?pdp_filters=item_id:MLB1342405976#wid=MLB1342405976&sid=search&is_advertising=true&searchVariation=MLBU1093829738&backend_model=search-backend&position=1&search_layout=stack&type=pad&tracking_id=858980de-1ced-47a1-ad6d-ff8b5bfe711c"
+  },
+  {
+    "codigo_erp": "ERP-FD-FS06/09L",
+    "descricao": "GUIA PARACHOQUE DIANTEIRO FUSION 06/09 ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP-FD-FS0609L.jpeg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/par-guia-suporte-parachoque-ford-fusion-2006-07-08-2009/up/MLBU1093829738?pdp_filters=item_id:MLB1342405976#wid=MLB1342405976&sid=search&is_advertising=true&searchVariation=MLBU1093829738&backend_model=search-backend&position=1&search_layout=stack&type=pad&tracking_id=858980de-1ced-47a1-ad6d-ff8b5bfe711c"
+  },
+  {
+    "codigo_erp": "ERP-FD-FS10/12R",
+    "descricao": "GUIA PARACHOQUE DIANTEIRO FUSION 10/12 DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP-FD-FS1012R.jpeg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/guia-suporte-parachoque-dianteiro-fusion-2009-10-2011-2012/up/MLBU1125210864#polycard_client=search-nordic&wid=MLB3279517821&search_layout=stack&position=9&type=product&tracking_id=b84c3120-227d-409f-bc12-248d1ef8b31f&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-FD-FS10/12L",
+    "descricao": "GUIA PARACHOQUE DIANTEIRO FUSION 10/12 ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP-FD-FS1012L.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/guia-suporte-parachoque-dianteiro-fusion-2009-10-2011-2012/up/MLBU1125210864#polycard_client=search-nordic&wid=MLB3279517821&search_layout=stack&position=9&type=product&tracking_id=b84c3120-227d-409f-bc12-248d1ef8b31f&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-VW-AMK33120R",
+    "descricao": "GUIA SUPORTE MILHA AMAROK 2018/ DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP-VW-AMK33120R.jpeg.jpeg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3554382585-suporte-farol-milha-amarok-2018-2019-2020-21-2023-2024-novo-_JM"
+  },
+  {
+    "codigo_erp": "ERP-VW-AMK33120L",
+    "descricao": "GUIA SUPORTE MILHA AMAROK 2018/ ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP-VW-AMK33120L.jpeg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3554382585-suporte-farol-milha-amarok-2018-2019-2020-21-2023-2024-novo-_JM"
+  },
+  {
+    "codigo_erp": "ERP-HD-09/14FC",
+    "descricao": "BUCHA REPARO CAIXA DIREÇÃO HONDA NEW FIT 2009/2014",
+    "caminho_imagem": "imagens_salvas\\ERP-HD-0914FC.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3673508073-bucha-reparo-caixa-direco-honda-new-fit-2009-a-2014-nova-_JM"
+  },
+  {
+    "codigo_erp": "ERP-HD-09/14EC",
+    "descricao": "BUCHA REPARO CAIXA DIREÇÃO HONDA CITY 2009/2014",
+    "caminho_imagem": "imagens_salvas\\ERP-HD-0914EC.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3673509005-bucha-reparo-caixa-direco-honda-city-2009-a-2014-novo-_JM"
+  },
+  {
+    "codigo_erp": "ERP-VW14/18SF",
+    "descricao": "BUCHA REPARO CAIXA DIREÇÃO FOX SPACEFOX 2014/2017",
+    "caminho_imagem": "imagens_salvas\\ERP-VW1418SF.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3673864257-bucha-reparo-caixa-direco-fox-spacefox-2014-15-16-2017-novo-_JM"
+  },
+  {
+    "codigo_erp": "ERP-VW14/24PV",
+    "descricao": "BUCHA REPARO CAIXA DIREÇÃO POLO 2015/2019",
+    "caminho_imagem": "imagens_salvas\\ERP-VW1424PV.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3673789143-bucha-reparo-caixa-direco-polo-2015-2016-2017-18-2019-novo-_JM"
+  },
+  {
+    "codigo_erp": "ERP-1211618",
+    "descricao": "PAR BUCHA BARRA ESTABILIZADORA TRASEIRA FUSION 2012/2018",
+    "caminho_imagem": "imagens_salvas\\ERP-1211618.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-4645795952-par-bucha-barra-estabilizadora-traseira-fusion-20-2012-2018-_JM"
+  },
+  {
+    "codigo_erp": "ERP-1211612",
+    "descricao": "PAR BUCHA BARRA ESTABILIZADORA TRASEIRA FUSION 2010/2012",
+    "caminho_imagem": "imagens_salvas\\ERP-1211612.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-4645806440-par-bucha-barra-estabilizadora-traseira-fusion-2010-11-2012-_JM"
+  },
+  {
+    "codigo_erp": "ERP-12116",
+    "descricao": "PAR BUCHA BARRA ESTABILIZADORA TRASEIRA FUSION 2006/2009",
+    "caminho_imagem": "imagens_salvas\\ERP-12116.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-4645759742-par-bucha-barra-estabilizadora-traseira-fusion-2006-07-08-09-_JM"
+  },
+  {
+    "codigo_erp": "ERP-MT-ASX10/19B",
+    "descricao": "PAR BUCHA BARRA ESTABILIZADORA TRASEIRA ASX 2010/2019",
+    "caminho_imagem": "imagens_salvas\\ERP-MT-ASX1019B.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3676313949-par-bucha-barra-estabilizadora-traseira-asx-2010-a-2019-novo-_JM"
+  },
+  {
+    "codigo_erp": "ERP-MT-LC10/19S",
+    "descricao": "PAR BUCHA BARRA ESTABILIZADORA TRASEIRA LANCER 2010/2019",
+    "caminho_imagem": "imagens_salvas\\ERP-MT-LC1019S.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3676328643-par-bucha-barra-estabilizadora-lancer-20-2010-a-2019-nfe-_JM"
+  },
+  {
+    "codigo_erp": "ERP-MT-OT0710S",
+    "descricao": "PAR BUCHA BARRA ESTABILIZADORA TRASEIRA OUTLANDER  2007/2010",
+    "caminho_imagem": "imagens_salvas\\ERP-MT-OT0710S.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3676355467-par-bucha-barra-estabilizadora-traseira-outlander-2007-2010-_JM"
+  },
+  {
+    "codigo_erp": "ERP-93249089",
+    "descricao": "BUCHA DO GUIA DO PARACHOQUE DIANTEIRO S10 BLAZER 93249089 O PAR",
+    "caminho_imagem": "imagens_salvas\\ERP-93249089.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/bucha-do-guia-parachoque-dianteiro-s10-blazer-93249089-o-par/up/MLBU3525251291"
+  },
+  {
+    "codigo_erp": "ERP-32876-4B000",
+    "descricao": "BUCHA BATENTE SENSOR PEDAL FREIO LINHA HYUNDAI UNIDADE",
+    "caminho_imagem": "imagens_salvas\\ERP-32876-4B000.png",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/bucha-batente-sensor-pedal-freio-hyundai-santa-fe-original/up/MLBU3532215857"
+  },
+  {
+    "codigo_erp": "ERP-13886",
+    "descricao": "PAR BUCHA PEDAL FREIO / EMBREAGEM TOYOTA HILUX COROLLA ETIOS",
+    "caminho_imagem": "imagens_salvas\\ERP-13886.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/par-bucha-pedal-freio--embreagem-toyota-hilux-corolla-etios/up/MLBU3552281789"
+  },
+  {
+    "codigo_erp": "ERP-PC14969",
+    "descricao": "PAR BATENTE BUCHA DO SENSOR PEDAL LUZ FREIO E EMBREAGEM LINHA NISSAN",
+    "caminho_imagem": "imagens_salvas\\ERP-PC14969.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/2-batente-bucha-do-pedal-luz-freio-e-embreagem-tiida-0418/up/MLBU1729243722#polycard_client=search-nordic&search_layout=stack&position=57&type=product&tracking_id=ee4a5f91-8ae4-4c3d-a600-7faceab0a5fe&wid=MLB3188637321&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-PC14968",
+    "descricao": "COXIM INFERIOR DO RADIADOR HYUNDAI HB20 2012/2025 253361s000  KIT O PAR",
+    "caminho_imagem": "imagens_salvas\\ERP-PC14968.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/par-coxim-inferior-do-radiador-hyundai-hb20-2012-253361s000/up/MLBU3543129912#polycard_client=search-desktop&search_layout=stack&position=6&type=product&tracking_id=4477877d-3b8a-44bd-938c-f15538be010c&wid=MLB5902658116&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-PC14968-EL",
+    "descricao": "COXIM INFERIOR DO RADIADOR HYUNDAI ELANTRA 2011 A 2018 KIT O PAR",
+    "caminho_imagem": "imagens_salvas\\ERP-PC14968-EL.png"
+  },
+  {
+    "codigo_erp": "ERP-PC14968-VLS",
+    "descricao": "COXIM INFERIOR DO RADIADOR HYUNDAI VELOSTER KIT O PAR",
+    "caminho_imagem": "imagens_salvas\\ERP-PC14968-VLS.png"
+  },
+  {
+    "codigo_erp": "ERP-PC14971",
+    "descricao": "COXIM BATENTE CAPO ONIX PRISMA COBALT SPIN CRUZE TRACKER GM UNIDADE",
+    "caminho_imagem": "imagens_salvas\\ERP-PC14971.webp",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/coxim-batente-capo-onix-prisma-cobalt-spin-cruze-gm/up/MLBU1151681761#polycard_client=search-nordic&search_layout=stack&position=21&type=product&tracking_id=69fc1ac6-cbaf-4162-8c60-70d2b0f8bfe5&wid=MLB3728384798&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-PC14973",
+    "descricao": "COXIM BATENTE DO CAPO DO MOTOR HONDA FIT 2015/2025 CITY 2015/2025 O PAR",
+    "caminho_imagem": "imagens_salvas\\ERP-PC14973.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/par-coxim-batente-do-capo-do-motor-honda-city-2015-a-2023/up/MLBU1457218494#polycard_client=search-nordic&search_layout=stack&position=4&type=product&tracking_id=51165bdf-50d4-4626-bbd4-5419a8283c0f&wid=MLB3693433886&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-PC14974",
+    "descricao": "COXIM BATENTE DO CAPO DO MOTOR HONDA NEW CIVIC 06/11 FIT CIVIC HRV CRV CITY ACCORD ATÉ 2014 TODOS OS MODELOS UNIDADE",
+    "caminho_imagem": "imagens_salvas\\ERP-PC14974.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-4332186701-coxim-batente-do-capo-do-motor-honda-city-2009-ate-2014-_JM#is_advertising=true&backend_model=search-backend&position=6&search_layout=stack&type=pad&tracking_id=37609f19-d6ce-40b8-93a4-4abdaf245ea4&ad_domain=VQCATCORE_LST&ad_position=6&ad_click_id=YmVlZDYyZTUtOTZiNi00Y2RhLThlMmMtZWI2NDNhOGQyNjM2"
+  },
+  {
+    "codigo_erp": "8M51F17K922",
+    "descricao": "TAMPA REBOQUE TRASEIRA FORD FOCUS SEDAN 2009 2010 2012 2013'",
+    "caminho_imagem": "imagens_salvas\\8M51F17K922.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2013589037-tampa-reboque-traseira-ford-focus-sedan-2009-2010-2012-2013-_JM"
+  },
+  {
+    "codigo_erp": "ERP-VW-38952019",
+    "descricao": "TAMPA REBOQUE DIANTEIRA AMAROK 2018/ GRANDE",
+    "caminho_imagem": "imagens_salvas\\ERP-VW-38952019.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/tampa-gancho-reboque-parachoque-amarok-2018-a-22-2h6807155a/up/MLBU733895787"
+  },
+  {
+    "codigo_erp": "ERP-VW06028097",
+    "descricao": "TAMPA REBOQUE DIANTEIRA AMARO 2010/17 PEQUENA",
+    "caminho_imagem": "imagens_salvas\\ERP-VW06028097.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3872193937-tampa-reboque-parachoque-amarok-pintada-branca-2010-a-2016-_JM#polycard_client=search-nordic&position=22&search_layout=stack&type=item&tracking_id=02c4783f-95bc-4ef5-a0ac-e58a50e9fd50&wid=MLB3872193937&sid=search"
+  },
+  {
+    "codigo_erp": "5C6807287",
+    "descricao": "SUPORTE PLACA JETTA 2011/2023 ( PODE SER ADAPTADOR NA TIGUAN 2009/2017) PRODUTO PADRÃO ORIGINAL",
+    "caminho_imagem": "imagens_salvas\\5C6807287.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/suporte-moldura-placa-jetta-2011-12-13-14-a-16-19-20-21-2022/p/MLB60927204?pdp_filters=item_id:MLB4282159099#is_advertising=true&searchVariation=MLB60927204&backend_model=search-backend&position=1&search_layout=grid&type=pad&tracking_id=d7e6a34a-e684-4e36-8614-08ddca3a7c0c&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=ZGRmY2M5NmMtOGZjOC00ODljLWJlNzUtOTVjNWI4ZDAwNzQy"
+  },
+  {
+    "codigo_erp": "5NN807287B",
+    "descricao": "SUPORTE PLACA TIGUAN 2018/2024",
+    "caminho_imagem": "imagens_salvas\\5NN807287B.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2616141519-suporte-moldura-placa-tiguan-2017-2018-2019-2020-2021-2022-_JM#position=4&search_layout=stack&type=item&tracking_id=33240f9a-ed66-4837-9a25-f24eb69cde49"
+  },
+  {
+    "codigo_erp": "6430A188",
+    "descricao": "SUPORTE PLACA LANCER 2010/2019",
+    "caminho_imagem": "imagens_salvas\\6430A188.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/suporte-moldura-placa-mitsubishi-lancer-evolution-10-a-2016/up/MLBU1420248193?pdp_filters=item_id:MLB2222881637#is_advertising=true&searchVariation=MLBU1420248193&backend_model=search-backend&position=4&search_layout=grid&type=pad&tracking_id=e02a4ce9-7161-4349-936a-53516a7cd922&ad_domain=VQCATCORE_LST&ad_position=4&ad_click_id=NTdmMzgzY2QtM2YyNS00NjRjLTk5ZWQtZjZiMGY1NDNmZWNh"
+  },
+  {
+    "codigo_erp": "ERP-F25009",
+    "descricao": "SUPORTE PLACA TRASEIRO F250 TODAS",
+    "caminho_imagem": "imagens_salvas\\ERP-F25009.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2612576124-suporte-placa-traseiro-f250-19982011-xc3513406be-_JM#is_advertising=true&position=10&search_layout=grid&type=pad&tracking_id=fc626156-ab74-41b5-b51e-3fbeff3a0d70&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=10&ad_click_id=M2QwZTYwOTMtYjY2MC00YWM2LThiODYtMmU5YzhmYmNjNzgz"
+  },
+  {
+    "codigo_erp": "ERP-EUROFD250DT",
+    "descricao": "SUPORTE PLACA DIANTEIRO F250 2007",
+    "caminho_imagem": "imagens_salvas\\ERP-EUROFD250DT.png"
+  },
+  {
+    "codigo_erp": "ERP-HD-CRV0711<",
+    "descricao": "SUPORTE PLACA DIANTEIRO CRV 2007/2010",
+    "caminho_imagem": "imagens_salvas\\ERP-HD-CRV0711.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-1253235922-suporte-moldura-placa-honda-crv-2007-2008-2009-2010-2011-_JM#is_advertising=true&backend_model=search-backend&position=1&search_layout=stack&type=pad&tracking_id=1a9c0177-f66e-45c7-ae20-b85a6c745e92&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=MDZjMTI3YzAtYTFiZS00ODNkLWJmMjktY2UxZWU4OTgwNDcw"
+  },
+  {
+    "codigo_erp": "ERP-HD-CRV12/",
+    "descricao": "SUPORTE PLACA DIANTEIRO CRV 2012/2016",
+    "caminho_imagem": "imagens_salvas\\ERP-HD-CRV12.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/suporte-moldura-placa-honda-crv-2012-2013-2014-2015/p/MLB26336673?pdp_filters=item_id:MLB5334560644#wid=MLB5334560644&sid=search&is_advertising=true&searchVariation=MLB26336673&backend_model=search-backend&position=16&search_layout=stack&type=pad&tracking_id=c1eb7c6e-d1a6-422c-98a5-d402c6506059&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=16&ad_click_id=ZWU3YWQ5ZGMtYzQzMy00ZGJmLTliMWItYjViZTQ5YmIxN2Vm"
+  },
+  {
+    "codigo_erp": "ERP-22444",
+    "descricao": "SUPORTE PLACA 207 2007 Á 2013",
+    "caminho_imagem": "imagens_salvas\\ERP-22444.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-1342388889-suporte-placa-peugeot-207-hatch-sedan-hoggar-sw-2007-a-2016-_JM?searchVariation=44930022665#is_advertising=true&searchVariation=44930022665&position=2&search_layout=stack&type=pad&tracking_id=84029911-5e11-4107-a911-12b0e2269797&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=2&ad_click_id=YmFiMzk3NGMtYzZjZi00YzZlLWJhYTItNTY5OTlmMGM2M2Jk"
+  },
+  {
+    "codigo_erp": "ERP-058037",
+    "descricao": "ARO MILHA CROMADO 307 2006/2013",
+    "caminho_imagem": "imagens_salvas\\ERP-058037.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2633432684-aro-moldura-farol-milha-peugeot-307-2007-a-2012-cromado-_JM#position=2&search_layout=grid&type=item&tracking_id=be611936-0e15-4fd3-819a-603653bb4819"
+  },
+  {
+    "codigo_erp": "ERP-058038",
+    "descricao": "ARO MILHA CROMADO 307 2006/2013",
+    "caminho_imagem": "imagens_salvas\\ERP-058038.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2633432684-aro-moldura-farol-milha-peugeot-307-2007-a-2012-cromado-_JM#position=2&search_layout=grid&type=item&tracking_id=be611936-0e15-4fd3-819a-603653bb4819"
+  },
+  {
+    "codigo_erp": "ERP-JEEP-53294320",
+    "descricao": "GRADE PARACHOQUE SENSOR APROXIMAÇÃO ACC COMPASS DIESEL 2017/2021  UNIDADE",
+    "caminho_imagem": "imagens_salvas\\ERP-JEEP-53294320.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/moldura-sensor-aproximacao-colisao-compass-limited-diesel/up/MLBU753860756#polycard_client=search-desktop&search_layout=grid&position=8&type=product&tracking_id=30d270e3-3f99-4ffb-a2fb-e589fd6fd63a&wid=MLB2701937322&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-21HLX-OEM-R",
+    "descricao": "GRADE INFERIOR PARACHOQUE HILUX 2021/2024 DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP-21HLX-OEM-R.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/par-grade-inferior-parachoque-hilux-2021-a-2024/up/MLBU3384947481?skipInApp=true&matt_ignore=true"
+  },
+  {
+    "codigo_erp": "ERP-21HLX-OEM-L",
+    "descricao": "GRADE INFERIOR PARACHOQUE HILUX 2021/2024 ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP-21HLX-OEM-L.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/par-grade-inferior-parachoque-hilux-2021-a-2024/up/MLBU3384947481?skipInApp=true&matt_ignore=true"
+  },
+  {
+    "codigo_erp": "ERP-GRADE5",
+    "descricao": "GRADE MILHA AMAROK 2010/2016 PRETO SEM FRISO CROMADO DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP-GRADE5.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/par-grade-do-milha-amarok-2010-2011-2012-2013-com-furo-milha/up/MLBU1111830037#polycard_client=search-desktop&search_layout=stack&position=42&type=product&tracking_id=e03fe872-a4d5-4477-a736-66851bba5ab4&wid=MLB2782930991&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-GRADE6",
+    "descricao": "GRADE MILHA AMAROK 2010/2016 PRETO SEM FRISO CROMADO ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP-GRADE6.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/par-grade-do-milha-amarok-2010-2011-2012-2013-com-furo-milha/up/MLBU1111830037#polycard_client=search-desktop&search_layout=stack&position=42&type=product&tracking_id=e03fe872-a4d5-4477-a736-66851bba5ab4&wid=MLB2782930991&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-LXS-HD1617LD",
+    "descricao": "GRADE MILHA CIVIC 2015/2016 LXS LX LS DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP-LXS-HD1617LD.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/grade-moldura-milha-honda-civic-lxs-lxr-2015-2016-esquerdo/up/MLBU746984349#polycard_client=search-nordic&search_layout=grid&position=5&type=product&tracking_id=8c4083da-cee7-4083-a04c-a83f4a6028e6&wid=MLB2087654991&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-LXS-15117L-HD",
+    "descricao": "GRADE MILHA CIVIC 2015/2016 LXS LX LS ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP-LXS-15117L-HD.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/grade-moldura-milha-honda-civic-lxs-lxr-2015-2016-esquerdo/up/MLBU746984349#polycard_client=search-nordic&search_layout=grid&position=5&type=product&tracking_id=8c4083da-cee7-4083-a04c-a83f4a6028e6&wid=MLB2087654991&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-FD-R23/25CR",
+    "descricao": "GRADE MILHA RANGER ARO CROMADO 2023/2025 DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP-FD-R2325CR.png",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-5282828186-par-moldura-milha-ranger-com-aro-cromado-2020-2021-2022-_JM?searchVariation=182870825878#is_advertising=true&searchVariation=182870825878&backend_model=search-backend&position=6&search_layout=stack&type=pad&tracking_id=368f7263-d2fe-4e37-8554-ca55634e245d&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=6&ad_click_id=Zjk2Mjg0M2EtMmJiOS00NTRiLWJhNTMtNjE1YjIwZjI4YjE2"
+  },
+  {
+    "codigo_erp": "ERP-FD-R23/25CL",
+    "descricao": "GRADE MILHA RANGER ARO CROMADO 2023/2025 ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP-FD-R2325CL.png",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-5282828186-par-moldura-milha-ranger-com-aro-cromado-2020-2021-2022-_JM?searchVariation=182870825878#is_advertising=true&searchVariation=182870825878&backend_model=search-backend&position=6&search_layout=stack&type=pad&tracking_id=368f7263-d2fe-4e37-8554-ca55634e245d&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=6&ad_click_id=Zjk2Mjg0M2EtMmJiOS00NTRiLWJhNTMtNjE1YjIwZjI4YjE2"
+  },
+  {
+    "codigo_erp": "ERP-L200MT17R",
+    "descricao": "PISANTE PARACHOQUE TR L200 SPORT 17/21 LADO DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP-L200MT17R.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3041127996-pisante-traseiro-parachoque-triton-sport-l200-2017-2018-_JM#position=5&search_layout=grid&type=item&tracking_id=a8a4eab7-9ee3-400b-94bd-f20f861cdcf9"
+  },
+  {
+    "codigo_erp": "ERP-L200MT17L",
+    "descricao": "PISANTE PARACHOQUE TR L200 SPORT 17/21 LADO ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP-L200MT17L.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3041127996-pisante-traseiro-parachoque-triton-sport-l200-2017-2018-_JM#position=5&search_layout=grid&type=item&tracking_id=a8a4eab7-9ee3-400b-94bd-f20f861cdcf9"
+  },
+  {
+    "codigo_erp": "ERP-19760",
+    "descricao": "PISANTE TRASEIRO PCHQ F250 99/ 2019 TODAS CENTRAL",
+    "caminho_imagem": "imagens_salvas\\ERP-19760.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-5271761294-pisante-parachoque-traseiro-f250-1999-a-2014-03-pecas-_JM?searchVariation=186819467365#is_advertising=true&searchVariation=186819467365&position=7&search_layout=stack&type=pad&tracking_id=dc8d326b-1cc4-4e56-ba83-a0d049881128&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=7&ad_click_id=ZTIzMjc3YzMtNzZlMC00MjNlLWI3ZTUtYWY4NjIwNGE5YmY4"
+  },
+  {
+    "codigo_erp": "ERP-6420A018",
+    "descricao": "PISANTE TRASEIRO CENTRAL L200 SPORT 2016 ATÉ 2021 UNIDADE",
+    "caminho_imagem": "imagens_salvas\\ERP-6420A018.webp",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/up/MLBU786781387?pdp_filters=item_id:MLB5015307828&matt_tool=38524122#origin=share&sid=share&wid=MLB5015307828&action=whatsapp"
+  },
+  {
+    "codigo_erp": "ERP-TY-05/15KX",
+    "descricao": "PISANTE TRASEIRO CENTRAL HILUX 2005/2015",
+    "caminho_imagem": "imagens_salvas\\ERP-TY-0515KX.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/pisante-parachoque-traseiro-hilux-2005-a-15-521590k010-novo/up/MLBU759842007"
+  },
+  {
+    "codigo_erp": "ERP-76180-0K070",
+    "descricao": "SCOOP BOLHA GRADE CAPO HILUX 2012/2015",
+    "caminho_imagem": "imagens_salvas\\ERP-76180-0K070.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/entrada-de-ar-bolha-capo--scoop-hilux-srv-2012-13-14-2015/up/MLBU3409696518#polycard_client=search-desktop&search_layout=grid&position=2&type=product&tracking_id=89795d36-a829-4a2e-a52c-76c18a404bfc&wid=MLB4193829821&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-19768",
+    "descricao": "PISANTE TRASEIRO PCHQ F250 99/ 2019 TODAS DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP-19768.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2147114287-pisante-central-parachoque-traseiro-f250-19972012-preto-_JM#polycard_client=search-nordic&position=3&search_layout=stack&type=item&tracking_id=e543fe9e-a075-4153-b117-dc685c177345"
+  },
+  {
+    "codigo_erp": "ERP-19759",
+    "descricao": "PISANTE TRASEIRO PCHQ F250 99/ 2019 TODAS ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP-19759.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2147115084-pisante-parachoque-traseiro-direito-f250-19972012-preto-_JM#polycard_client=search-nordic&position=18&search_layout=stack&type=item&tracking_id=ca5865c2-c69e-495f-a4e0-64c77da9837f"
+  },
+  {
+    "codigo_erp": "ERP--TY-05/15UNR",
+    "descricao": "PISANTE TRASEIRO LATERAL HILUX 2005/2015 DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP--TY-0515UNR.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/par-ponteira-pisante-parachoque-traseiro-hilux-05-06-a-2015/up/MLBU733334402"
+  },
+  {
+    "codigo_erp": "ERP--TY-05/15UNL",
+    "descricao": "PISANTE TRASEIRO LATERAL HILUX 2005/2015 ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP--TY-0515UNL.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/par-ponteira-pisante-parachoque-traseiro-hilux-05-06-a-2015/up/MLBU733334402"
+  },
+  {
+    "codigo_erp": "ERP-MIT01R",
+    "descricao": "PONTEIRA PARACHOQUE TR L200 TRITON 07/16",
+    "caminho_imagem": "imagens_salvas\\ERP-MIT01R.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3517757065-par-ponteira-polaina-traseira-refletor-l200-triton-20082016-_JM#position=4&search_layout=grid&type=item&tracking_id=d4150d36-907f-4996-ad3e-201dc20ef1d4"
+  },
+  {
+    "codigo_erp": "ERP-MIT01L",
+    "descricao": "PONTEIRA PARACHOQUE TR L200 TRITON 07/16",
+    "caminho_imagem": "imagens_salvas\\ERP-MIT01L.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3517757065-par-ponteira-polaina-traseira-refletor-l200-triton-20082016-_JM#position=4&search_layout=grid&type=item&tracking_id=d4150d36-907f-4996-ad3e-201dc20ef1d4"
+  },
+  {
+    "codigo_erp": "ERP-TY9711PPTD",
+    "descricao": "PISANTE PARACHOQUE TR HILUX 2016/2024",
+    "caminho_imagem": "imagens_salvas\\ERP-TY9711PPTD.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2787254772-ponteira-pisante-traseiro-hilux-srv-2016-2017-2018-preto-_JM#position=12&search_layout=stack&type=item&tracking_id=6ef2bef5-24fe-42ba-a172-8201eb513fe2"
+  },
+  {
+    "codigo_erp": "ERP-TY9711PPTE",
+    "descricao": "PISANTE PARACHOQUE TR HILUX 2016/2024",
+    "caminho_imagem": "imagens_salvas\\ERP-TY9711PPTE.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2787254772-ponteira-pisante-traseiro-hilux-srv-2016-2017-2018-preto-_JM#position=12&search_layout=stack&type=item&tracking_id=6ef2bef5-24fe-42ba-a172-8201eb513fe2"
+  },
+  {
+    "codigo_erp": "ERP-12794R",
+    "descricao": "OLHO DE GATO/REFLETOR TRASEIRO HILUX 92/01 E 02/04 DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP-12794R.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-1208003866-refletor-olho-gato-parachoque-traseiro-hilux-92-a-2004-par-_JM?searchVariation=35355343103#polycard_client=search-nordic&searchVariation=35355343103&search_layout=stack&position=14&type=item&tracking_id=4354e01c-7caa-4b10-977f-9ddb59b8719c"
+  },
+  {
+    "codigo_erp": "ERP-12794L",
+    "descricao": "OLHO DE GATO/REFLETOR TRASEIRO HILUX 92/01 E 02/04 ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP-12794L.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-1208003866-refletor-olho-gato-parachoque-traseiro-hilux-92-a-2004-par-_JM?searchVariation=35355343103#polycard_client=search-nordic&searchVariation=35355343103&search_layout=stack&position=14&type=item&tracking_id=4354e01c-7caa-4b10-977f-9ddb59b8719c"
+  },
+  {
+    "codigo_erp": "ERP-GM00112CS10",
+    "descricao": "PISANTE PARACHOQUE TR S10 2001/2011",
+    "caminho_imagem": "imagens_salvas\\ERP-GM00112CS10.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3954583947-pisante-central-parachoque-traseiro-s10-blazer-2001-ate-2011-_JM?searchVariation=182782152614#polycard_client=search-nordic&searchVariation=182782152614&position=2&search_layout=stack&type=item&tracking_id=6de5a82d-0453-4046-b7ed-ee4c7a56a0fe"
+  },
+  {
+    "codigo_erp": "ERP-VW06050002",
+    "descricao": "PISANTE PARACHOQUE TR CENTRAL AMAROK TODAS",
+    "caminho_imagem": "imagens_salvas\\ERP-VW06050002.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3301854181-degrau-pisante-parachoque-traseiro-amarok-2010-em-diante-_JM#position=1&search_layout=grid&type=item&tracking_id=baef58c1-388c-4c5d-ad3c-08203bd078e2"
+  },
+  {
+    "codigo_erp": "ERP-L200-07113R",
+    "descricao": "PARACHOQUE TRASEIRO L200 TRITON 07/17 DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP-L200-07113R.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2131236759-parachoque-traseiro-l-200-triton-lado-direito-20072017-_JM#is_advertising=true&position=7&search_layout=stack&type=pad&tracking_id=bc0bf7dd-1385-455c-8eb3-2f0f41e89284&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=7&ad_click_id=MjZmYzc5Y2QtOTg0Ni00ODZmLTk1NTQtZjY1OGM4ZGIxN2Y2"
+  },
+  {
+    "codigo_erp": "ERP-MT-TRL200207",
+    "descricao": "PARACHOQUE TRASERIO L200 TRITON 07/17 ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP-MT-TRL200207.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2131236759-parachoque-traseiro-l-200-triton-lado-direito-20072017-_JM#is_advertising=true&position=7&search_layout=stack&type=pad&tracking_id=bc0bf7dd-1385-455c-8eb3-2f0f41e89284&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=7&ad_click_id=MjZmYzc5Y2QtOTg0Ni00ODZmLTk1NTQtZjY1OGM4ZGIxN2Y2"
+  },
+  {
+    "codigo_erp": "ERP-VW057173",
+    "descricao": "SPOILER DIANTEIRO POLO 2007/2011",
+    "caminho_imagem": "imagens_salvas\\ERP-VW057173.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2611144620-spoiler-saia-parachoque-dianteiro-polo-2007-2008-a-2010-2011-_JM#position=3&search_layout=grid&type=item&tracking_id=51f9732d-807d-48ea-95ac-dfd4a9a608b6"
+  },
+  {
+    "codigo_erp": "ERP-VW2237306",
+    "descricao": "SPOILER DIANTEIRO POLO 2003/2006",
+    "caminho_imagem": "imagens_salvas\\ERP-VW2237306.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-1365335658-spoiler-dianteiro-polo-2003-2004-2005-2006-preto-_JM#is_advertising=true&backend_model=search-backend&position=1&search_layout=stack&type=pad&tracking_id=54d15054-8734-4468-8cd4-b5074efa2dbe&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=Y2VhYWU2MmYtMWUyZi00MzM0LTljOTMtZGQyMGIyYjhmMGFj"
+  },
+  {
+    "codigo_erp": "ERP-FD29155",
+    "descricao": "SPOILER P/CHOQUE DIANT KA 15/22 SDN/HATCH (SE/S)",
+    "caminho_imagem": "imagens_salvas\\ERP-FD29155.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2182641547-spoiler-parachoque-dianteiro-ford-ka-2015-2016-2017-2018-_JM"
+  },
+  {
+    "codigo_erp": "VW-OEM060306D",
+    "descricao": "BORRACHÃO DIANTEIRO POLO 2003/2006",
+    "caminho_imagem": "imagens_salvas\\VW-OEM060306D.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3940918751-friso-borracho-parachoque-diant-polo-2003-2004-2005-2006-_JM#polycard_client=search-nordic&position=4&search_layout=stack&type=item&tracking_id=fcf2c9d2-a79e-45c9-8d3c-e9111b6dba58&wid=MLB3940918751&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-FD1019054",
+    "descricao": "SPOILER TRASEIRO FIESTA MEXICANO HATCH 10/13",
+    "caminho_imagem": "imagens_salvas\\ERP-FD1019054.png",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3507730421-spoiler-mold-traseira-parachoque-new-fiesta-2010-mexicano-_JM#position=10&search_layout=grid&type=item&tracking_id=2d0879a6-1da7-4d71-ba96-4fb6d20ac1b2"
+  },
+  {
+    "codigo_erp": "ERP-33099-1",
+    "descricao": "BATENTE FECHADURA TAMPA TR AMAROK TODOS",
+    "caminho_imagem": "imagens_salvas\\ERP-33099-1.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2989300500-par-batente-da-fechadura-da-tampa-traseira-amarok-todas-orig-_JM#position=1&search_layout=stack&type=item&tracking_id=162e54e0-0a2f-4d3c-819e-8ea2b314d2bc"
+  },
+  {
+    "codigo_erp": "ERP-33099-2",
+    "descricao": "BATENTE FECHADURA TAMPA TR AMAROK TODOS",
+    "caminho_imagem": "imagens_salvas\\ERP-33099-2.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2989300500-par-batente-da-fechadura-da-tampa-traseira-amarok-todas-orig-_JM#position=1&search_layout=stack&type=item&tracking_id=162e54e0-0a2f-4d3c-819e-8ea2b314d2bc"
+  },
+  {
+    "codigo_erp": "ERP-5C3Z16720EB",
+    "descricao": "EMBLEMA LATERAL PARALAMA E TAMPA TRASEIRA MODELO HAVY DUTY F250 5C3Z16720EB",
+    "caminho_imagem": "imagens_salvas\\ERP-5C3Z16720EB.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3914493909-kit-emblema-lateral-paralama-ford-f250-xlt-super-duty-_JM#is_advertising=true&position=1&search_layout=stack&type=pad&tracking_id=552bdf75-c37d-4965-ab3b-f9608c2deb94&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=MzU0NzIxMzgtNDE1Ni00ZjZkLWE2OTAtM2FhNzZkYzYzMTQx"
+  },
+  {
+    "codigo_erp": "ERP-KIT3S10",
+    "descricao": "EMBLEMA S10 HIGH CONTRY - TRAILBLAZER 21/ KIT 3 PÇS GM",
+    "caminho_imagem": "imagens_salvas\\ERP-KIT3S10.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-4530833452-kit-emblema-gravatinha-s10-2021-2022-2023-2024-high-country-_JM#is_advertising=true&position=1&search_layout=stack&type=pad&tracking_id=2e4d041a-e31b-41df-9b21-d1e23dae24b0&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=OWM1Yjg5NDQtOWM2YS00Y2NiLWE5MTYtYmRiNDhiYTc5OGFm"
+  },
+  {
+    "codigo_erp": "ERP-GM18/24OEM",
+    "descricao": "EMBLEMA GRADE S10 TRAILBLAZER 2018/2021",
+    "caminho_imagem": "imagens_salvas\\ERP-GM1824OEM.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/emblema-grade-s10-trailblazer-2016-2017-2018-2019-2020/up/MLBU597592673#polycard_client=search-nordic&search_layout=stack&position=5&type=product&tracking_id=76b28f27-d2b0-42ef-bfc1-4563454c14f9&wid=MLB2018701655&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-TY05CR936",
+    "descricao": "EMBLEMA HILUX GRADE DIANTEIRA 05/2015",
+    "caminho_imagem": "imagens_salvas\\ERP-TY05CR936.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3886225270-emblema-logo-grade-radiador-hilux-2005-06-07-09-13-2014-2015-_JM#polycard_client=search-nordic&position=4&search_layout=stack&type=item&tracking_id=596767dd-5ff8-4923-9c57-3d2154caef89"
+  },
+  {
+    "codigo_erp": "ERP-FC09/13HS",
+    "descricao": "EMBLEMA DO FRISO TRASEIRO FOCUS 2009/13 HATCH / SEDAN",
+    "caminho_imagem": "imagens_salvas\\ERP-FC0913HS.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2200464432-emblema-tampa-traseira-ford-focus-2009-10-11-12-13-original-_JM#is_advertising=true&backend_model=search-backend&position=6&search_layout=stack&type=pad&tracking_id=5d4f88c9-ffae-45e6-a083-e53bde5f471c&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=6&ad_click_id=ODc5YTY2YzMtMzAwMi00YTMxLTk1N2MtZDc0NTc1NDYwMGM4"
+  },
+  {
+    "codigo_erp": "ERP-FD13K15T",
+    "descricao": "EMBLEMA TAMPA TRASEIRA ECOSPORT 2013/",
+    "caminho_imagem": "imagens_salvas\\ERP-FD13K15T.png"
+  },
+  {
+    "codigo_erp": "ERP-HRV-75715-3",
+    "descricao": "EMBLEMA TAMPA TRASEIRA HRV 2022 23 24 25 26 COMPLETO",
+    "caminho_imagem": "imagens_salvas\\ERP-HRV-75715-3.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-5412184954-emblema-porta-mala-honda-hrv-2022-2023-24-2025-2026-original-_JM?matt_tool=51614150&matt_internal_campaign_id=&matt_word=&matt_source=google&matt_campaign_id=22090354268&matt_ad_group_id=173090561916&matt_match_type=&matt_network=g&matt_device=c&matt_creative=727882729617&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=560857702&matt_product_id=MLB5412184954&matt_product_partition_id=2393411561652&matt_target_id=aud-2009166904988:pla-2393411561652&cq_src=google_ads&cq_cmp=22090354268&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22090354268&gbraid=0AAAAAD93qcAIq2_kst0--X00vvplsNklQ&gclid=CjwKCAjwpMTCBhA-EiwA_-MsmXnNDwRyMgV-T9Bs1vMIxKns3SHUj4ZzWzr633eW0CzUR23qxi98hRoChekQAvD_BwE"
+  },
+  {
+    "codigo_erp": "ERP-VW02",
+    "descricao": "EMBLEMA JETTA 2007/2010 PASSAT 07/10 TIGUAN 09/15 BORA 07/10",
+    "caminho_imagem": "imagens_salvas\\ERP-VW02.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-1858778542-emblema-grade-passat-2007-2008-2009-2010-2011-1k5853600-_JM#is_advertising=true&backend_model=search-backend&position=2&search_layout=stack&type=pad&tracking_id=a71ac80c-f555-42c2-8893-8af05ce5e5de&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=2&ad_click_id=M2ZiNjI0ZWItY2VjOS00NWI3LWJhMmQtMTgyMjZhYjUzNzIw"
+  },
+  {
+    "codigo_erp": "ERP-VW01",
+    "descricao": "EMBLEMA GRADE JETTA 2011/2015",
+    "caminho_imagem": "imagens_salvas\\ERP-VW01.jpeg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3722411858-emblema-de-grade-frontal-vw-jetta-sedan-2011-a-2014-mk6-_JM#position=7&search_layout=stack&type=item&tracking_id=b3bd73d4-e1ae-46f0-9aea-31bfecea9d0a"
+  },
+  {
+    "codigo_erp": "ERP-GM12022018",
+    "descricao": "EMBLEMA S10 2012/2022 CROMADO - CENTRO DOURADO",
+    "caminho_imagem": "imagens_salvas\\ERP-GM12022018.png",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-1956976784-emblema-grade-s10-2012-2013-2014-2015-2016-2017-2018-2019-_JM#is_advertising=true&position=1&search_layout=stack&type=pad&tracking_id=a955f5d5-d85a-4a0b-8378-42ad9bb65560&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=NzcxOGQ3ODAtYWU5Yi00YmM4LTgwZTUtZjM2M2Y1NDcxYTdh"
+  },
+  {
+    "codigo_erp": "ERP-C30207C2",
+    "descricao": "EMBLEMA C3 2002/2007 ( KIT 2 GRAVATAS CROMADAS)",
+    "caminho_imagem": "imagens_salvas\\ERP-C30207C2.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3398905581-emblema-grade-citroen-c3-2002-2003-2004-05-06-07-2008-2-pcs-_JM#position=1&search_layout=stack&type=item&tracking_id=9df859ff-7cc4-43a6-8f9a-4a5dbe50f8f0"
+  },
+  {
+    "codigo_erp": "ERP-C30812C2",
+    "descricao": "EMBLEMA C3 2008/2012 ( KIT 2 GRAVATAS CROMADAS)",
+    "caminho_imagem": "imagens_salvas\\ERP-C30812C2.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-1088566753-emblema-grade-citroen-c3-2009-2010-2011-2012-mod-original-_JM#is_advertising=true&position=1&search_layout=stack&type=pad&tracking_id=20c7f850-9872-4431-8c1c-5f3757504803&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=MjAxNGZmYjItYmQzYi00ZGM2LTg2YzAtMjc3YTllOWQ3NWYw"
+  },
+  {
+    "codigo_erp": "ERP-MT11101",
+    "descricao": "EMBLEMA DIANTEIRO ASX 2010/2015",
+    "caminho_imagem": "imagens_salvas\\ERP-MT11101.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-1680114032-emblema-parachoque-dianteiro-mitsubishi-lancer-2011-a-2016-_JM"
+  },
+  {
+    "codigo_erp": "ERP-MT11100",
+    "descricao": "EMBLEMA DIANTEIRO LANCER 2010/2019",
+    "caminho_imagem": "imagens_salvas\\ERP-MT11100.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-1680114032-emblema-parachoque-dianteiro-mitsubishi-lancer-2011-a-2016-_JM"
+  },
+  {
+    "codigo_erp": "ERP-208PG11/15",
+    "descricao": "EMBLEMA PEUGEOT 208 2012/2015 ( ESTE EMBLEMA É APLICADO NA GRADE CENTRAL ABAIXO DO FRISO CROMADO)",
+    "caminho_imagem": "imagens_salvas\\ERP-208PG1115.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-1092854458-emblema-grade-peugeot-208-2013-2014-2015-cromado-_JM#position=7&search_layout=stack&type=item&tracking_id=d8b85b32-d546-49eb-bf48-136c4f5a4da6"
+  },
+  {
+    "codigo_erp": "ERP-GM-1979903",
+    "descricao": "EMBLEMA GRADE SILVERADO DOURADO 97 ATÉ 2004",
+    "caminho_imagem": "imagens_salvas\\ERP-GM-1979903.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3120365492-emblema-gravata-grade-silverado-1997-98-99-00-01-02-03-2004-_JM#is_advertising=true&position=2&search_layout=stack&type=pad&tracking_id=429c3b2b-b00c-423c-8513-a62585f8f871&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=2&ad_click_id=MzIzOTI0MjctNDFjZi00NTU0LTk1MDctZTQ2ZjhhNDNkNjY5"
+  },
+  {
+    "codigo_erp": "ERP-EMBLE6",
+    "descricao": "EMBLEMA GRADE NEW CIVIC 2007",
+    "caminho_imagem": "imagens_salvas\\ERP-EMBLE6.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3045661124-emblema-logo-honda-grade-new-civic-2007-2008-2009-2010-2011-_JM#polycard_client=search-nordic&position=41&search_layout=stack&type=item&tracking_id=4edb990a-c7b7-4248-83f3-fc60aceb4730"
+  },
+  {
+    "codigo_erp": "ERP-EMBLE9",
+    "descricao": "EMBLEMA GRADE NEW FIT 09",
+    "caminho_imagem": "imagens_salvas\\ERP-EMBLE9.webp"
+  },
+  {
+    "codigo_erp": "ERP-HD-C11519CR",
+    "descricao": "EMBLEMA CITY 2015/2019",
+    "caminho_imagem": "imagens_salvas\\ERP-HD-C11519CR.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3260376554-emblema-honda-logo-h-da-grade-dianteira-city-2015-2016-2017-_JM#polycard_client=search-nordic&position=8&search_layout=stack&type=item&tracking_id=14b534b2-a0e6-4891-af83-5f7b1d283dae&wid=MLB3260376554&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-MT-LW-14LE7",
+    "descricao": "EMBLEMA GRADE OUTLANDER 2014/2015",
+    "caminho_imagem": "imagens_salvas\\ERP-MT-LW-14LE7.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-5012136178-emblema-grade-mitsubishi-outlander-2014-2015-_JM#is_advertising=true&position=6&search_layout=stack&type=pad&tracking_id=a4e4c31b-c4d0-49e4-9f78-55d60926ea6a&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=6&ad_click_id=YTQzYTIxNDctOTc3NC00ZWY1LWFiYTEtNTkzYjk2MmMyMTNi"
+  },
+  {
+    "codigo_erp": "ERP-20SRX3",
+    "descricao": "EMBLEMA GRADE HILUX 21/24 RESINADO COM SUPORTE ACC",
+    "caminho_imagem": "imagens_salvas\\ERP-20SRX3.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3841699801-emblema-3d-liso-grade-dianteira-toyota-hilux-2021-a-2023-srv-_JM#polycard_client=search-nordic&position=14&search_layout=stack&type=item&tracking_id=a1f30e3c-c8c1-44bf-b4db-3298591495dc"
+  },
+  {
+    "codigo_erp": "ERP-L205003/06",
+    "descricao": "EMBLEMA GRADE DIANTERA L200 OUTDOOR 2003/06",
+    "caminho_imagem": "ERP-L20500306.webp"
+  },
+  {
+    "codigo_erp": "ERP-MT-SPTL20017",
+    "descricao": "EMBLEMA GRADE L200 TRITON SPORT 2017/2021",
+    "caminho_imagem": "imagens_salvas\\ERP-MT-SPTL20017.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-4047771128-emblema-grade-l200-triton-2017-2018-2019-2020-_JM#is_advertising=true&position=2&search_layout=stack&type=pad&tracking_id=a107efef-f593-4121-bbe4-75f49de6f611&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=2&ad_click_id=M2I4NGViNWQtYTlmNy00ODYwLTgwYjYtYmIzZDJhYWI4NTgy"
+  },
+  {
+    "codigo_erp": "ERP-MIT-16377",
+    "descricao": "EMBLEMA GRADE OUTLANDER 2016/2024",
+    "caminho_imagem": "imagens_salvas\\ERP-MIT-16377.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3877023457-emblema-grade-outlander-2016-2017-208-2019-2021-dianteiro-_JM#polycard_client=search-nordic&position=3&search_layout=stack&type=item&tracking_id=f4875cef-f517-4e6e-8c05-510d2164cae7"
+  },
+  {
+    "codigo_erp": "ERP-VW03",
+    "descricao": "EMBLEMA GRADE JETTA 2015/2018",
+    "caminho_imagem": "imagens_salvas\\ERP-VW03.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3215748246-emblema-logo-vw-volkswagen-grade-jetta-2015-2016-2017-2018-_JM#polycard_client=search-nordic&position=19&search_layout=stack&type=item&tracking_id=68aef48a-470f-4418-b301-8f8de08d1a4a"
+  },
+  {
+    "codigo_erp": "ERP-PG2-005DF-207-0",
+    "descricao": "EMBLEMA PEUGEOT 207 HOGGAR / SCAPADE / MODELOS HATCH E SEDAN",
+    "caminho_imagem": "imagens_salvas\\ERP-PG2-005DF-207-0.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-1819575941-emblema-parachoque-peugeot-207-2007-08-09-2010-12-2013-2015-_JM#position=2&search_layout=stack&type=item&tracking_id=cb952cc4-e03f-4586-a26e-84734b35051d"
+  },
+  {
+    "codigo_erp": "ERP-GM-PLUS-20/",
+    "descricao": "EMBLEMA GRADE ONIX PLUS 2020/2025 UNIDADE",
+    "caminho_imagem": "imagens_salvas\\ERP-GM-PLUS-20.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/emblema-grade-onix-2020-2021-2022-2023-2024-original-nfe/up/MLBU773530898"
+  },
+  {
+    "codigo_erp": "ERP-GM-PLUS-20/25",
+    "descricao": "EMBLEMA GRADE SPIN 2025",
+    "caminho_imagem": "ERP-GM-PLUS-2025.webp"
+  },
+  {
+    "codigo_erp": "ERP-HY-HB2024-24",
+    "descricao": "EMBLEMA GRADE HB20 24/25 UNIDADE",
+    "caminho_imagem": "ERP-HY-HB2024-24.webp",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/emblema-hyundai-grade-dianteira-hb20-2020-a-2024-original/up/MLBU3309404685?pdp_filters=item_id:MLB5511771328#is_advertising=true&searchVariation=MLBU3309404685&backend_model=search-backend&position=2&search_layout=stack&type=pad&tracking_id=1f1175d5-8c74-4ce2-bd3c-3ed5e2a25f2c&ad_domain=VQCATCORE_LST&ad_position=2&ad_click_id=MDJkOTVjNmYtYjk1ZS00ZGIyLThiMzctYjRhZTBlOTM2OWRh"
+  },
+  {
+    "codigo_erp": "ERP-FD-TS08/25T",
+    "descricao": "EMBLEMA GRADE TRANSIT 2008/2025",
+    "caminho_imagem": "imagens_salvas\\ERP-FD-TS0825T.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/emblema---f-o-r-d---grade-radiador-ford-transit--0813-orig/up/MLBU1981581888#polycard_client=search-nordic&wid=MLB3680647715&search_layout=stack&position=6&type=product&tracking_id=7d74b2f7-ba1d-4231-b0de-163b6978369d&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-HY-HB2023X",
+    "descricao": "EMBLEMA GRADE HB20 2020/2023",
+    "caminho_imagem": "imagens_salvas\\ERP-HY-HB2023X.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/emblema-hyundai-grade-dianteira-hb20-2020-a-2024-original/up/MLBU768686609?pdp_filters=item_id:MLB3742397085#wid=MLB3742397085&sid=search&is_advertising=true&searchVariation=MLBU768686609&backend_model=search-backend&position=2&search_layout=stack&type=pad&tracking_id=84d172fb-2df8-4bbf-916e-2c99e965f0f4"
+  },
+  {
+    "codigo_erp": "ERP-VW-N21/24",
+    "descricao": "EMBLEMA NIVUS SEM ACC 2021/2024",
+    "caminho_imagem": "imagens_salvas\\ERP-VW-N2124.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-4130951613-emblema-logo-da-grade-dianteira-nivus-2021-2022-2023-2024-_JM"
+  },
+  {
+    "codigo_erp": "ERP-VW-S23/25",
+    "descricao": "EMBLEMA SAVEIRO 2023/2025 ROBUST",
+    "caminho_imagem": "imagens_salvas\\ERP-VW-S2325.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-4134448187-emblema-da-grade-saveiro-robust-2024-2025-2026-_JM"
+  },
+  {
+    "codigo_erp": "ERP-VW-TG1317",
+    "descricao": "EMBLEMA TIGUAN 2007/2012",
+    "caminho_imagem": "imagens_salvas\\ERP-VW-TG1317.jpg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/emblema-grade-tiguan-2007-2008-2009-2010-2011-1k5853600/up/MLBU1256264549"
+  },
+  {
+    "codigo_erp": "ERP-CT-C32325",
+    "descricao": "EMBLEMA TAMPA TRASEIRA C3 2023/",
+    "caminho_imagem": "imagens_salvas\\ERP-CT-C32325.jpeg",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/emblema-da-tampa-do-porta-malas-original-citroen-c3/up/MLBU1403580380#polycard_client=search-nordic&wid=MLB1285454979&search_layout=stack&position=47&type=product&tracking_id=52711167-b7b8-4180-8622-09d4de23be0f&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-PG1025-206/207",
+    "descricao": "EMBLEMA FRISO TAMPA TRASEIRA 206 207 HATCH CROMADO ESCRITO PEUGEOT / ACOMPANHA PRESILHAS",
+    "caminho_imagem": "imagens_salvas\\ERP-PG1025-206207.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-1747613661-friso-tampa-traseira-peugeot-207-08-a-2013-cromado-original-_JM#position=2&search_layout=grid&type=item&tracking_id=6499f981-e063-4ea0-bdcc-93ef55903785"
+  },
+  {
+    "codigo_erp": "ERP-DF-FCS-005CR",
+    "descricao": "FRISO TAMPA TRASEIRA FORD FOCUS 09/13 HATCH CROMADO",
+    "caminho_imagem": "imagens_salvas\\ERP-DF-FCS-005CR.jpg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-1745301781-friso-moldura-cromada-tampa-traseira-focus-2009-10-11-12-13-_JM#is_advertising=true&backend_model=search-backend&position=2&search_layout=stack&type=pad&tracking_id=faaebba7-a1dd-4064-b44b-60104a14aaab&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=2&ad_click_id=NGNjNzNjNWMtNjc1NC00MjZiLTlmNjAtZTg2M2JjYjE0ZmY3"
+  },
+  {
+    "codigo_erp": "ERP-HD-FIT1523P",
+    "descricao": "FRISO TAMPA TRASEIRA HONDA FIT 2015/2022",
+    "caminho_imagem": "imagens_salvas\\ERP-HD-FIT1523P.jpeg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-4032396469-friso-tampa-traseira-fit-2015-2016-2017-2018-2019-2020-2021-_JM#polycard_client=search-nordic&position=1&search_layout=stack&type=item&tracking_id=1b32707d-b1d1-4769-aa94-4b80e0df70bd&wid=MLB4032396469&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-MB-08151933B",
+    "descricao": "EMBLEMA COMPLETO MERCEDES C180 C200 C300 15/ BLACKPIANO ( PRODUTO PADRÃO ORIGINAL ENCAIXE) BASE + EMBLEMA",
+    "caminho_imagem": "imagens_salvas\\ERP-MB-08151933B.jpeg",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3992472701-emblema-mercedes-c180-c200-c300-blackpiano-orig-a0008880060-_JM"
+  },
+  {
+    "codigo_erp": "ERP-MB-08151933F",
+    "descricao": "EMBLEMA COMPLETO MERCEDES C180 C200 C300 15/ PRETO FOSCO ( PRODUTO PADRÃO ORIGINAL ENCAIXE) BASE + EMBLEMA",
+    "caminho_imagem": "imagens_salvas\\ERP-MB-08151933F.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3992785699-emblema-mercedes-gla-2015-preto-fosco-novo-a0008880060-_JM"
+  },
+  {
+    "codigo_erp": "ERP-MB-08151933",
+    "descricao": "EMBLEMA COMPLETO MERCEDES C180 C200 C300 GLA CLA 2015/2019 ( PRODUTO PADRÃO ORIGINAL ENCAIXE) BASE + EMBLEMA",
+    "caminho_imagem": "imagens_salvas\\ERP-MB-08151933.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2734981145-emblema-da-grade-mercedes-c180-gla-cla-b200-a200-glk300-_JM#is_advertising=true&position=10&search_layout=stack&type=pad&tracking_id=8ecebbf9-e96f-4a61-ac7d-9221abd3fe43&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=10&ad_click_id=Nzg4NjU0N2MtMzY3YS00NDY3LWJiZTktNDRiMzRjYTk4ZDk4"
+  },
+  {
+    "codigo_erp": "ERP-MB-08/151932",
+    "descricao": "EMBLEMA MERCEDES C180 C200 C300 GLA CLA 2015/2019 SOMENTE ESTRELA CROMADA ( PRODUTO PADRÃO ORIGINAL ENCAIXE)",
+    "caminho_imagem": "imagens_salvas\\ERP-MB-08151932.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3337226641-emblema-logo-marca-estrela-da-grade-mercedes-c180-cromado-_JM#position=13&search_layout=stack&type=item&tracking_id=a768bc80-074c-4876-adc3-c37cb423eb4e"
+  },
+  {
+    "codigo_erp": "ERP-MB-08/151932F",
+    "descricao": "EMBLEMA MERCEDES C180 C200 C300 GLA CLA 2015/2019 SOMENTE ESTRELA PRETO FOSCO ( PRODUTO PADRÃO ORIGINAL ENCAIXE)",
+    "caminho_imagem": "imagens_salvas\\ERP-MB-08151932F.jpeg"
+  },
+  {
+    "codigo_erp": "ERP-MB-08/151932B",
+    "descricao": "EMBLEMA MERCEDES C180 C200 C300 GLA CLA 2015/2019 SOMENTE ESTRELA BLACKPIANO ( PRODUTO PADRÃO ORIGINAL ENCAIXE)",
+    "caminho_imagem": "imagens_salvas\\ERP-MB-08151932B.jpeg"
+  },
+  {
+    "codigo_erp": "ERP-FD-100093",
+    "descricao": "EMBLEMA GRADE F1000 93/97 UNIDADE",
+    "caminho_imagem": "imagens_salvas\\ERP-FD-100093.webp",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/emblema-grade-f1000-f4000-1993-a-1996-modelo-orig-encaixe/up/MLBU3619362592"
+  },
+  {
+    "codigo_erp": "ERP-F250-15014",
+    "descricao": "EMBLEMA GRADE F250 99/06 UNIDADE",
+    "caminho_imagem": "imagens_salvas\\ERP-F250-15014.webp",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/up/MLBU1451141119?pdp_filters=item_id:MLB3647164700&matt_tool=38524122#origin=share&sid=share&wid=MLB3647164700&action=whatsapp"
+  },
+  {
+    "codigo_erp": "ERP-FD2500711",
+    "descricao": "EMBLEMA F250 2007/",
+    "caminho_imagem": "imagens_salvas\\ERP-FD2500711.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3648337749-emblema-logo-grade-ford-f250-f350-f4000-2007-2008-a-2016-_JM#is_advertising=true&backend_model=search-backend&position=11&search_layout=stack&type=pad&tracking_id=7469b0f5-a096-428d-8774-18888ad2f08e&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=11&ad_click_id=MmY0MWI1YzYtMzU5Zi00YjUxLTljNmYtZTlhMDAzZTVkNzJl"
+  },
+  {
+    "codigo_erp": "ERP-5L550042550AA",
+    "descricao": "EMBLEMA GRADE RANGER 2005/12 UNIDADE",
+    "caminho_imagem": "imagens_salvas\\ERP-5L550042550AA.webp",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/emblema-da-grade-ford-ranger-2005-a-2012-modelo-original/up/MLBU3565672977"
+  },
+  {
+    "codigo_erp": "ERP-FD-33RN2022",
+    "descricao": "EMBLEMA RANGER 2013/2021",
+    "caminho_imagem": "imagens_salvas\\ERP-FD-33RN2022.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-4149395984-emblema-grade-ford-ranger-2013-14-15-16-17-18-2019-2020-2021-_JM#polycard_client=search-nordic&backend_model=search-backend&position=19&search_layout=stack&type=item&tracking_id=3e0d4c77-a1af-43b1-ac4a-f0e0569d017a&wid=MLB4149395984&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-KPA1405002",
+    "descricao": "KIT PRESILHAS FRISO TRASEIRO 207 206 MODELO HATCH TODOS",
+    "caminho_imagem": "imagens_salvas\\ERP-KPA1405002.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3860992086-kit-presilhas-friso-tampa-traseira-peugeot-206-207-hatch-nfe-_JM"
+  },
+  {
+    "codigo_erp": "ERP-HFC032010",
+    "descricao": "REPARO LIMITADOR PORTA HONDA FIT 2003 - 2008 KIT 4 PORTAS",
+    "caminho_imagem": "imagens_salvas\\ERP-HFC032010.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3320295859-kit-de-reparo-limitador-porta-honda-fit-03-04-06-07-08-novo-_JM#position=1&search_layout=grid&type=item&tracking_id=c0ee5c09-2f09-4202-932c-fd90aa23ec43"
+  },
+  {
+    "codigo_erp": "ERP-TC-032019",
+    "descricao": "REPARO LIMITADOR PORTA TOYOTA COROLLA 2003 ATÉ 2019 HILUX 2005 ATÉ 2015 LINHA PICKUP / SW4 KIT 4 PORTAS",
+    "caminho_imagem": "imagens_salvas\\ERP-TC-032019.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2666239391-reparo-do-limitador-da-porta-toyota-corolla-2003-2008-_JM#position=4&search_layout=grid&type=item&tracking_id=ba4e8e79-d235-4a7c-a3ba-2b4209f700ba"
+  },
+  {
+    "codigo_erp": "ERP-TCE-132010",
+    "descricao": "REPARO LIMITADOR PORTA TOYOTA ETIOS 2010 ATÉ 2024 TODOS OS MODELOS KIT 4 PORTAS",
+    "caminho_imagem": "imagens_salvas\\ERP-TCE-132010.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2798931140-reparo-limitador-de-porta-toyota-etios-13-20-_JM#is_advertising=true&position=9&search_layout=stack&type=pad&tracking_id=86dcc534-d474-42a5-850c-3eecd6500cbc&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=9&ad_click_id=Yjk1YzNkNzAtYjM5Yi00NjExLThhNTItOWNmMzlhY2EyY2Rj"
+  },
+  {
+    "codigo_erp": "ERP-HD-0106",
+    "descricao": "REPARO LIMITADOR PORTA HONDA CIVIC 01/06 TODOS OS MODELOS KIT 4 PORTAS",
+    "caminho_imagem": "imagens_salvas\\ERP-HD-0106.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-4066435306-kit-reparo-limitador-porta-honda-civic-2001-02-03-04-05-novo-_JM#position=4&search_layout=grid&type=item&tracking_id=444bcf24-9563-4514-b7cd-dc4cfd91138a"
+  },
+  {
+    "codigo_erp": "ERP-HD-0711NEW",
+    "descricao": "REPARO LIMITADOR PORTA HONDA NEW CIVIC 2007 ATÉ 2011 TODOS OS MODELOS KIT 4 PORTAS",
+    "caminho_imagem": "imagens_salvas\\ERP-HD-0711NEW.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3639558562-reparo-para-limitador-de-porta-honda-new-civic-2006-a-2010-_JM#position=1&search_layout=grid&type=item&tracking_id=1c2d9fdc-4b29-4c1c-8191-d48f8e56dfb6"
+  },
+  {
+    "codigo_erp": "ERP-HD-0913",
+    "descricao": "REPARO LIMITADOR PORTA HONDA CITY 2009/2013 HONDA NEW FIT 09/14 KIT 4 PORTAS",
+    "caminho_imagem": "imagens_salvas\\ERP-HD-0913.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3459322043-kit-de-reparo-limitador-honda-city-2009-2014-_JM#position=6&search_layout=stack&type=item&tracking_id=48349976-9027-43e0-8e63-289003e90f70"
+  },
+  {
+    "codigo_erp": "ERP-HY-0919",
+    "descricao": "REPARO LIMITADOR PORTA HYUNDAI I30 09/12 HB20 TODOS 2010/2020 ELANTRA 09/15 IX35 08/19 KIT 4 PORTAS",
+    "caminho_imagem": "imagens_salvas\\ERP-HY-0919.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3343105903-kit-4-reparos-limitador-porta-hyundai-i30-20092012-_JM#position=3&search_layout=grid&type=item&tracking_id=89b41ecd-e51f-4256-af3b-9a7a879a76f9"
+  },
+  {
+    "codigo_erp": "ERP-MIT-0719",
+    "descricao": "REPARO LIMITADOR PORTA MITSUBISHI TR4 2003/2015 L200 TRITON 07/17 PAJERO DAKAR 07/17 KIT 4 PORTAS",
+    "caminho_imagem": "imagens_salvas\\ERP-MIT-0719.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3452871209-reparo-limitador-porta-mitsubishi-l200-triton-2007-a-17-orig-_JM#position=1&search_layout=grid&type=item&tracking_id=4a30fdc7-d965-486e-b348-ec25ff349152"
+  },
+  {
+    "codigo_erp": "ERP-VW377103937",
+    "descricao": "TAMPA PARAFUSO MOTOR LINHA VW AUDI GOLF PARATI BORA JETTA AMAROK 1 PÇA UNIDADE",
+    "caminho_imagem": "imagens_salvas\\ERP-VW377103937",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2030112983-tampa-parafuso-capa-motor-gol-saveiro-parati-ap-16-18-20-_JM#position=23&search_layout=stack&type=item&tracking_id=dcc98ca4-2f0e-430f-9e7b-852c7914864d"
+  },
+  {
+    "codigo_erp": "ERP-12594875",
+    "descricao": "KIT BUCHA CAPA MOTOR S10 2012/2014 / PODER SER COLOCADO TBM NO RESONADOR ONIX PRISMA SPIN",
+    "caminho_imagem": "imagens_salvas\\ERP-12594875.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3673601184-bucha-da-capa-tampa-do-motor-28-s10-nova-2012-acima-kit-4-_JM#position=18&search_layout=stack&type=item&tracking_id=84fe6fe2-b205-4651-86d0-1d2a0ba2ddca"
+  },
+  {
+    "codigo_erp": "ERP-REPAR6",
+    "descricao": "REPARO CILINDRO INTERNO RETROVISOR AMAROK TODAS 2010 - 2024 ( ESTE PRODUTO NÃO TEM LADO)",
+    "caminho_imagem": "imagens_salvas\\ERP-REPAR6.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-1164444900-suporte-reparo-articulador-retrovisor-amarok-aluminio-_JM#position=2&search_layout=stack&type=item&tracking_id=82204ab7-ccc2-4f7a-b40a-031624b2e421"
+  },
+  {
+    "codigo_erp": "ERP-HY-I30HLX",
+    "descricao": "BUCHA REPARO TRAMBULADOR I30 2009/ VELOSTER TODOS / HILUX 05/2015 / L200 TRITON 2007/2017",
+    "caminho_imagem": "imagens_salvas\\ERP-HY-I30HLX.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2130601693-2-bucha-cabo-trambulador-de-marcha-hyundai-i30-automatico-_JM#position=4&search_layout=grid&type=item&tracking_id=d1e301b9-5e26-4b35-b846-8552b296409a"
+  },
+  {
+    "codigo_erp": "ERP-BUCHA1",
+    "descricao": "BUCHA REPARO TRAMBULADOR CABO SELETOR MARCHA MANUAL GOLF JETTA BORA AMAROK",
+    "caminho_imagem": "imagens_salvas\\ERP-BUCHA1.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3918721418-bucha-ponta-cabo-seletor-marcha-golf-bora-jetta-automatico-_JM"
+  },
+  {
+    "codigo_erp": "ERP-VW2-1J0711266",
+    "descricao": "BUCHA REPARO TRAMBULADOR CABO SELETOR MARCHA AUTOMATICO GOLF JETTA BORA AMAROK",
+    "caminho_imagem": "imagens_salvas\\ERP-VW2-1J0711266.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3916498680-par-buchas-cabo-trambulador-seletor-audi-a3-bora-golf-polo-_JM"
+  },
+  {
+    "codigo_erp": "ERP-DF-TY2-155",
+    "descricao": "DEFLEOTR INFERIOR PARACHOQUE COROLLA 2003/2008",
+    "caminho_imagem": "imagens_salvas\\ERP-DF-TY2-155.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-1879950500-defletor-protetor-inferior-corolla-fielder-2003-04-05-07-08-_JM#is_advertising=true&position=8&search_layout=grid&type=pad&tracking_id=9baa4c91-0618-4e6a-ab16-7e8a6092ece2&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=8&ad_click_id=Y2UzNThlYzUtM2UzYS00MDBkLTgxZjgtY2VjNDZlMmRjNTk4"
+  },
+  {
+    "codigo_erp": "ERP-51451-02220",
+    "descricao": "DEFLETOR INFERIOR PARACHOQUE COROLLA 2019/2024",
+    "caminho_imagem": "imagens_salvas\\ERP-51451-02220.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2048514803-defletor-protetor-inferior-corolla-2019-20-21-2022-514102220-_JM#position=17&search_layout=stack&type=item&tracking_id=c2214050-f7f2-4908-8af5-140a69ace22d"
+  },
+  {
+    "codigo_erp": "ERP-5144102370",
+    "descricao": "DEFLETOR INFERIOR PARACHOQUE COROLLA 2009/2014 DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP-5144102370.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2879475563-defletor-protetor-inferior-corolla-2009-a-14-modelo-original-_JM#position=3&search_layout=stack&type=item&tracking_id=22a5f846-dbe9-43f7-b8b4-4c1b90699944"
+  },
+  {
+    "codigo_erp": "ERP-5144102380",
+    "descricao": "DEFLETOR INFERIOR PARACHOQUE COROLLA 2009/2014 ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP-5144102380.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-2879475563-defletor-protetor-inferior-corolla-2009-a-14-modelo-original-_JM#position=3&search_layout=stack&type=item&tracking_id=22a5f846-dbe9-43f7-b8b4-4c1b90699944"
+  },
+  {
+    "codigo_erp": "ERP-HONDA0612X",
+    "descricao": "DEFLETOR INFERIOR PARACHOQUE CIVIC 2012/ 2015",
+    "caminho_imagem": "imagens_salvas\\ERP-HONDA0612X.webp",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/defletor-inferior-civic-exs-lxl-lxs-2012-2013-2014-15-a-2016/up/MLBU3084037986#polycard_client=search-nordic&search_layout=stack&position=17&type=product&tracking_id=6a126cf2-25fd-4a5a-beac-8896eff8ffcd&wid=MLB4009786895&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-HONDA0611X",
+    "descricao": "DEFLETOR INFERIOR PARACHOQUE CIVIC 2007/2011",
+    "caminho_imagem": "imagens_salvas\\ERP-HONDA0611X.webp",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/defletor-protetor-inferior-carter-honda-new-civic-07-a-2011/up/MLBU2858685473#polycard_client=search-nordic&search_layout=stack&position=8&type=product&tracking_id=c9074ab6-206e-4871-8f56-eeb83f1f79a8&wid=MLB5195246572&sid=search"
+  },
+  {
+    "codigo_erp": "ERP-PC12123R",
+    "descricao": "PISCA RETROVISOR COROLLA 2015/2019 DIREITO UNIDADE",
+    "caminho_imagem": "imagens_salvas\\ERP-PC12123R.webp",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/pisca-seta-retrovisor-corolla-2014-2015-2016-2017-2018--2019/up/MLBU3537652758#polycard_client=recommendations_vip-pads-up&reco_backend=recomm_platform_base_pads_rfa_marketplace&wid=MLB5891537606&reco_model=rk_ent_v2_retsys_ads&reco_client=vip-pads-up&reco_item_pos=1&reco_backend_type=low_level&reco_id=a5c54cae-6a03-4bef-bc21-8e85c34a4a48&sid=recos&is_advertising=true&ad_domain=VIPDESKTOP_UP&ad_position=2&ad_click_id=NDFkNGI2ZGQtYmUwZC00ZmI1LTliN2YtNzNhNmIxZTk0M2M5"
+  },
+  {
+    "codigo_erp": "ERP-PC12123L",
+    "descricao": "PISCA RETROVISOR COROLLA 2015/2019 ESQUERDO UNIDADE",
+    "caminho_imagem": "imagens_salvas\\ERP-PC12123R.webp",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/pisca-seta-retrovisor-corolla-2014-2015-2016-2017-2018--2019/up/MLBU3537652758#polycard_client=recommendations_vip-pads-up&reco_backend=recomm_platform_base_pads_rfa_marketplace&wid=MLB5891537606&reco_model=rk_ent_v2_retsys_ads&reco_client=vip-pads-up&reco_item_pos=1&reco_backend_type=low_level&reco_id=a5c54cae-6a03-4bef-bc21-8e85c34a4a48&sid=recos&is_advertising=true&ad_domain=VIPDESKTOP_UP&ad_position=2&ad_click_id=NDFkNGI2ZGQtYmUwZC00ZmI1LTliN2YtNzNhNmIxZTk0M2M5"
+  },
+  {
+    "codigo_erp": "ERP-PC12122R",
+    "descricao": "PISCA RETROVISOR RANGER 2013/2021 DIREITO UNIDADE",
+    "caminho_imagem": "imagens_salvas\\ERP-PC12122R.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3402058197-pisca-seta-retrovisor-para-ford-ranger-2012-ate-2017-_JM?searchVariation=179341484641#is_advertising=true&searchVariation=179341484641&backend_model=search-backend&position=1&search_layout=stack&type=pad&tracking_id=8d54463a-8b67-46ef-84db-c5039ab3198b&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=MWEzMWE2NDUtZDY2NS00ODQxLTg4ZTMtZmYxMmU5MmMyODE2"
+  },
+  {
+    "codigo_erp": "ERP-PC12122L",
+    "descricao": "PISCA RETROVISOR RANGER 2013/2021 ESQUERDO UNIDADE",
+    "caminho_imagem": "imagens_salvas\\ERP-PC12122L.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-3402058197-pisca-seta-retrovisor-para-ford-ranger-2012-ate-2017-_JM?searchVariation=179341484641#is_advertising=true&searchVariation=179341484641&backend_model=search-backend&position=1&search_layout=stack&type=pad&tracking_id=8d54463a-8b67-46ef-84db-c5039ab3198b&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=MWEzMWE2NDUtZDY2NS00ODQxLTg4ZTMtZmYxMmU5MmMyODE2"
+  },
+  {
+    "codigo_erp": "ERP-PC12123-LENSR",
+    "descricao": "LENTE PISCA RETROVISOR COROLLA 2015/2019 DIREITO UNIDADE",
+    "caminho_imagem": "imagens_salvas\\ERP-PC12123-LENSR.webp",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/lente-do-pisca-seta-do-retrovisor-corolla-2015-2016-2017-par/up/MLBU3565321867"
+  },
+  {
+    "codigo_erp": "ERP-PC12123-LENSL",
+    "descricao": "LENTE PISCA RETROVISOR COROLLA 2015/2019 ESQUERDO UNIDADE",
+    "caminho_imagem": "imagens_salvas\\ERP-PC12123-LENSL.webp",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/lente-do-pisca-seta-do-retrovisor-corolla-2015-2016-2017-par/up/MLBU3565321867"
+  },
+  {
+    "codigo_erp": "ERP-PC12122-LENSR",
+    "descricao": "LENTE PISCA RETROVISOR RANGER 2013/2021 DIREITO UNIDADE",
+    "caminho_imagem": "imagens_salvas\\ERP-PC12122-LENSR.webp",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/lente-do-pisca-retrovisor-ranger-2017-2018-2019-2020-esquerd/up/MLBU3572489060"
+  },
+  {
+    "codigo_erp": "ERP-PC12122-LENSL",
+    "descricao": "LENTE PISCA RETROVISOR RANGER 2013/2021 ESQUERDO UNIDADE",
+    "caminho_imagem": "imagens_salvas\\ERP-PC12122-LENSL.webp",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/lente-do-pisca-retrovisor-ranger-2017-2018-2019-2020-esquerd/up/MLBU3572489060"
+  },
+  {
+    "codigo_erp": "ERP-FT0519R",
+    "descricao": "LENTE PISCA SETA RETROVISOR STRADA IDEA ADV PALIO WEEK 2005/2015 ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP-FT0519R.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-1255182926-par-lente-pisca-seta-retrovisor-strada-idea-adv-palio-week-_JM#position=1&search_layout=grid&type=item&tracking_id=cd41c37a-d5aa-4298-91de-817f1f0cbfe7"
+  },
+  {
+    "codigo_erp": "ERP-FT0519L",
+    "descricao": "LENTE PISCA SETA RETROVISOR STRADA IDEA ADV PALIO WEEK 2005/2015 DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP-FT0519L.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-1255182926-par-lente-pisca-seta-retrovisor-strada-idea-adv-palio-week-_JM#position=1&search_layout=grid&type=item&tracking_id=cd41c37a-d5aa-4298-91de-817f1f0cbfe7"
+  },
+  {
+    "codigo_erp": "ERP-FT26365L",
+    "descricao": "LENTE PISCA SETA RETROVISOR FIAT STILO 08 A 12 ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP-FT26365L.webp",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/par-lente-pisca-seta-retrovisor-fiat-stilo-2008-09-10-11-12/up/MLBU1460924811?pdp_filters=item_id:MLB3854141753#is_advertising=true&searchVariation=MLBU1460924811&backend_model=search-backend&position=1&search_layout=stack&type=pad&tracking_id=05306056-b470-411d-9fa3-478dd816dd16&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=ZDhhMzU4MDgtNzc2Yy00M2ZmLThkZjctZjE2OWU1MTRmODQ5"
+  },
+  {
+    "codigo_erp": "ERP-FT26366R",
+    "descricao": "LENTE PISCA SETA RETROVISOR FIAT STILO 08 A 12 DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP-FT26366R.webp",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/lente-do-pisca-seta-retrovisor-esquerdo-stilo-2008-2009-2011/up/MLBU1718472209#polycard_client=recommendations_vip-pads-up&reco_backend=recomm_platform_base_pads_rfa_marketplace&wid=MLB2217849642&reco_model=rk_ent_v2_retsys_ads&reco_client=vip-pads-up&reco_item_pos=1&reco_backend_type=low_level&reco_id=5e3c80a0-3ef8-4e09-be15-9533e6640fa7&sid=recos&is_advertising=true&ad_domain=VIPDESKTOP_UP&ad_position=2&ad_click_id=OWFkYmIxMWEtYThlZi00YTNiLWE4NTktZDQxNDRmYWEwZTBk"
+  },
+  {
+    "codigo_erp": "ERP-349796DIR",
+    "descricao": "LENTE DO PISCA RETROVISOR SANTA FÉ VERA CRUZ 2008/2012 DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP-349796DIR.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-4091838259-lente-do-pisca-do-retrovisor-santa-fe-vera-2009-10-11-12-dir-_JM"
+  },
+  {
+    "codigo_erp": "ERP-349796ESQ",
+    "descricao": "LENTE DO PISCA RETROVISOR SANTA FÉ VERA CRUZ 2008/2012 ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP-349796ESQ.webp",
+    "link_mercado_livre": "https://produto.mercadolivre.com.br/MLB-4091838259-lente-do-pisca-do-retrovisor-santa-fe-vera-2009-10-11-12-dir-_JM"
+  },
+  {
+    "codigo_erp": "ERP-EMBLE9",
+    "descricao": "EMBLEMA GRADE NEW FIT 09",
+    "caminho_imagem": "imagens_salvas\\ERP-EMBLE9.webp"
+  },
+  {
+    "codigo_erp": "ERP-32HDF0711CVCDIR",
+    "descricao": "LENTE FAROL NEW CIVIC 2007/11 MODELO VALEO DIREITO",
+    "caminho_imagem": "imagens_salvas\\ERP-32HDF0711CVCDIR.webp",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/lente-farol-new-honda-civic-06-2007-2008-2009-2010-2011-par/up/MLBU1156103400?pdp_filters=item_id:MLB3755354643#wid=MLB3755354643&sid=search&is_advertising=true&searchVariation=MLBU1156103400&backend_model=search-backend&position=2&search_layout=stack&type=pad&tracking_id=b7845906-53fd-4e40-a677-fe9fe5b5de51"
+  },
+  {
+    "codigo_erp": "ERP-32HDF0711CVCESQ",
+    "descricao": "LENTE FAROL NEW CIVIC 2007/11 MODELO VALEO ESQUERDO",
+    "caminho_imagem": "imagens_salvas\\ERP-32HDF0711CVCESQ.webp",
+    "link_mercado_livre": "https://www.mercadolivre.com.br/lente-farol-new-honda-civic-06-2007-2008-2009-2010-2011-par/up/MLBU1156103400?pdp_filters=item_id:MLB3755354643#wid=MLB3755354643&sid=search&is_advertising=true&searchVariation=MLBU1156103400&backend_model=search-backend&position=2&search_layout=stack&type=pad&tracking_id=b7845906-53fd-4e40-a677-fe9fe5b5de51"
+  },
+  {
+    "codigo_erp": "ERP-CA420592",
+    "descricao": "Pisante traseira L200 triton 2007/2015",
+    "caminho_imagem": "imagens_salvas\\ERP-CA420592.jpeg"
+  },
+  {
+    "codigo_erp": "ERP-CA420591",
+    "descricao": "Pisante traseira L200 triton 2007/2015",
+    "caminho_imagem": "imagens_salvas\\ERP-CA420591.jpeg"
+  },
+  {
+    "codigo_erp": "ERP-9L5517B968",
+    "descricao": "Grade inferior ranger 2009/2012 colmeia",
+    "caminho_imagem": "imagens_salvas\\ERP-9L5517B968.jpeg"
+  },
+  {
+    "codigo_erp": "ERP-FD-K15",
+    "descricao": "Grade inferior ranger 2009/2012 colmeia",
+    "caminho_imagem": "imagens_salvas\\ERP-FD-K15.jpeg"
+  },
+  {
+    "codigo_erp": "ERP-FD-K8F0810",
+    "descricao": "Grade inferior ranger 2009/2012 colmeia",
+    "caminho_imagem": "imagens_salvas\\ERP-FD-K8F0810.jpeg"
+  }
 ]
-    
-    
