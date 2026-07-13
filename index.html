@@ -111,6 +111,31 @@
         .busca-container input:focus { border-color: var(--verde-logo); background: rgba(255, 255, 255, 0.05); }
         .busca-container i { position: absolute; left: 25px; top: 50%; transform: translateY(-50%); font-size: 1.2rem; color: var(--texto-muted); }
         .busca-container input:focus + i { color: var(--verde-logo); }
+        /* CDX: INÍCIO - estilos do sumário navegável por marca e modelo. */
+        .sumario-catalogo { max-width: 1400px; margin: 0 auto 55px auto; padding: 34px; background: linear-gradient(145deg, rgba(13, 94, 168, 0.12), rgba(92, 203, 95, 0.05)); border: 1px solid var(--borda-tech); border-radius: 8px; box-shadow: 0 18px 45px rgba(0,0,0,0.25); }
+        .sumario-cabecalho { display: flex; justify-content: space-between; align-items: flex-end; gap: 25px; margin-bottom: 28px; }
+        .sumario-eyebrow { color: var(--verde-logo); font-size: 0.72rem; font-weight: 900; letter-spacing: 2px; text-transform: uppercase; }
+        .sumario-cabecalho h2 { color: #FFFFFF; font-size: clamp(1.45rem, 3vw, 2.15rem); margin: 7px 0 8px; text-transform: uppercase; }
+        .sumario-cabecalho p { color: var(--texto-muted); font-size: 0.9rem; line-height: 1.6; max-width: 720px; }
+        /* CDX: Botões para abrir/fechar o sumário e limpar a seleção atual. */
+        .sumario-acoes { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px; }
+        .btn-toggle-sumario, .btn-limpar-filtro { flex: 0 0 auto; padding: 12px 18px; background: transparent; border: 1px solid var(--verde-logo); color: var(--verde-logo); border-radius: 30px; font-family: inherit; font-size: 0.72rem; font-weight: 800; text-transform: uppercase; cursor: pointer; transition: 0.3s; }
+        .btn-toggle-sumario { display: inline-flex; align-items: center; gap: 9px; background: var(--verde-logo); color: var(--bg-absoluto); }
+        .btn-toggle-sumario i { transition: transform 0.3s ease; }
+        .btn-toggle-sumario.aberto i { transform: rotate(180deg); }
+        .btn-toggle-sumario:hover { box-shadow: 0 0 18px rgba(92, 203, 95, 0.35); }
+        .btn-limpar-filtro:hover { background: var(--verde-logo); color: var(--bg-absoluto); }
+        .sumario-conteudo[hidden] { display: none; }
+        .sumario-marcas { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; }
+        .sumario-marca { padding: 18px; background: rgba(255,255,255,0.025); border: 1px solid rgba(255,255,255,0.08); border-radius: 6px; }
+        .sumario-marca-titulo { width: 100%; padding: 0 0 11px; background: transparent; border: 0; border-bottom: 1px solid rgba(92, 203, 95, 0.22); color: #FFFFFF; font-family: inherit; font-size: 0.98rem; font-weight: 900; text-align: left; text-transform: uppercase; cursor: pointer; }
+        .sumario-marca-titulo:hover, .sumario-marca-titulo.ativo { color: var(--verde-logo); }
+        .sumario-modelos { display: flex; flex-wrap: wrap; gap: 7px; padding-top: 12px; }
+        .sumario-modelo { padding: 7px 10px; background: rgba(13, 94, 168, 0.13); border: 1px solid rgba(13, 94, 168, 0.32); border-radius: 20px; color: #cbd5e1; font-family: inherit; font-size: 0.68rem; font-weight: 700; cursor: pointer; transition: 0.25s; }
+        .sumario-modelo:hover, .sumario-modelo.ativo { background: var(--azul-logo); border-color: var(--azul-logo); color: #FFFFFF; }
+        .filtro-ativo { margin-top: 22px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.08); color: #cbd5e1; font-size: 0.8rem; font-weight: 600; }
+        @media (max-width: 720px) { .sumario-catalogo { padding: 24px 20px; } .sumario-cabecalho { align-items: flex-start; flex-direction: column; } .sumario-acoes { justify-content: flex-start; } .sumario-marcas { grid-template-columns: 1fr; } }
+        /* CDX: FIM - estilos do sumário navegável por marca e modelo. */
         .grid-produtos { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 35px; max-width: 1400px; margin: 0 auto; align-items: stretch; }
         .produto-card { background: var(--fundo-card); border-radius: 4px; padding: 25px; border: 1px solid var(--borda-tech); transition: all 0.4s ease; display: flex; flex-direction: column; justify-content: space-between; position: relative; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
         .produto-card::before { content: ''; position: absolute; top: 0; left: -150%; width: 50%; height: 100%; background: linear-gradient(to right, transparent, rgba(255,255,255,0.05), transparent); transform: skewX(-25deg); transition: 0.7s ease; pointer-events: none; z-index: 2; }
@@ -123,8 +148,13 @@
         .produto-info h3 { font-size: 0.9rem; font-weight: 700; margin-bottom: 15px; color: #FFFFFF; line-height: 1.5; min-height: 4.5em; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; text-transform: uppercase; letter-spacing: 0.5px; }
         .ref-tag { display: inline-block; background: rgba(255,255,255,0.05); color: var(--dourado-premium); font-size: 0.7rem; padding: 6px 12px; border-radius: 2px; font-weight: 800; margin-bottom: 15px; border: 1px solid rgba(216, 178, 74, 0.2); letter-spacing: 1px; align-self: flex-start; }
         .preco-tag { color: var(--verde-logo); font-weight: 900; font-size: 1.4rem; margin-top: auto; }
-        .btn-cotar { background: rgba(13, 94, 168, 0.1); color: #FFFFFF !important; border: 1px solid var(--azul-logo); width: 100%; padding: 15px; border-radius: 2px; font-weight: 800; cursor: pointer; transition: all 0.3s ease; text-transform: uppercase; margin-top: 25px; font-size: 0.8rem; letter-spacing: 1px; position: relative; z-index: 3; }
+        /* CDX: INÍCIO - ações do card e botão externo do Mercado Livre. */
+        .acoes-produto { display: flex; flex-direction: column; gap: 10px; margin-top: 25px; position: relative; z-index: 3; }
+        .btn-cotar { background: rgba(13, 94, 168, 0.1); color: #FFFFFF !important; border: 1px solid var(--azul-logo); width: 100%; padding: 15px; border-radius: 2px; font-weight: 800; cursor: pointer; transition: all 0.3s ease; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; }
         .btn-cotar:hover { background: var(--azul-logo); box-shadow: 0 0 15px rgba(13, 94, 168, 0.4); }
+        .btn-mercado-livre { background: #FFE600; color: #2D3277 !important; border: 1px solid #FFE600; width: 100%; padding: 15px; border-radius: 2px; font-weight: 800; cursor: pointer; transition: all 0.3s ease; text-transform: uppercase; text-decoration: none; text-align: center; font-size: 0.8rem; letter-spacing: 0.6px; }
+        .btn-mercado-livre:hover { background: #FFF159; border-color: #FFF159; box-shadow: 0 0 15px rgba(255, 230, 0, 0.35); transform: translateY(-1px); }
+        /* CDX: FIM - ações do card e botão externo do Mercado Livre. */
 
         /* CARRINHO */
         .cart-float { position: fixed; bottom: 40px; right: 40px; width: 65px; height: 65px; background: var(--bg-absoluto); border: 2px solid var(--dourado-premium); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 20px; cursor: pointer; box-shadow: 0 10px 30px rgba(0,0,0,0.8); z-index: 1000; color: var(--dourado-premium); transition: 0.3s; }
@@ -215,6 +245,31 @@
             <input type="text" id="campo-busca" placeholder="Pesquisar código, peça ou veículo...">
             <i class="fa-solid fa-crosshairs"></i>
         </div>
+
+        <!-- CDX: INÍCIO - sumário de marcas e modelos preenchido pelo JavaScript. -->
+        <section class="sumario-catalogo" aria-labelledby="titulo-sumario">
+            <div class="sumario-cabecalho">
+                <div>
+                    <span class="sumario-eyebrow">Navegação rápida</span>
+                    <h2 id="titulo-sumario">Sumário por marca e modelo</h2>
+                    <p>Escolha uma marca ou um modelo para visualizar somente as peças compatíveis disponíveis no catálogo.</p>
+                </div>
+                <!-- CDX: Controles do sumário; começa fechado e pode ser expandido pelo usuário. -->
+                <div class="sumario-acoes">
+                    <button type="button" class="btn-toggle-sumario" id="toggle-sumario" aria-expanded="false" aria-controls="sumario-conteudo">
+                        <span id="texto-toggle-sumario">Abrir sumário</span>
+                        <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn-limpar-filtro" id="limpar-filtro-veiculo">Todos os produtos</button>
+                </div>
+            </div>
+            <!-- CDX: Conteúdo começa oculto; o atributo hidden é controlado pelo JavaScript. -->
+            <div class="sumario-conteudo" id="sumario-conteudo" hidden>
+                <div class="sumario-marcas" id="sumario-marcas"></div>
+                <div class="filtro-ativo" id="filtro-ativo" role="status" aria-live="polite">Carregando marcas e modelos...</div>
+            </div>
+        </section>
+        <!-- CDX: FIM - sumário de marcas e modelos. -->
         
         <div class="grid-produtos" id="grid-produtos">
             <p style="text-align: center; grid-column: 1/-1; color: var(--texto-muted); font-weight: 300;">Iniciando sistemas de mapeamento de peças...</p>
@@ -292,23 +347,206 @@
 
         const gridProdutos = document.getElementById('grid-produtos');
         const campoBusca = document.getElementById('campo-busca');
-        let todosProdutos = []; 
+        // CDX: INÍCIO - referências e estado usados pelo sumário e pelos filtros de veículos.
+        const sumarioMarcas = document.getElementById('sumario-marcas');
+        const filtroAtivo = document.getElementById('filtro-ativo');
+        const limparFiltroVeiculo = document.getElementById('limpar-filtro-veiculo');
+        // CDX: Elementos que controlam a abertura e o fechamento do sumário.
+        const toggleSumario = document.getElementById('toggle-sumario');
+        const textoToggleSumario = document.getElementById('texto-toggle-sumario');
+        const conteudoSumario = document.getElementById('sumario-conteudo');
+        let todosProdutos = [];
+        let filtroVeiculoAtual = { marca: '', modelo: '' };
+
+        // CDX: Dicionário controlado de marcas, modelos e variações de escrita encontradas no catálogo.
+        const catalogoVeiculos = [
+            { marca: 'Audi', aliasesMarca: ['AUDI'], modelos: [{ nome: 'Linha Audi', aliases: ['AUDI'] }] },
+            { marca: 'BMW', aliasesMarca: ['BMW'], modelos: [{ nome: 'Série 3', aliases: ['BMW S3', 'BMW SERIE 3'] }] },
+            { marca: 'Chevrolet', aliasesMarca: ['CHEVROLET', 'GM'], modelos: [
+                { nome: 'Agile', aliases: ['AGILE'] }, { nome: 'Blazer', aliases: ['BLAZER'] },
+                { nome: 'Cobalt', aliases: ['COBALT'] }, { nome: 'Corsa', aliases: ['CORSA'] },
+                { nome: 'Cruze', aliases: ['CRUZE'] }, { nome: 'Montana', aliases: ['MONTANA'] },
+                { nome: 'Onix', aliases: ['ONIX'] }, { nome: 'Prisma', aliases: ['PRISMA'] },
+                { nome: 'S10', aliases: ['S10'] }, { nome: 'Silverado', aliases: ['SILVERADO'] },
+                { nome: 'Spin', aliases: ['SPIN'] }, { nome: 'Tracker', aliases: ['TRACKER'] },
+                { nome: 'Trailblazer', aliases: ['TRAILBLAZER'] }
+            ]},
+            { marca: 'Citroën', aliasesMarca: ['CITROEN'], modelos: [
+                { nome: 'C3', aliases: ['C3'] }, { nome: 'C4', aliases: ['C4'] }
+            ]},
+            { marca: 'Fiat', aliasesMarca: ['FIAT'], modelos: [
+                { nome: 'Doblò', aliases: ['DOBLO'] }, { nome: 'Idea', aliases: ['IDEA'] },
+                { nome: 'Linea', aliases: ['LINEA'] }, { nome: 'Palio', aliases: ['PALIO'] },
+                { nome: 'Siena', aliases: ['SIENA'] }, { nome: 'Stilo', aliases: ['STILO'] },
+                { nome: 'Strada', aliases: ['STRADA'] }
+            ]},
+            { marca: 'Ford', aliasesMarca: ['FORD'], modelos: [
+                { nome: 'EcoSport', aliases: ['ECOSPORT'] }, { nome: 'F-1000', aliases: ['F1000', 'F 1000'] },
+                { nome: 'F-250', aliases: ['F250', 'F 250'] }, { nome: 'Fiesta', aliases: ['FIESTA'] },
+                { nome: 'Focus', aliases: ['FOCUS'] }, { nome: 'Fusion', aliases: ['FUSION'] },
+                { nome: 'Ka', aliases: ['KA'] }, { nome: 'Ranger', aliases: ['RANGER'] },
+                { nome: 'Transit', aliases: ['TRANSIT'] }
+            ]},
+            { marca: 'Honda', aliasesMarca: ['HONDA'], modelos: [
+                { nome: 'Accord', aliases: ['ACCORD'] }, { nome: 'City', aliases: ['CITY'] },
+                { nome: 'Civic', aliases: ['CIVIC'] }, { nome: 'CR-V', aliases: ['CRV', 'CR V'] },
+                { nome: 'Fit', aliases: ['FIT'] }, { nome: 'HR-V', aliases: ['HRV', 'HR V'] }
+            ]},
+            { marca: 'Hyundai', aliasesMarca: ['HYUNDAI'], modelos: [
+                { nome: 'Creta', aliases: ['CRETA'] }, { nome: 'Elantra', aliases: ['ELANTRA'] },
+                { nome: 'HB20', aliases: ['HB20'] }, { nome: 'HR', aliases: ['HR'] },
+                { nome: 'i30', aliases: ['I30'] }, { nome: 'ix35', aliases: ['IX35'] },
+                { nome: 'Santa Fe', aliases: ['SANTA FE'] }, { nome: 'Veloster', aliases: ['VELOSTER'] },
+                { nome: 'Vera Cruz', aliases: ['VERA CRUZ'] }, { nome: 'Linha Hyundai', aliases: ['LINHA HYUNDAI'] }
+            ]},
+            { marca: 'Jeep', aliasesMarca: ['JEEP'], modelos: [{ nome: 'Compass', aliases: ['COMPASS'] }] },
+            { marca: 'Mercedes-Benz', aliasesMarca: ['MERCEDES'], modelos: [
+                { nome: 'C180', aliases: ['C180'] }, { nome: 'C200', aliases: ['C200'] },
+                { nome: 'C300', aliases: ['C300'] }, { nome: 'CLA', aliases: ['CLA'] }, { nome: 'GLA', aliases: ['GLA'] }
+            ]},
+            { marca: 'Mitsubishi', aliasesMarca: ['MITSUBISHI'], modelos: [
+                { nome: 'ASX', aliases: ['ASX'] }, { nome: 'L200 Triton', aliases: ['L200'] },
+                { nome: 'Lancer', aliases: ['LANCER'] }, { nome: 'Outlander', aliases: ['OUTLANDER'] },
+                { nome: 'Pajero Dakar', aliases: ['PAJERO DAKAR'] }, { nome: 'TR4', aliases: ['TR4'] }
+            ]},
+            { marca: 'Nissan', aliasesMarca: ['NISSAN'], modelos: [{ nome: 'Linha Nissan', aliases: ['NISSAN'] }] },
+            { marca: 'Peugeot', aliasesMarca: ['PEUGEOT'], modelos: [
+                { nome: '206', aliases: ['206'] }, { nome: '207', aliases: ['207'] },
+                { nome: '208', aliases: ['208'] }, { nome: '307', aliases: ['307'] },
+                { nome: '308', aliases: ['308'] }, { nome: 'Hoggar', aliases: ['HOGGAR'] }
+            ]},
+            { marca: 'Renault', aliasesMarca: ['RENAULT'], modelos: [{ nome: 'Sandero', aliases: ['SANDERO'] }] },
+            { marca: 'Toyota', aliasesMarca: ['TOYOTA'], modelos: [
+                { nome: 'Corolla', aliases: ['COROLLA'] }, { nome: 'Etios', aliases: ['ETIOS'] },
+                { nome: 'Hilux', aliases: ['HILUX'] }, { nome: 'SW4', aliases: ['SW4'] }
+            ]},
+            { marca: 'Volkswagen', aliasesMarca: ['VOLKSWAGEN', 'VW'], modelos: [
+                { nome: 'Amarok', aliases: ['AMAROK', 'AMARO'] }, { nome: 'Bora', aliases: ['BORA'] },
+                { nome: 'CrossFox', aliases: ['CROSSFOX'] }, { nome: 'Fox', aliases: ['FOX'] },
+                { nome: 'Golf', aliases: ['GOLF'] }, { nome: 'Jetta', aliases: ['JETTA'] },
+                { nome: 'Nivus', aliases: ['NIVUS'] }, { nome: 'Parati', aliases: ['PARATI'] },
+                { nome: 'Passat', aliases: ['PASSAT'] }, { nome: 'Polo', aliases: ['POLO'] },
+                { nome: 'Saveiro', aliases: ['SAVEIRO'] }, { nome: 'SpaceFox', aliases: ['SPACEFOX'] },
+                { nome: 'T-Cross', aliases: ['TCROSS', 'T CROSS'] }, { nome: 'Tiguan', aliases: ['TIGUAN'] },
+                { nome: 'Virtus', aliases: ['VIRTUS'] }
+            ]}
+        ];
+
+        function normalizarVeiculo(valor) {
+            return String(valor || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase().replace(/[^A-Z0-9]+/g, ' ').trim().replace(/\s+/g, ' ');
+        }
+
+        function contemTermo(texto, termo) {
+            const base = ` ${normalizarVeiculo(texto)} `;
+            const busca = ` ${normalizarVeiculo(termo)} `;
+            return base.includes(busca);
+        }
+
+        function obterAplicacoes(produto) {
+            const descricao = produto.nome || produto.descricao || '';
+            const aplicacoes = [];
+            catalogoVeiculos.forEach(grupo => {
+                grupo.modelos.forEach(modelo => {
+                    if (modelo.aliases.some(alias => contemTermo(descricao, alias))) {
+                        aplicacoes.push({ marca: grupo.marca, modelo: modelo.nome });
+                    }
+                });
+            });
+            return aplicacoes;
+        }
+
+        function produtoPertenceAoFiltro(produto, marca, modelo = '') {
+            return obterAplicacoes(produto).some(aplicacao => aplicacao.marca === marca && (!modelo || aplicacao.modelo === modelo));
+        }
+
+        function aplicarFiltros(rolarAteCatalogo = false) {
+            const termoBusca = campoBusca.value.toLowerCase().trim();
+            const filtrados = todosProdutos.filter(produto => {
+                const nome = (produto.nome || produto.descricao || '').toLowerCase();
+                const codigo = (produto.codigo || produto.codigo_erp || '').toLowerCase();
+                const atendeBusca = !termoBusca || nome.includes(termoBusca) || codigo.includes(termoBusca);
+                const atendeVeiculo = !filtroVeiculoAtual.marca || produtoPertenceAoFiltro(produto, filtroVeiculoAtual.marca, filtroVeiculoAtual.modelo);
+                return atendeBusca && atendeVeiculo;
+            });
+            renderizarProdutos(filtrados);
+            const rotulo = filtroVeiculoAtual.modelo
+                ? `${filtroVeiculoAtual.marca} • ${filtroVeiculoAtual.modelo}`
+                : (filtroVeiculoAtual.marca || 'Todas as marcas e modelos');
+            filtroAtivo.textContent = `${rotulo}: ${filtrados.length} produto${filtrados.length === 1 ? '' : 's'} encontrado${filtrados.length === 1 ? '' : 's'}.`;
+            document.querySelectorAll('[data-marca]').forEach(botao => {
+                const ativo = botao.dataset.marca === filtroVeiculoAtual.marca && (botao.dataset.modelo || '') === filtroVeiculoAtual.modelo;
+                botao.classList.toggle('ativo', ativo);
+                botao.setAttribute('aria-pressed', ativo ? 'true' : 'false');
+            });
+            if (rolarAteCatalogo) gridProdutos.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        function selecionarFiltroVeiculo(marca, modelo = '') {
+            filtroVeiculoAtual = { marca, modelo };
+            campoBusca.value = '';
+            aplicarFiltros(true);
+        }
+
+        function renderizarSumario() {
+            sumarioMarcas.innerHTML = '';
+            catalogoVeiculos.forEach(grupo => {
+                const modelosDisponiveis = grupo.modelos
+                    .map(modelo => ({ ...modelo, quantidade: todosProdutos.filter(produto => produtoPertenceAoFiltro(produto, grupo.marca, modelo.nome)).length }))
+                    .filter(modelo => modelo.quantidade > 0);
+                if (modelosDisponiveis.length === 0) return;
+
+                const bloco = document.createElement('article');
+                bloco.className = 'sumario-marca';
+                const titulo = document.createElement('button');
+                titulo.type = 'button';
+                titulo.className = 'sumario-marca-titulo';
+                titulo.dataset.marca = grupo.marca;
+                titulo.dataset.modelo = '';
+                titulo.setAttribute('aria-pressed', 'false');
+                titulo.textContent = grupo.marca;
+                titulo.addEventListener('click', () => selecionarFiltroVeiculo(grupo.marca));
+
+                const modelos = document.createElement('div');
+                modelos.className = 'sumario-modelos';
+                modelosDisponiveis.forEach(modelo => {
+                    const botao = document.createElement('button');
+                    botao.type = 'button';
+                    botao.className = 'sumario-modelo';
+                    botao.dataset.marca = grupo.marca;
+                    botao.dataset.modelo = modelo.nome;
+                    botao.setAttribute('aria-pressed', 'false');
+                    botao.textContent = `${modelo.nome} (${modelo.quantidade})`;
+                    botao.addEventListener('click', () => selecionarFiltroVeiculo(grupo.marca, modelo.nome));
+                    modelos.appendChild(botao);
+                });
+                bloco.append(titulo, modelos);
+                sumarioMarcas.appendChild(bloco);
+            });
+        }
+        // CDX: FIM - lógica do sumário e dos filtros de veículos.
 
         async function carregarCatalogo() {
             try {
                 const response = await fetch('produtos.json');
                 if (!response.ok) throw new Error('Erro');
                 todosProdutos = await response.json();
-                renderizarProdutos(todosProdutos);
+                // CDX: Monta o sumário depois que o arquivo produtos.json termina de carregar.
+                renderizarSumario();
+                aplicarFiltros();
 
-                campoBusca.addEventListener('input', (e) => {
-                    const termoBusca = e.target.value.toLowerCase().trim();
-                    const filtrados = todosProdutos.filter(p => {
-                        const nome = (p.nome || p.descricao || "").toLowerCase();
-                        const cod = (p.codigo || p.codigo_erp || "").toLowerCase();
-                        return nome.includes(termoBusca) || cod.includes(termoBusca);
-                    });
-                    renderizarProdutos(filtrados);
+                campoBusca.addEventListener('input', () => aplicarFiltros());
+                // CDX: Alterna o sumário sem recarregar a página e atualiza os atributos de acessibilidade.
+                toggleSumario.addEventListener('click', () => {
+                    const vaiAbrir = conteudoSumario.hidden;
+                    conteudoSumario.hidden = !vaiAbrir;
+                    toggleSumario.classList.toggle('aberto', vaiAbrir);
+                    toggleSumario.setAttribute('aria-expanded', vaiAbrir ? 'true' : 'false');
+                    textoToggleSumario.textContent = vaiAbrir ? 'Fechar sumário' : 'Abrir sumário';
+                });
+                limparFiltroVeiculo.addEventListener('click', () => {
+                    filtroVeiculoAtual = { marca: '', modelo: '' };
+                    campoBusca.value = '';
+                    aplicarFiltros(true);
                 });
             } catch (error) {
                 gridProdutos.innerHTML = `<p style="color: #ef4444; text-align:center; grid-column: 1/-1;">Falha de telemetria. Banco de dados não encontrado.</p>`;
@@ -335,6 +573,13 @@
                 const precoValor = produto.preco ? parseFloat(produto.preco) : 0;
                 const precoExibicao = precoValor > 0 ? `R$ ${precoValor.toFixed(2).replace('.', ',')}` : "Sob Consulta";
                 const nomeEscapado = nomeReal.replace(/'/g, "\\'").replace(/"/g, "&quot;");
+                // CDX: O JSON não aceita comentários; o campo link_mercado_livre foi acrescentado aos produtos que possuem anúncio.
+                const linkMercadoLivre = typeof produto.link_mercado_livre === 'string' && /^https:\/\/(?:www\.)?(?:produto\.)?mercadolivre\.com\.br\//i.test(produto.link_mercado_livre)
+                    ? produto.link_mercado_livre.replace(/&/g, '&amp;').replace(/"/g, '&quot;')
+                    : '';
+                const botaoMercadoLivre = linkMercadoLivre
+                    ? `<a class="btn-mercado-livre" href="${linkMercadoLivre}" target="_blank" rel="noopener noreferrer" aria-label="Ver ${nomeEscapado} no Mercado Livre"><i class="fas fa-external-link-alt"></i> Ver no Mercado Livre</a>`
+                    : '';
 
                 const card = `
                     <div class="produto-card">
@@ -346,7 +591,11 @@
                             <span class="ref-tag">ID: ${codigoReal}</span>
                             <div class="preco-tag">${precoExibicao}</div>
                         </div>
-                        <button class="btn-cotar" onclick="addToCart(event, '${nomeEscapado}')">Adicionar Cotação</button>
+                        <!-- CDX: Botões do card; o link do Mercado Livre só aparece quando existe no produto. -->
+                        <div class="acoes-produto">
+                            ${botaoMercadoLivre}
+                            <button class="btn-cotar" onclick="addToCart(event, '${nomeEscapado}')">Adicionar Cotação</button>
+                        </div>
                     </div>
                 `;
                 gridProdutos.innerHTML += card;
